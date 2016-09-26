@@ -7,14 +7,14 @@
 <!-- Main -->
   <article id="main">
     <header>
-      <h2>Nouvelles</h2>
-      <p>Qu'est-ce qu'il se passe du coté du Vieux Singe ?</p>
+      <h2>Quoi de neuf chez nous ?</h2>
+      <p>Commérages et brèves de comptoir…</p>
     </header>
     {% for article in dates %}
     <section class="wrapper style5">
       <div class="inner">
       <h3><a class="post-title" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
-      <p>{{ article.summary }}</p>
+      <p>{{ article.accroche }}</p>
     </div>
   </section>
     {% endfor %}
