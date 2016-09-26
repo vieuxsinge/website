@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }}{%endblock%}
+
+{% block meta_extra %}
+{% if article.image %}
+<style>
+#main > header {
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
+}
+</style>
+{% endif %}
+
+{% endblock %}
+
+{% block content %}
+<!-- Main -->
+  <article id="main">
+    <header>
+      <h2>{{ article.title }}</h2>
+      {% if article.accroche %}
+      <p>{{ article.accroche }}</p>
+      {% endif %}
+    </header>
+    <section class="wrapper style5">
+      <div class="inner">
+        {{ article.content }}
+      </div>
+    </section>
+  </article>
+{% endblock %}

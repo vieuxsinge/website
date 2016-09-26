@@ -1,0 +1,22 @@
+
+
+{% extends "base.html" %}
+{% block title %}Articles{%endblock%}
+
+{% block content %}
+<!-- Main -->
+  <article id="main">
+    <header>
+      <h2>Nouvelles</h2>
+      <p>Qu'est-ce qu'il se passe du coté du Vieux Singe ?</p>
+    </header>
+    {% for article in dates %}
+    <section class="wrapper style5">
+      <div class="inner">
+      <h3><a class="post-title" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+      <p>{{ article.summary }}</p>
+    </div>
+  </section>
+    {% endfor %}
+  </article>
+{% endblock %}

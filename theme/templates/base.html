@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}" prefix="og: http://ogp.me/ns#">
+<head>
+  {% block head %}
+    <title>{{ SITENAME }} - {% block title %}{% endblock title %}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block meta_extra %}{% endblock %}
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css" />
+		<!--[if lte IE 8]><script src="{{ SITEURL }}/theme/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ SITEURL }}/theme/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="{{ SITEURL }}/theme/css/ie9.css" /><![endif]-->
+
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+  {% endblock head %}
+</head>
+
+<body class="{{ output_file.split('/')[-1].split('.')[0] }}">
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+<!-- Header -->
+{% if output_file.split('/')[-1].split('.')[0] == "index" %}
+  <header id="header" class="alt">
+{% else %}
+  <header id="header">
+{% endif %}
+    <h1><a href="index.html">La Brasserie du Vieux Singe</a></h1>
+    <nav id="nav">
+      <ul>
+        <li class="special">
+          <a href="#menu" class="menuToggle"><span>Menu</span></a>
+          <div id="menu">
+            <ul>
+              {% for title, link in MENUITEMS %}
+                <li{% if link == '/' + output_file %} class="active"{% endif %}>
+                  <a href="{{ link }}">{{ title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  {% block content %}{% endblock %}
+
+	<!-- Footer -->
+  <footer id="footer">
+    <ul class="icons">
+      <li><a href="mailto:contact@vieuxsinge.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>&copy; Brasserie du Vieux Singe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+  </footer>
+
+	<!-- Scripts -->
+	<script src="theme/js/jquery.min.js"></script>
+	<script src="theme/js/jquery.scrollex.min.js"></script>
+	<script src="theme/js/jquery.scrolly.min.js"></script>
+	<script src="theme/js/skel.min.js"></script>
+	<script src="theme/js/util.js"></script>
+	<!--[if lte IE 8]><script src="theme/js/ie/respond.min.js"></script><![endif]-->
+	<script src="theme/js/main.js"></script>
+</div>
+</body>
+</html>
