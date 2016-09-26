@@ -53,7 +53,10 @@ publish: install
 	echo "www.vieuxsinge.com" > $(OUTPUTDIR)/CNAME
 
 github: publish
-	$(VENV)/bin/ghp-import -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push origin $(GITHUB_PAGES_BRANCH) --force
+ifeq ($(TRAVIS_PULL_REQUEST), false)
+	ghp-import -n $(OUTPUTDIR)
+	@git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git gh-pages > /dev/null
+endif
+
 
 .PHONY: html clean serve devserver github publish
