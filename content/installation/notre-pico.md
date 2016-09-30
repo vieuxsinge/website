@@ -1,4 +1,5 @@
-Title: Notre pico
+Title: Notre pico-brasserie
+Slug: notre-pico
 Date: 2016-09-29
 Accroche: On a bien envie de s'installer (et on y travaille !), mais pour l'instant on a qu'un petit garage…
 image: /images/pico/tireuse.jpg

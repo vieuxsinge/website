@@ -1,3 +1,5 @@
 pelican
 ghp-import
 markdown
+pillow
+beautifulsoup4
