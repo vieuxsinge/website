@@ -22,18 +22,18 @@ mais aussi pour papoter de choses périphériques.
 
 ## Une démarche qualité
 
-Coup de bol, Thomas est un passionné de technique brassicole, ce qui à permi
+Coup de bol, Thomas est un passionné de technique brassicole, ce qui à permis
 des échanges assez instructifs.
 
-Ça fait énormement plaisir de retrouver des gens qui sont dans une démarche de
+Ça fait énormément plaisir de retrouver des gens qui sont dans une démarche de
 qualité: on a réellement l'impression d'être dans un labo qui cherche à
-améliorer ses process au fur et à mesure des brassins.
+améliorer ses *process* au fur et à mesure des brassins.
 
-A titre d'exemple, pour chaque préparation de brassin, les fiches techniques de chez Wyermann (un fournisseur de malts) sont utilisées pour estimer l'extraction théorique des sucres. La
-difference (entre théorie et pratique) est ensuite mesurée, et le delta moyen peut être
+A titre d'exemple, pour chaque préparation de brassin, les fiches techniques de chez *Weyermann* (un fournisseur de malts) sont utilisées pour estimer l'extraction théorique des sucres. La
+différence (entre théorie et pratique) est ensuite mesurée, et le delta moyen peut être
 réutilisé pour modifier le taux d'extraction théorique des prochains brassins.
 
-Autre exemple interessant, ils ont été jusqu'à peser le cône (!) à la fin du whirlpool
+Autre exemple intéressant, ils ont été jusqu'à peser le cône (!) à la fin du *whirlpool*
 afin de savoir quelle quantité d'eau était absorbée au passage, pour ensuite préparer
 leurs recettes afin de maximiser le remplissage des fermenteurs.
 
@@ -44,10 +44,10 @@ J'ai pu d'ailleurs trouver un autre point commun avec nos envies pour la brasser
 ## Coté financier
 
 Comme il le dit bien lui même, les cordons de la bourse sont tenus par Mathieu, qui
-semble bien renseigné sur la question, à force de démarches et de reflexion. Pour un
-novice comme moi, c'était extremement utile d'avoir des retours de terrain et des
+semble bien renseigné sur la question, à force de démarches et de réflexion. Pour un
+novice comme moi, c'était extrêmement utile d'avoir des retours de terrain et des
 conseils sur un tas de petits points à ne pas négliger, des droits de douane suspendus
-(pour payer à la vente et non pas à la fabrication) aux modules à installer sur Dolibarr
+(pour payer à la vente et non pas à la fabrication) aux modules à installer sur [Dolibarr](https://www.dolibarr.org/)
 pour se simplifier la vie pour la compta.
 
 On a pu par exemple reprendre ensemble les coûts de la fabrication de la bière,
@@ -59,11 +59,11 @@ Et puis, bien sur plein de petites choses que j'ai du mal à résumer ici.
 ## Trucs et astuces divers
 
 Vu qu'ils ne sont pas avares de conseils, ils m'ont fait part de quelques
-conseils interessants, que je reformule ici.
+conseils, que je reformule ici.
 
 ### Tanks à lait et fond filtrant
 
-Les tanks à lait (utilisés comme cuve d'empatage et d'ébulition) se déforment,
+Les tanks à lait (utilisés comme cuve d'empâtage et d'ébullition) se déforment,
 ce qui rends l'utilisation d'un fond filtrant un peu technique. Après quelques
 essais, ils ont utilisé un fond filtrant un peu plus petit sur lequel des
 joints silicone ont été posés.
@@ -73,8 +73,8 @@ joints silicone ont été posés.
 ### Resucrage et embouteillage
 
 La bière, avant d'être embouteillée contiens déjà du CO2, plus ou moins dilué,
-et il faut le prendre en compte pour ne pas trop resucrer les bouteilles et
-éviter qu'ellent "gushent" (franglissismes bonjour !). Assez simple au final,
+et il faut le prendre en compte pour ne pas trop re-sucrer les bouteilles et
+éviter qu'elles *gushent* (franglissismes bonjour !). Assez simple au final,
 il suffit de poser un manomètre sur une bouteille puis la secouer, puis mesurer
 la pression déjà comprise dans la bouteille, et réduire d'autant le sucre à
 utiliser !
@@ -83,7 +83,7 @@ utiliser !
 ### Test d'atténuation rapide
 
 J'avais déjà entendu parler de cette technique, sans jamais la voir utilisée
-réellement: l'idée est de prélever une petite partie du mout dans un erlen, de
+réellement: l'idée est de prélever une petite partie du moût dans un Erlenmeyer, de
 la charger en levure puis de le remuer (avec un agitateur magnétique) et de voir
 quelle densité on obtient au bout de quelques jours. Si la densité est trop
 basse, il est possible que cela vienne d'un souci de contamination (par exemple).
@@ -91,12 +91,12 @@ basse, il est possible que cela vienne d'un souci de contamination (par exemple)
 La densité mesurée est à-priori la densité finale du brassin: une fois obtenue
 on peut passer la bière en fermentation secondaire.
 
-### Durée d'empatage
+### Durée d'empâtage
 
-Lors de nos derniers brassins, nous avons souvent augmenté le temps d'empatage,
+Lors de nos derniers brassins, nous avons souvent augmenté le temps d'empâtage,
 parfois pour attendre que notre eau de rinçage soit à la bonne température: il
 semblerait que ce soit une mauvaise idée puisque les enzymes (alpha et beta
-amylase) ne se comportent pas de la même manière lors d'un empatage plus long.
+amylase) ne se comportent pas de la même manière lors d'un empâtage plus long.
 
 ## Bibliographie
 
@@ -104,7 +104,7 @@ Thomas, en bon scientifique, m'à conseillé la lecture d'une trentaine de
 bouquins, allant de la biochimie pure à l'histoire de la bière, en passant par
 des livres de recettes et des dictionnaires brassicoles. Dans toutes ces
 références (que je ne reprends pas ici), j'en retiens une particulièrement parce
-que c'est une vraie mine d'or pour qui veut avoir une démarche scientiique lors
+que c'est une vraie mine d'or pour qui veut avoir une démarche scientifique lors
 du brassage: [le braukaiser](http://braukaiser.com/wiki/index.php) et notamment
 [ses articles sur le PH](http://braukaiser.com/wiki/index.php?title=Mash_pH_control), un de nos prochains chantiers.
 
@@ -119,11 +119,11 @@ gros brasseurs industriels passent des contrats avec eux pour avoir
 l'exclusivité sur les bières servies en échange de tables, parasols et autres
 travaux, dur donc de réussir à vendre sa bière dans ces conditions.
 
-Les caves sont quant à elles plus interessées par la fait d'avoir de la bonne
+Les caves sont quant à elles plus intéressées par la fait d'avoir de la bonne
 bière locale, pour celles qui n'ont pas été refroidies par des expériences
 passées avec des bières de qualité discutable.
 
-Pas évident, mais interessant.
+Pas évident, mais instructif.
 
 ## Paysage brassicole local
 
@@ -134,20 +134,20 @@ cylindro-coniques thermo-régulés donnent bien envie.
 
 ![Les fermenteurs de "La barbaude"](/images/montpellier/fermenteurs-barbaude.jpg)
 
-J'ai également pu rencontrer les patrons de "La Barbote" (à ne pas confondre), un
+J'ai également pu rencontrer les patrons-brasseurs de "La Barbote" (à ne pas confondre), un
 *brew-pub* nouvellement ouvert pas loin de la gare de Montpellier. Ça fait toujours
 plaisir de se rendre compte qu'il est possible d'avoir de la bière produite et
 consommée au même endroit, que ce soit du point de vue éthique (moins de transports),
 gustatif (les bières sont mieux conservées et moins altérées), financier (la marge
 financière pour la vente d'une bière est bien plus importante) et tout simplement
-logistique (pas de bouteilles, ils ne font que des futs). Leur game est assez
-interessante et ma foi c'est aussi assez chouette à deguster.
+logistique (pas de bouteilles, ils ne font que des fûts). Leur gamme est assez
+chouette et ma foi c'est aussi assez sympa à déguster.
 
 ![Carbonation des futs chez "La Barbote"](/images/montpellier/carbo-futs-barbote-install.jpg)
 
 Dernière trouvaille, celle de la cave à bière et bar "The Bear's house", rue de
-l'université (dans le centre) ou j'ai pu assister à une degustation de quelques
-specimens chouettes et rencontrer quelques têtes qui se bougent sur Montpellier
+l'université (dans le centre) ou j'ai pu assister à une dégustation de quelques
+spécimens chouettes et rencontrer quelques têtes qui se bougent sur Montpellier
 pour que la bière trouve sa place au pays du vin (merci à vous).
 
 Bref, c'était vraiment une semaine ennuyante ;) ! Merci à Thomas, Mathieu et
