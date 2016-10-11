@@ -1,6 +1,17 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
+/* Styles for Figures & Images */
+
+img {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 4px;
+    margin: auto !important;
+    box-shadow: 4px 4px 4px 0px rgba(128, 128, 128, 0.5);
+    display: block;
+}
+
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn

@@ -3,3 +3,4 @@ ghp-import
 markdown
 pillow
 beautifulsoup4
+pysvg
