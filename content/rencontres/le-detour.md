@@ -39,6 +39,8 @@ leurs recettes afin de maximiser le remplissage des fermenteurs.
 
 J'ai pu d'ailleurs trouver un autre point commun avec nos envies pour la brasserie du Vieux Singe: on est pas la pour trimer ! Les postes sont faits pour être ergonomiques, et toute chose améliorable ne semble pas rester en l'état bien longtemps.
 
+![Embouteilleuse Enol master](/images/montpellier/embouteilleuse.jpg)
+
 ## Coté financier
 
 Comme il le dit bien lui même, les cordons de la bourse sont tenus par Mathieu, qui
@@ -76,6 +78,7 @@ et il faut le prendre en compte pour ne pas trop resucrer les bouteilles et
 il suffit de poser un manomètre sur une bouteille puis la secouer, puis mesurer
 la pression déjà comprise dans la bouteille, et réduire d'autant le sucre à
 utiliser !
+
 
 ### Test d'atténuation rapide
 
