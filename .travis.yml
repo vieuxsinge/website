@@ -17,7 +17,7 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/output artichaut@62.210.170.125:/home/www/www.vieuxsinge.com
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/output/* poils@62.210.170.125:/home/www/www.vieuxsinge.com/.
   on:
     branch: master
 env:
