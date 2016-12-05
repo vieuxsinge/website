@@ -1,8 +1,8 @@
 Title: Deux semaines chez Skumenn
 Slug: skumenn
 Date: 2016-11-18
-Accroche: Retours après deux semaines de
-image: /images/skumenn/???.jpg
+Accroche: Retours après deux semaines passées à la brasserie Skumenn
+image: /images/skumenn/bar.jpg
 Author: Alexis
 Status: draft
 
@@ -24,22 +24,6 @@ passées en leur compagnie.
 D'une manière générale, le stage était bien porté sur l'aspect pratique des
 choses, ce qui était bien complémentaire avec l'aspect théorique que j'ai pu
 avoir chez la brasserie Le détour.
-
-## Étiquetage
-
-Au moment ou je suis arrivé, une nouvelle étiqueteuse était arrivée, et on
-attendait plus que les rouleaux d'étiquettes pour l'utiliser. J'ai pu donc faire
-un peu d'étiquetage sur les deux systèmes et me rendre compte des différences.
-
-D'un coté, une étiqueteuse que je vais appeler "semi-automatique": on prends
-une bouteille manuellement, on la mets dans la machine, l'étiquette se dépose et
-on enchaine, de l'autre, une étiqueteuse *automatique* avec charriot convoyeur:
-on dépose les bouteilles *nues* d'un coté, et on les récupère étiquetées de
-l'autre, prêtes à être mises en carton.
-
-Je dois bien dire que cette nouvelle machine "envoie du steak ™", et au niveau
-du ticket d'entrée le prix semble valoir le coup, surtout quand on cherche
-à éviter les postes pénibles. A suivre, mais expérience bien intéressante :-)
 
 ## Brassage
 
@@ -67,6 +51,13 @@ utilisé pour déposer le houblon et autres grains dans le fond de la cuve): la
 ou j'ai l'habitude de créer un vortex à la main, leur système (PBC) à une pompe
 qui aspire par le bas et renvoie sur le coté, créant le vortex automatiquement.
 Pas mal :-)
+
+![Refroidisseur de mout](/images/skumenn/refroidisseur-mout.jpg)
+
+Dans les petits détails assez chouettes, ils utilisent un mechanisme qui permet
+de refroidir le moût pour prendre sa température plus facilement: il s'agit
+simplement de deux tuyaux en inox mis l'un dans l'autre, dans lesquels on vient
+mettre un jet d'eau froide.
 
 ## Durée d'empatage
 
@@ -97,6 +88,8 @@ protéines …). Il n'est pas impossible qu'on revienne dessus dans le futur.
 
 ## Fermentation
 
+![Fermenteur](/images/skumenn/fermenteur.jpg)
+
 Bien sur, la partie la plus importante pour la fabrication de la bière est la
 fermentation. Lors des discussions, il est principalement ressorti qu'il faut
 faire attention à ne pas négliger la garde à froid, très importante pour la
@@ -116,6 +109,8 @@ de plus à creuser :-)
 
 ## Tests de re-sucrage
 
+![Resucrage de l'Imperial Stout](/images/skumenn/resucrage.jpg)
+
 Ce n'est plus vraiment un secret: Skumenn va sortir un Imperial Stout, vieilli
 en barique (super projet) !
 
@@ -129,6 +124,28 @@ bien envie de faire de même pour nos recettes: on se pose souvent la question
 de combien de sucre on mets dans les bouteilles, et la réponse n'est pas clair.
 Fonctionner avec une approche de test et itérations me semble prometteuse.
 
+![Degustation de l'Imperial Stout](/images/skumenn/degustation.jpg)
+
+## Étiquetage
+
+Au moment ou je suis arrivé, une nouvelle étiqueteuse était arrivée, et on
+attendait plus que les rouleaux d'étiquettes pour l'utiliser. J'ai pu donc faire
+un peu d'étiquetage sur les deux systèmes et me rendre compte des différences.
+
+![Étiqueteuse manuelle](/images/skumenn/etiqueteuse-manuelle.jpg)
+
+D'un coté, une étiqueteuse que je vais appeler "semi-automatique": on prends
+une bouteille manuellement, on la mets dans la machine, l'étiquette se dépose et
+on enchaine, de l'autre, une étiqueteuse *automatique* avec charriot convoyeur:
+on dépose les bouteilles *nues* d'un coté, et on les récupère étiquetées de
+l'autre, prêtes à être mises en carton.
+
+![Étiqueteuse automatique](/images/skumenn/etiqueteuse-automatique.jpg)
+
+Je dois bien dire que cette nouvelle machine "envoie du steak ™", et au niveau
+du ticket d'entrée le prix semble valoir le coup, surtout quand on cherche
+à éviter les postes pénibles. A suivre, mais expérience bien intéressante :-)
+
 ## Lavage de futs
 
 Une de nos interrogations est sur le système de futs que nous souhaitons
@@ -137,6 +154,8 @@ pratique parce que pas trop lourd, mais necessite de prendre le temps de
 lavage: laver des futs c'est les dépressuriser, les ouvrir (pas extrêmement
 pratique), les rincer, leur balancer de l'alcalin durant 4mn, les re-rincer et
 les faire sécher. Puis ensuite les remplir.
+
+![Pile de futs](/images/skumenn/futs.jpg)
 
 Bon, dis comme ça ça semble réellement horrible, mais en pratique ça se fait
 quand même. A mettre en perspective avec les systèmes de type
@@ -167,6 +186,8 @@ sur [Dolibarr](www.dolibarr.fr/). Coup de bol, je suis informaticien de formatio
 et installer ce genre d'outils est une formalité. Une fois le logiciel installé,
 on à passe à sa configuration et là c'est pas vraiment la même histoire!
 
+![Vue du bureau](/images/skumenn/compta.jpg)
+
 Une fois quelques modules installés (notamment pour faire [la gestion des
 douannes et des frais
 d'accises](http://www.elsassbrau.com/brasserie_souffel/pluxml/index.php?static3/accises))
@@ -188,7 +209,11 @@ pour pouvoir être exploitable correctement.  Pour plus tard, peut-être.
 ## Coopération
 
 D'une manière générale, je suis ravi de ces quelques semaines passées chez
-Skumenn. Les échanges étaient riches et l'esprit général à la coopération.
+Skumenn. Les échanges étaient riches et l'esprit général à la coopération, ce
+qui m'inquiétais un peu de prime abord, je dois bien l'avouer !
+
 Comme le dit bien Stéphane, aux U.S.A, plus il y a eu de petites brasseries,
-mieux la bière locale s'est vendue: la dessus nous sommes sur la même longueur
-d'onde !
+mieux la bière locale s'est vendue, et nous sommes bien sûr sur la même longueur
+d'ondes !
+
+Allez, à bientôt pour la suite des festivités :-)
