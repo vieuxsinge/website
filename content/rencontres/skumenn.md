@@ -88,8 +88,6 @@ protéines …). Il n'est pas impossible qu'on revienne dessus dans le futur.
 
 ## Fermentation
 
-![Fermenteur](/images/skumenn/fermenteur.jpg)
-
 Bien sur, la partie la plus importante pour la fabrication de la bière est la
 fermentation. Lors des discussions, il est principalement ressorti qu'il faut
 faire attention à ne pas négliger la garde à froid, très importante pour la
