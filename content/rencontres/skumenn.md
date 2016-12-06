@@ -94,7 +94,7 @@ clarté de la bière. Ça nous a amené sur des discussions sympathiques notemme
 sur le temps de houblonnage à cru necessaire et son impact sur le goût de la
 bière.
 
-Le houblonnage à cru ! Cette merveille qui confère ces goûts si
+Le houblonnage à cru ! Cette content/rencontres/skumenn.mdmerveille qui confère ces goûts si
 intéressants à nos bières. J'ai appris que soutirer à la fin de la fermentation
 (avant la phase de houblonnage à cru) permet d'éviter certains goûts non
 souhaités liés aux levures, chose que nous choisissons de ne pas faire sur
@@ -178,21 +178,18 @@ que Fred (du Vieux Singe), et dans l'ensemble je crois que la bière a plu.
 Bon, et parce que monter une brasserie ce n'est pas que faire de la bière, j'ai
 un peu touché à d'autres choses.
 
-En arrivant à la brasserie, Stéph me fait part de leur envie de changer de comptabilité :
-ils utilisent actuellement un logiciel payant (Sage One)
+En arrivant à la brasserie, Stéphane me fait part de leur envie de changer de
+logiciel de comptabilité : ils utilisent actuellement un logiciel payant (Sage One)
 qui n'est pas assez puissant / détaillé pour leurs besoins. L'idée est donc de passer
-sur [Dolibarr](www.dolibarr.fr/). Coup de bol, je suis informaticien de formation
-et installer ce genre d'outils est une formalité. Une fois le logiciel installé,
-on est passé à sa configuration et là c'est pas vraiment la même histoire !
+sur [Dolibarr](www.dolibarr.fr/).
 
 ![Vue du bureau](/images/skumenn/compta.jpg)
 
 Une fois quelques modules installés (notamment pour faire [la gestion des
 douannes et des frais
 d'accises](http://www.elsassbrau.com/brasserie_souffel/pluxml/index.php?static3/accises))
-on essaye d'importer les données depuis l'ancien système, et là c'est le drame :
-les écritures comptables ne comportent pas les informations de vente précises
-(on sait qui a payé combien, mais on ne sait pas ce qu'ils ont acheté.)
+on essaye d'importer les données depuis l'ancien système, pour rapidement se
+rendre compte que les exports que l'on peut avoir ne sont pas suffisants.
 
 Après un appel rapide à la brasserie du Détour (qui eux aussi utilisent
 Dolibarr), on se rend compte que le logiciel est en fin de compte assez mal
@@ -203,7 +200,7 @@ comptables](http://www.cegidstore.com/entrepreneurs-tpe/logiciels/quadracompta-d
 
 Un peu triste, mais en l'état le système qu'on a essayé (même avec quelques
 fonctionnalités avancées) semble nécessiter quelques développements spécifiques
-pour pouvoir être exploitable correctement.  Pour plus tard, peut-être.
+pour pouvoir être exploitable correctement. Pour plus tard, peut-être.
 
 ## Coopération
 

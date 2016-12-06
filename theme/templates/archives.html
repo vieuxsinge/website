@@ -1,7 +1,13 @@
-
-
 {% extends "base.html" %}
 {% block title %}Articles{%endblock%}
+
+{% block meta_extra %}
+<style>
+#main > header {
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ SITEURL }}/theme/css/images/conversation.jpg") !important;
+}
+</style>
+{% endblock %}
 
 {% block content %}
 <!-- Main -->
