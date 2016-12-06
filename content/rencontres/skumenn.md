@@ -86,16 +86,15 @@ J'ai depuis fait quelques recherches et je me suis rendu compte de l'importance 
 pour un nombre incroyable de choses (activité enzymatique, extraction des tannins, précipitation des
 protéines …). Il n'est pas impossible que l'on se penche sur le sujet dans un futur proche.
 
-## Ferment ation
+## Fermentation
 
-Bien sur, la partie la plus importante pour la fabrication de la bière est la
-fermentation. Lors des discussions, il est principalement ressorti qu'il faut
+Lors des discussions, il est principalement ressorti qu'il faut
 faire attention à ne pas négliger la garde à froid, très importante pour la
-clarté de la bière.
+clarté de la bière. Ça nous a amené sur des discussions sympathiques notemment
+sur le temps de houblonnage à cru necessaire et son impact sur le goût de la
+bière.
 
-## Houblonnage à cru
-
-Ah ! Le houblonnage à cru ! Cette merveille qui confère ces goûts si
+Le houblonnage à cru ! Cette merveille qui confère ces goûts si
 intéressants à nos bières. J'ai appris que soutirer à la fin de la fermentation
 (avant la phase de houblonnage à cru) permet d'éviter certains goûts non
 souhaités liés aux levures, chose que nous choisissons de ne pas faire sur
@@ -119,6 +118,12 @@ de combien de sucre mettre dans les bouteilles, et la réponse n'est pas clair.
 Fonctionner avec une approche de test et itérations me semble prometteuse.
 
 ![Degustation de l'Imperial Stout](/images/skumenn/degustation.jpg)
+
+Et en parlant de ressucrage, en visitant la brasserie du détour, j'ai appris
+l'existence d'un outil apellé "aphromètre", qui permet de mesurer directement
+la pression présente dans la bouteille, afin de resucrer juste comme il faut.
+En combinant les deux methodes, je pense qu'on peut arriver à un étalonnage
+assez fin.
 
 ## Étiquetage
 
