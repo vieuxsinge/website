@@ -6,6 +6,9 @@
 <style>
 #main > header {
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
 }
 </style>
 {% endif %}
@@ -20,6 +23,7 @@
       {% if article.accroche %}
       <p>{{ article.accroche }}</p>
       {% endif %}
+      <p class="article-date">{{ article.locale_date }}</p>
     </header>
     <section class="wrapper style5">
       <div class="inner">

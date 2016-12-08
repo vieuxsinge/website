@@ -3,26 +3,43 @@
 
 {% block meta_extra %}
 <style>
-#main > header {
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ SITEURL }}/theme/css/images/conversation.jpg") !important;
+{% for article in dates %}
+
+#{{ article.slug }} {
+    padding: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("{{ article.image }}") !important;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("{{ article.image }}") !important;
+  	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("{{ article.image }}") !important;
+  	background-image: linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("{{ article.image }}") !important;
 }
+
+#{{ article.slug }}:hover {
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
+  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
+}
+{% endfor %}
 </style>
 {% endblock %}
 
 {% block content %}
 <!-- Main -->
-  <article id="main">
+  {% for article in dates %}
+  <a class="post-title" href="{{ SITEURL }}/{{ article.url }}">
+   <article id="{{ article.slug }}">
     <header>
-      <h2>Quoi de neuf chez nous ?</h2>
-      <p>Commérages et brèves de comptoir…</p>
-    </header>
-    {% for article in dates %}
-    <section class="wrapper style5">
-      <div class="inner">
-      <h3><a class="post-title" href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+      <h2>{{ article.title }}</h2>
+      <p class="articles-date">{{ article.locale_date }}</p>
       <p>{{ article.accroche }}</p>
-    </div>
-  </section>
-    {% endfor %}
+    </header>
+  </article>
+  </a>
+  {% endfor %}
+
   </article>
 {% endblock %}

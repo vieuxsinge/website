@@ -12,6 +12,19 @@ img {
     display: block;
 }
 
+.articles-date {
+  margin-top: -20px;
+}
+
+.article-date {
+  padding-top: 20px;
+  margin-bottom: -50px;
+}
+
+.articles {
+	padding: 3em 0 2em 0 !important;
+}
+
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn

@@ -12,6 +12,8 @@ SITEURL = 'http://localhost:8000'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
+DEFAULT_DATE_FORMAT = ('%d %B %Y')
+LOCALE = "fr_FR.utf8"
 
 DEFAULT_LANG = u'fr'
 
