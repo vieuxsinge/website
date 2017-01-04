@@ -13,7 +13,6 @@ PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 DEFAULT_DATE_FORMAT = ('%d %B %Y')
-LOCALE = "fr_FR.utf8"
 
 DEFAULT_LANG = u'fr'
 
@@ -28,9 +27,11 @@ MENUITEMS = (
 )
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-STATIC_PATHS = ['images', 'documents', 'extra/CNAME', ]
+STATIC_PATHS = ['documents/brasseries.html', 'images', 'documents', 'extra/CNAME', ]
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 PLUGIN_PATHS = ["plugins", ]
 PLUGINS = ["better_images", ]
+ARTICLE_EXCLUDES = ['documents',]
+PAGE_EXCLUDES = ['documents',]
 
 RELATIVE_URLS = True
