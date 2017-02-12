@@ -19,11 +19,10 @@ DEFAULT_LANG = u'fr'
 DEFAULT_PAGINATION = False
 
 THEME = "theme"
-INDEX_SAVE_AS = 'nouvelles.html'
+INDEX_SAVE_AS = 'blog.html'
 
 MENUITEMS = (
-    (u'À propos', '/index.html'),
-    (u'Nouvelles', '/archives.html'),
+    (u'Blog', '/archives.html'),
 )
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
