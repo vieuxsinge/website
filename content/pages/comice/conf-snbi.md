@@ -1,4 +1,4 @@
-Title: Le syndicat National des Brasseurs Indépendants
+# Le syndicat National des Brasseurs Indépendants
 
 L'objectif est de montrer comment le SNBI est structuré, comment on fonctionne
 et quelles sont nos missions.

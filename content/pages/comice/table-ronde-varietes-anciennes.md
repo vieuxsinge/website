@@ -1,4 +1,4 @@
-Title: Table ronde sur les variétés anciennes de houblon
+# Table ronde sur les variétés anciennes de houblon
 
 Ludwig Locher, Houblonnier à Tettnang, Pierre-François Maestracci, Paysan brasseur en corse, Gautier Felix du réseau semance paysanne, Bernanrd Pasquier du conservatoire national des plantes.
 

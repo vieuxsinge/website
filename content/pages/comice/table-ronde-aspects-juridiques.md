@@ -1,4 +1,4 @@
-Title: Certifications du houblon
+# Certifications du houblon
 
 Pierre Galmish, Avocat au barreau de Paris, contributeur sur Happy Beer Time.
 Sandrine de Blois, pour N&P, animatrice de la revision du cahier des charges.

@@ -1,4 +1,4 @@
-Title: Les apports du houblon dans la bière
+# Les apports du houblon dans la bière
 
 Edouard Jalat-Dehen, Brasserie de l'être.
 Yann Geffriaud, Brasserie Outland

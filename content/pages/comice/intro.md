@@ -1,4 +1,4 @@
-Title: Ouverture de la journée
+# Ouverture de la journée
 
 Beaucoup de monde. Officiellement 200 places, officieusement 260 personnes. C'est poiur ça que c'est un peu serré. Deux salles.
 On est à la générale, c'est un ancien centre de distribution EDF. Géré par "la générale nord est".
