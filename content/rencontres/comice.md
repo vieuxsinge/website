@@ -37,7 +37,7 @@ contents de pouvoir partager leurs expériences vécues.
 
 Voici un rapide compte-rendu des conférences auxquelles on a pu assister. Vous pouvez aussi retrouver [les enregistrements
 au format audio](https://drive.google.com/drive/u/0/folders/0B-Me_sGI-HfZVmVjc1NJRWhlZkE),
-[les captations vidéo](https://drive.google.com/drive/u/0/folders/0B-Me_sGI-HfZT0l3VWQ3dnh0NFk), ou [directement nos notes]().
+[les captations vidéo](https://drive.google.com/drive/u/0/folders/0B-Me_sGI-HfZT0l3VWQ3dnh0NFk), ou [directement nos notes](https://github.com/vieuxsinge/website/tree/master/content/pages/comice).
 
 ## SNBI : Le syndicat National des Brasseurs Indépendants
 
