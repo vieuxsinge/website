@@ -49,7 +49,7 @@ Les douanes de la Rochelle en visite de courtoisie, ont pu nous confirmer (sans 
 
 [Robert Dutin](http://interfacebrasserie.com/) quant à lui, a pu nous partager sa vision de terrain des brasseries françaises. Il remarque bien sûr l'accroissement du nombre de brasseries, mais aussi l'accroissement de leur dimensionnement qui tourne aujourd'hui plus souvent autour des 1000L par brassin contre 500L auparavant. Le marché de la bière est clairement en forte évolution grâce aux brasseries artisanales. Il remarque également le retour de la consigne des bouteilles mise en place par certains brasseurs. De notre côté, on attend impatiemment le lancement du projet [Distro](http://www.distro.bzh) en Bretagne.
 
-M. X de LeSaffre est venu nous présenter la gamme de levures sèches du grand groupe. Au travers du discours commercial il a pu nous expliquer les problématiques de sélection et de séchage des levures Fermentis largement utilisées en brasserie. Difficile de passer outre ces produits lorsqu'on démarre une brasserie : l'investissement en temps et en argent dans un labo de culture n'est pas toujours la priorité.
+LeSaffre est venu nous présenter la gamme de levures sèches du grand groupe. Au travers du discours commercial on a pu comprendre les problématiques de sélection et de séchage des levures Fermentis largement utilisées en brasserie. Difficile de passer outre ces produits lorsqu'on démarre une brasserie : l'investissement en temps et en argent dans un labo de culture n'est pas toujours la priorité.
 
 Enfin nous attendions tous impatiemment le créateur de la Bocage Pale Ale : Maxime Tripoteau de la [Brasserie de la Muette](http://www.brasserie-la-muette.fr/), ancien du DU de la Rochelle lui aussi, est venu témoigner de son expérience de lancement. Ce qui commençait tout petit est maintenant devenu très grand après beaucoup de travail et d'investissement. De la production de l'orge au bricolage des tanks à lait, nous avons pu aborder beaucoup d'aspects très concrets que certains d'entre nous ont pu compléter en allant directement visiter la brasserie.
 
@@ -67,11 +67,9 @@ Un dernier tour à l'[Aiôn](https://www.facebook.com/aion.larochelle/) et chez 
 
 En bonus, voilà quelques liens de ceux d'entre nous qui ont déjà lancé leur activité :
 
-Brasserie du château
-Brasserie Barreau (La corde raide)
-Brasseur Ceuilleur
-La grange de montabot
-Brasserie des iles d'or
-Brasserie de la fontaine
-Brasserie de Boris
+[Le Château de la Bière](http://chateau-de-la-biere.com/)
+[Brasserie Barreau](http://www.lacorderaide.fr/) (La Corde Raide)
+[Brasseurs Cueilleurs](https://www.facebook.com/BrasseursCueilleurs/)
+[La Grange de Montabot](https://antitht.noblogs.org/)
+[Brasserie des Îles d'Or](http://www.labieredesilesdor.fr/)
 
