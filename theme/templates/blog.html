@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Blog{%endblock%}
+
+{% block content %}
+<!-- Wrapper -->
+	<section id="wrapper">
+
+		<!-- Content -->
+			<div class="wrapper style1">
+				<div class="inner">
+
+					<section class="features">
+
+					{% for article in dates %}
+						<article>
+							<a href="{{ SITEURL }}/{{ article.url }}">
+								<div class="image"><img src="{{ article.image }}" alt="" /></div>
+								<p class="date">{{ article.locale_date }}</p>
+								<h3 class="major">
+									{{ article.title }}
+									<span>{{ article.accroche }}</span>
+								</h3>
+							</a>
+						</article>
+					{% endfor %}
+
+					</section>
+
+				</div>
+			</div>
+
+	</section>
+
+{% endblock %}

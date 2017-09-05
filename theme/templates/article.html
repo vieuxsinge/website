@@ -1,34 +1,31 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title }}{%endblock%}
 
-{% block meta_extra %}
-{% if article.image %}
-<style>
-#main > header {
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
-	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
-	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ article.image }}") !important;
-}
-</style>
-{% endif %}
-
-{% endblock %}
 
 {% block content %}
-<!-- Main -->
-  <article id="main">
-    <header>
-      <h2>{{ article.title }}</h2>
-      {% if article.accroche %}
-      <p>{{ article.accroche }}</p>
-      {% endif %}
-      <p class="article-date">{{ article.locale_date }}</p>
-    </header>
-    <section class="wrapper style5">
-      <div class="inner">
-        {{ article.content }}
-      </div>
-    </section>
-  </article>
+
+<!-- Wrapper -->
+	<section id="wrapper">
+
+		<!-- Content -->
+			<div class="wrapper style1">
+			
+				<header class="article">
+					<div class="image"><img src="{{ article.image }}" alt="" /></div>
+					<div class="inner">
+						<p class="date">{{ article.locale_date }}</p>
+						<h2 class="major">
+							{{ article.title }}
+							<span>{{ article.accroche }}</span>
+						</h2>
+					</div>
+				</header>
+				
+				<div class="inner">
+					{{ article.content }}
+				</div>
+			</div>
+
+	</section>
+
 {% endblock %}
