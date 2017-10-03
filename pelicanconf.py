@@ -22,8 +22,8 @@ THEME = "theme"
 
 MENUITEMS = (
     (u'Accueil', '/index.html'),
-    (u'Brasserie', '/index.html#brasserie'),
     (u'Bières', '/index.html#bieres'),
+    (u'Brasserie', '/index.html#brasserie'),
     (u'Blog', '/blog.html'),
     (u'Contact', '/index.html#contact'),
 )

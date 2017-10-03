@@ -11,6 +11,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ SITEURL }}/theme/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="{{ SITEURL }}/theme/css/ie9.css" /><![endif]-->
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+    <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/images/favicon.png" />
   {% endblock head %}
 	</head>
 	<body>
@@ -38,7 +39,7 @@
   			{% block content %}{% endblock %}
 
 				<!-- Contact -->
-					<section id="contact">
+					<section id="contact" class="inverse">
 						<div class="inner">
 							<h2 class="major">Contactez-nous</h2>
 							<ul class="contact">
@@ -47,17 +48,19 @@
 									6 rue Saint-Exupéry<br />
 									35235 Thorigné-Fouillard
 								</li>
+								<li class="fa-phone">
+									<a href="tel:0299000000">02 99 XX XX XX</a><br />
+									<a href="tel:0674785489">06 74 78 54 89 (Alexis)</a><br />
+								</li>
 								<li class="fa-clock-o">
 									Vente directe et visites le vendredi de 14h à 19h.<br />
 									Les autres jours sur réservation.
 								</li>
-								<li class="fa-phone">
-									<a href="tel:0299000000">02 99 XX XX XX</a><br />
-									Alexis Métaireau : <a href="tel:0674785489">06 74 78 54 89</a><br />
-									Frédéric Sureau : <a href="tel:0786560581">07 86 56 05 81</a>
-								</li>
 							</ul>
 							<ul class="contact">
+								<li class="fa-envelope"><a href="mailto:contact@vieuxsinge.com">contact@vieuxsinge.com</a></li>
+								<li class="fa-twitter"><a href="http://twitter.com/vxsinge">twitter.com/vxsinge</a></li>
+								<li class="fa-facebook"><a href="http://facebook.com/vieuxsinge.beer">facebook.com/vieuxsinge.beer</a></li>
 								<li class="fa-newspaper-o">
 									<form action="//vieuxsinge.us14.list-manage.com/subscribe/post?u=ecec080a5e9aa46166b5ff3bb&amp;id=291587aeda" method="post" class="subscribe">
 										Vous souhaitez être tenu au courant de notre actualité ? Inscrivez-vous à la lettre d'information !
@@ -76,9 +79,6 @@
 											</div>
 										</div>
 								</form></li>
-								<li class="fa-envelope"><a href="mailto:contact@vieuxsinge.com">contact@vieuxsinge.com</a></li>
-								<li class="fa-twitter"><a href="http://twitter.com/vxsinge">twitter.com/vxsinge</a></li>
-								<li class="fa-facebook"><a href="http://facebook.com/vieuxsinge.beer">facebook.com/vieuxsinge.beer</a></li>
 							</ul>
 							
 							<ul class="copyright">

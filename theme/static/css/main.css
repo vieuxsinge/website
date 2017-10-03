@@ -1654,7 +1654,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -1887,6 +1887,13 @@
 		text-align: right;
 	}
 
+.punctuated {
+	padding-bottom: 4em;
+	background-image: url("../images/separator.png");
+	background-position: bottom 2em center;
+	background-repeat: no-repeat;
+}
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -1896,7 +1903,7 @@
 /* Form */
 
 	form {
-		margin: 0 0 2em 0;
+		margin: 0;
 	}
 
 		form .field {
@@ -1916,7 +1923,7 @@
 		}
 
 	label {
-		color: #ffffff;
+		color: #000000;
 		display: block;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-size: 0.8em;
@@ -1936,10 +1943,10 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(255, 255, 255, 0.025);
+		background: rgba(0, 0, 0, 0.025);
 		border-radius: 5px;
 		border: none;
-		border: solid 2px rgba(255, 255, 255, 0.125);
+		border: solid 2px rgba(0, 0, 0, 0.125);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1972,7 +1979,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ffffff;
+			border-color: #000000;
 		}
 
 	.select-wrapper {
@@ -2102,27 +2109,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35);
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35);
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35);
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35);
 		opacity: 1.0;
 	}
 
 	.polyfill-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(0, 0, 0, 0.35);
 		opacity: 1.0;
 	}
 
@@ -2602,8 +2609,8 @@
 		background-color: transparent;
 		border-radius: 5px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-		color: #ffffff !important;
+		box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
+		color: #000000;
 		cursor: pointer;
 		display: inline-block;
 		font-family: Raleway, Helvetica, sans-serif;
@@ -2624,7 +2631,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.025);
+			background-color: rgba(0, 0, 0, 0.025);
 		}
 
 		input[type="submit"]:active,
@@ -2632,7 +2639,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: rgba(0, 0, 0, 0.075);
 		}
 
 		input[type="submit"].icon:before,
@@ -2641,7 +2648,7 @@
 		button.icon:before,
 		.button.icon:before {
 			margin-right: 0.5em;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(0, 0, 0, 0.35);
 		}
 
 		input[type="submit"].special,
@@ -2895,7 +2902,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: #282b37;
+		background-color: #2e3141;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -2932,9 +2939,9 @@
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
-			height: 3em;
+			height: 1.5em;
 			letter-spacing: 0.1em;
-			line-height: 3em;
+			line-height: 1.5em;
 			position: absolute;
 			right: 0.7em;
 			text-transform: uppercase;
@@ -2942,47 +2949,22 @@
 		}
 
 			#header nav a {
-				border: 0;
+				border: 0 solid transparent;
 				display: inline-block;
-				padding: 0 1em;
+				padding: 0 0.25em;
+				margin: 0.75em 0.75em;
+		    transition: border-color 0.5s ease;
+			}
+
+			#header nav a:hover {
+				border-bottom: 2px solid #fff;
+				display: inline-block;
 			}
 
 				#header nav a:before {
 					float: right;
 					margin-left: 0.75em;
 				}
-
-				#header nav a[href="#menu"] {
-					text-decoration: none;
-					-moz-transition: background-color 0.2s ease-in-out;
-					-webkit-transition: background-color 0.2s ease-in-out;
-					-ms-transition: background-color 0.2s ease-in-out;
-					transition: background-color 0.2s ease-in-out;
-					border-radius: 5px;
-					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-					padding: 0 1.35em;
-				}
-
-					#header nav a[href="#menu"]:before {
-						-moz-osx-font-smoothing: grayscale;
-						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
-						font-style: normal;
-						font-weight: normal;
-						text-transform: none !important;
-					}
-
-					#header nav a[href="#menu"]:before {
-						content: '\f0c9';
-					}
-
-					#header nav a[href="#menu"]:hover {
-						background-color: rgba(255, 255, 255, 0.025);
-					}
-
-					#header nav a[href="#menu"]:active {
-						background-color: rgba(255, 255, 255, 0.075);
-					}
 
 		#header.alt {
 			background-color: transparent;
@@ -3446,33 +3428,52 @@
 
 	}
 
+  .inverse {
+    color: #ffffff;
+  }
+
+  .inverse input, .inverse button {
+		background: rgba(255, 255, 255, 0.025);
+		border: solid 2px rgba(255, 255, 255, 0.125);
+    color: #ffffff;
+  }
+
+  .inverse input:focus {
+		border-color: #ffffff;
+  }
+
+	.inverse ::-webkit-input-placeholder {
+		color: rgba(255, 255, 255, 0.35) !important;
+		opacity: 1.0;
+	}
+	.inverse :-moz-placeholder {
+		color: rgba(255, 255, 255, 0.35) !important;
+		opacity: 1.0;
+	}
+	.inverse ::-moz-placeholder {
+		color: rgba(255, 255, 255, 0.35) !important;
+		opacity: 1.0;
+	}
+	.inverse :-ms-input-placeholder {
+		color: rgba(255, 255, 255, 0.35) !important;
+		opacity: 1.0;
+	}
+	.inverse .polyfill-placeholder {
+		color: rgba(255, 255, 255, 0.35) !important;
+		opacity: 1.0;
+	}
+
 	.wrapper {
 		position: relative;
 	}
 
-		.wrapper:before {
-			background-repeat: no-repeat;
-			background-size: 100% 100%;
-			content: '';
-			display: block;
-			height: 9em;
-			position: absolute;
-			width: 100%;
-		}
-
-		.wrapper:before {
-			left: 0;
-			top: -9em;
-		}
-
 		.wrapper .inner {
-			padding: 5em 0 1em 0 ;
+			padding: 4em 0;
 			margin: 0 auto;
 			width: 55em;
 		}
 
 		.wrapper.style1 {
-			padding-bottom: 9em;
 			background-color: #ffffff;
 		}
 
@@ -3483,24 +3484,38 @@
 		.wrapper.style2 {
 			background-color: transparent;
 			color: #ffffff;
-			padding-bottom: 9em;
 		}
 
 		.wrapper.style3 {
-			background-color: #3d4051;
+			background-color: #fcf8bb;
 		}
 
 		.wrapper.style4 {
-			background-color: #454858;
+			background-color: #64c891;
 		}
 
 		.wrapper.style5 {
-			background-color: #4d5060;
+			background-color: #2e131b;
 		}
 
 		.wrapper.style6 {
 			background-color: #555867;
 		}
+
+		.wrapper.spotlight:before {
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			content: '';
+			display: block;
+			height: 9em;
+			position: absolute;
+			width: 100%;
+			top: -9em;
+		}
+
+    .wrapper:not(.spotlight) + .wrapper.spotlight {
+      margin-top: 9em;
+    }
 
 		.wrapper.spotlight {
 			margin: 0 0 -9em 0;
@@ -3600,11 +3615,12 @@
 			}
 
 			.wrapper.spotlight.style1:before {
-			background-image: url("../images/separator1.png");
+			  background-image: url("../images/separator1.png");
+				background-color: #ffffff;
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #ffc410;
+				background-color: #fcc312;
 			}
 
 			.wrapper.spotlight.style2 h2,
