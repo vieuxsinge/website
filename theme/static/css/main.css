@@ -3190,10 +3190,12 @@
 		padding: 5em 0 4.75em 0 ;
 		text-align: center;
 		color: #ffffff;
+		display: flex;
+		min-height: 100vh;
 	}
 
 		#banner .inner {
-			margin: 0 auto;
+			margin: auto;
 			width: 55em;
 		}
 
