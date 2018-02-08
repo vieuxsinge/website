@@ -29,7 +29,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 STATIC_PATHS = ['documents/brasseries.html', 'images', 'documents', 'extra/CNAME', ]
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 PLUGIN_PATHS = ["plugins", ]
-PLUGINS = ["better_images", ]
+# PLUGINS = ["better_images", ]
 ARTICLE_EXCLUDES = ['documents',]
 PAGE_EXCLUDES = ['documents',]
 
