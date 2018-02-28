@@ -10,12 +10,13 @@ function CountDownTimer(dt, id)
     var timer;
 
     function showRemaining() {
+        var countdown = document.getElementById(id);
         var now = new Date();
         var distance = end - now;
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById(id).innerHTML = '0';
+            if (countdown) countdown.innerHTML = '0';
 
             return;
         }
@@ -24,7 +25,7 @@ function CountDownTimer(dt, id)
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
-        document.getElementById(id).innerHTML = days /*+ ' days'*/;
+        if (countdown) countdown.innerHTML = days /*+ ' days'*/;
         //document.getElementById(id).innerHTML += hours + 'hrs ';
         //document.getElementById(id).innerHTML += minutes + 'mins ';
         //document.getElementById(id).innerHTML += seconds + 'secs';
