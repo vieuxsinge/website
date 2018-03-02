@@ -1,5 +1,18 @@
-CountDownTimer('05/15/2018 10:1 AM', 'countdown', 20);
-function CountDownTimer(date, id, liters)
+
+CountDownTimer('05/15/2018 10:1 AM', 'countdown');
+
+function httpGetAsync(url, callback)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() {
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", url, true);
+    xmlHttp.send(null);
+}
+
+function CountDownTimer(date, id)
 {
     var end = new Date(date);
     var _second = 1000;
@@ -7,7 +20,7 @@ function CountDownTimer(date, id, liters)
     var _hour = _minute * 60;
     var _day = _hour * 24;
 
-    function showRemaining() {
+    function showRemaining(liters) {
         // Update the progressbar.
         var progressElement = document.getElementById('progress');
         var volumeElement = document.getElementById('current-volume');
@@ -43,6 +56,8 @@ function CountDownTimer(date, id, liters)
     var timer;
     var countdown = document.getElementById(id);
     if (countdown) {
-      timer = setInterval(showRemaining, 1000);
+      httpGetAsync('https://kinto.notmyidea.org/v1/buckets/vieuxsinge/collections/preventes/records/7818e391-47bc-4e53-bb92-6cf57da612b9', function(data) {
+        showRemaining(JSON.parse(data)['data']['liters']);
+      });
     }
 }
