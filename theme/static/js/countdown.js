@@ -27,7 +27,7 @@ function CountDownTimer(date, id)
         var percentageElement = document.getElementById('current-percentage');
 
         percentage = (liters / 2000) * 100;
-        var percentageText = percentage + '%';
+        var percentageText = Math.round(percentage * 100) / 100 + '%';
         progressElement.style.width = percentageText;
         percentageElement.innerHTML = percentageText;
         volumeElement.innerHTML = liters + ' litres';
