@@ -3,7 +3,6 @@ Slug: histoire
 Date: 2018-02-22
 Accroche: Tout bon projet commence dans un garage !
 image: /images/histoire/livraison-copains.jpg
-Status: draft
 
 *On nous pose souvent des questions sur notre parcours, alors on s'est dit que le mieux c'était sans doute de l'écrire quelque part.*
 
