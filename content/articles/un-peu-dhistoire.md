@@ -19,7 +19,7 @@ On a commencé par faire tout un tas d'erreurs de jeunesse (notre première biè
 
 ## Apprentissage & évolution du matériel
 
-Et puis, au fur et à mesure, on s'est renseigné, en échangeant avec des brasseurs installés autour de chez nous notamment. On est allé brasser à [la Piautre](https://www.lapiautre.fr) en Anjou, puis à la [Brasserie Associative de Montflours (la BAM!)](http://www.brasserie-montflours.fr/) en Mayenne. C'était des petits stages de brassage d'une journée, mais qui nous on permis d'apprendre énormement sur le processus. Nous avons également découvert l'existence du forum [Brassage Amateur](https://www.brassageamateur.com/) qui nous a vallu des soirées de lectures à n'en plus finir.
+Et puis, au fur et à mesure, on s'est renseigné, en échangeant avec des brasseurs installés autour de chez nous notamment. On est allé brasser à [la Piautre](https://www.lapiautre.fr) en Anjou, puis à la [Brasserie Associative de Montflours (la BAM!)](http://www.brasserie-montflours.fr/) en Mayenne. C'était des petits stages de brassage d'une journée, mais qui nous on permis d'apprendre énormement sur le processus. Nous avons également découvert l'existence du forum [Brassage Amateur](https://www.brassageamateur.com/) qui nous a valu des soirées de lectures à n'en plus finir.
 
 Notre équipement a pas mal évolué, ainsi que nos conditions de brassage : d'une petite casserole de récupération et la réquisition de la cuisine, on est passé à un trépier gaz, une cuve inox de 50L et des fermenteurs en plastique (alimentaire cette fois !).
 
@@ -27,7 +27,7 @@ Mais porter les cuves à bout de bras nous a vite motivé à nous bricoler une [
 
 Plus tard encore, au fil de nos apprentissages, on a commencé à saisir l'importance d'avoir un contrôle de nos températures de fermentation et on s'est bricolé un système de contrôle de température avec un groupe froid d'aquarium et des tuyaux PER autour de nos fermenteurs.
 
-On utilise encore cette pico 100L comme brasserie pilote (pour tester des recettes en petit), mais on a remplacé la partie fermentation par des fûts soda kegs dans des frigos équipés de thermostats.
+On utilise encore cette pico 100L comme brasserie pilote (pour tester des recettes en petit), mais on a remplacé la partie fermentation par des fûts *sodakegs* dans des frigos équipés de thermostats.
 
 ![Fred en train d'embouteiller en 2016](/images/histoire/local-nid-de-poules.jpg)
 
@@ -37,11 +37,11 @@ Durant toutes ces années, on a surtout brassé des recettes qu'on trouvait à d
 
 ## Avoir plus de temps pour brasser - passage à 80%
 
-Nous étions tous les deux dans l'informatique : Alexis [en tant que développeur de logiciels libres chez Mozilla](https://blog.notmyidea.org/pourquoi-mozilla-fr.html), et Fred dans une petite start-up Rennaise. On s'est mis à brasser de plus en plus souvent mais il nous fallait plus de temps libre pour assouvir notre nouvelle passion. On est finalement passé aux 4/5 chacun dans nos boulots respectifs, récupérant ainsi nos vendredis pour brasser ensemble.
+Nous étions tous les deux dans l'informatique : Alexis [en tant que développeur de logiciels libres chez Mozilla](https://blog.notmyidea.org/pourquoi-mozilla-fr.html), et Fred dans une petite start-up Rennaise. On s'est mis à brasser de plus en plus souvent mais il nous fallait plus de temps libre pour assouvir notre nouvelle passion. On est finalement passé aux 4/5èmes chacun dans nos boulots respectifs, récupérant ainsi nos vendredis pour brasser ensemble.
 
 ![Et on amène quelques fûts chez les copains !](/images/histoire/livraison-copains-petit.jpg)
 
-Deux ans environ, pendant lesquels on a vraiment eu le temps de s'amuser, de faire plein d'erreurs, de se les peler dans notre garage, mais surtout de se rendre compte que brasser c'était vraiment une passion. 
+Deux ans environ, pendant lesquels on a vraiment eu le temps de s'amuser, de faire plein d'erreurs, de se les peler dans notre garage, mais surtout de se rendre compte que brasser c'était vraiment une passion.
 
 ## L'idée de passer pro
 
