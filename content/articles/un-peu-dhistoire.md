@@ -22,7 +22,7 @@ Et puis, au fur et à mesure, on s'est renseigné, en échangeant avec des brass
 
 Notre équipement a pas mal évolué, ainsi que nos conditions de brassage : d'une petite casserole de récupération et la réquisition de la cuisine, on est passé à un trépier gaz, une cuve inox de 50L et des fermenteurs en plastique (alimentaire cette fois !).
 
-Mais porter les cuves à bout de bras nous a vite motivé à nous bricoler une [pico-brasserie](installation/pico.md) gravitaire avec des cuves de 100L et une petite pompe : le bonheur !
+Mais porter les cuves à bout de bras nous a vite motivé à nous bricoler une [pico-brasserie]({filename}/installation/pico.md) gravitaire avec des cuves de 100L et une petite pompe : le bonheur !
 
 Plus tard encore, au fil de nos apprentissages, on a commencé à saisir l'importance d'avoir un contrôle de nos températures de fermentation et on s'est bricolé un système de contrôle de température avec un groupe froid d'aquarium et des tuyaux PER autour de nos fermenteurs.
 
@@ -48,7 +48,7 @@ On avait l'idée (de s'installer en brasserie) dans un coin de la tête, mais sa
 
 Durant toute l'année 2017 (à peine écoulée), on a donc pris du temps pour définir les contours du projet pour trouver comment mettre nos valeurs en action au sein de la brasserie puis ensuite pour peaufiner nos connaissances techniques (qui continueront à s'affiner éternellement !)
 
-On a également pris du temps pour nous former dans différents domaines. Alexis a fait deux stages : un à la [brasserie le Détour](:filename:rencontres/le-detour.md), à Montpellier dans l'Hérault et un [chez Skumenn](:filename:rencontres/skumenn.md), à côté de chez nous, à Rennes. C'était aussi l'occasion d'annoncer notre intention de s'installer aux futurs collègues et de partir du bon pied : on a beau penser que la collaboration à de meilleurs jours que la compétition, on peut comprendre qu'il ne soit pas toujours facile de voir débarquer une nouvelle brasserie à côté de chez soi !
+On a également pris du temps pour nous former dans différents domaines. Alexis a fait deux stages : un à la [brasserie le Détour]({filename}/rencontres/le-detour.md), à Montpellier dans l'Hérault et un [chez Skumenn]({filename}/rencontres/skumenn.md), à côté de chez nous, à Rennes. C'était aussi l'occasion d'annoncer notre intention de s'installer aux futurs collègues et de partir du bon pied : on a beau penser que la collaboration à de meilleurs jours que la compétition, on peut comprendre qu'il ne soit pas toujours facile de voir débarquer une nouvelle brasserie à côté de chez soi !
 
 Ces stages étaient réellement nécessaires : ils nous ont permis (et nous permettent encore) de répondre à énormement de questions qui se posent lors de notre installation.
 
