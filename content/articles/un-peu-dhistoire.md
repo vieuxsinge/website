@@ -52,7 +52,7 @@ On a également pris du temps pour nous former dans différents domaines. Alexis
 
 Ces stages étaient réellement nécessaires : ils nous ont permis (et nous permettent encore) de répondre à énormement de questions qui se posent lors de notre installation.
 
-Fred, de son côté, a fait [une formation à l'université de La Rochelle](:filename:rencontres/du-larochelle.md). Les retours sur cette formation sont positifs : c'est un super moyen de découvrir d'autres projets, et aussi un moyen d'approfondir les bases techniques (notamment sur la culture de levures).
+Fred, de son côté, a fait [une formation à l'université de La Rochelle]({filename}/rencontres/du-larochelle.md). Les retours sur cette formation sont positifs : c'est un super moyen de découvrir d'autres projets, et aussi un moyen d'approfondir les bases techniques (notamment sur la culture de levures).
 
 Ensuite, on a mis pas mal de temps pour monter un dossier de financement, pour trouver un local, pour se décider sur tout le matériel, les travaux, etc. On y est d'ailleurs encore (mais plus pour longtemps, on en arrive à bout !).
 
