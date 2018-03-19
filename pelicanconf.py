@@ -33,7 +33,7 @@ DIRECT_TEMPLATES = ['index', 'blog']
 STATIC_PATHS = ['documents/brasseries.html', 'images', 'documents', 'extra/CNAME', ]
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 PLUGIN_PATHS = ["plugins", ]
-PLUGINS = []
+# PLUGINS = ["better_images", ]
 ARTICLE_EXCLUDES = ['documents',]
 PAGE_EXCLUDES = ['documents',]
 

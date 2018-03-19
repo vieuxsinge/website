@@ -15,7 +15,7 @@ installation :-) Suivez le guide.
 
 ## Concassage du grain
 
-![Photo du moulin]()
+![Photo du moulin](/images/pico/moulin.jpg)
 
 Avant toute chose, pour faire de la bière il faut concasser le malt. On est
 toujours équipé de notre bon vieux moulin Corona que l'on a un peu traffiqué en
@@ -44,7 +44,7 @@ bas : la cuve d'ébullition. Pendant l'ébullition du moût, on ajoute du houblo
 à différents moments qui dépendent de la recette et à la fin de l'ébullition
 on refroidit le moût à l'aide de notre refroidisseur à contre-courant.
 
-![Vue du refroidisseur à contre-courant]()
+![Vue du refroidisseur à contre-courant](/images/pico/refroidisseur.jpg)
 
 Le moût chaud rentre d'un coté (dans le tuyau de cuivre) et l'eau froide
 de l'autre côté (dans le tuyau transparent). Une fois qu'on atteint la bonne
@@ -65,8 +65,6 @@ saisons, on s'est installé un petit système de refroidissement, avec un groupe
 froid d'aquarium, un bac d'eau isolé, des tubes en plastique (PER) qui font le
 tour de nos fermenteurs, des pompes pour faire circuler l'eau froide et des
 thermostats pour contrôler tout ça.
-
-![Photo des thermostats]()
 
 ## Conditionnement
 
