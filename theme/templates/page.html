@@ -13,5 +13,33 @@
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
 
+    {% if page.template_type != 'full-html' %}
+    <!-- Wrapper -->
+      <section id="wrapper">
+
+        <!-- Content -->
+          <div class="wrapper style1">
+
+            <header class="article">
+              <div class="image"><img src="{{ page.image }}" alt="" /></div>
+              <div class="inner">
+                <h2 class="major">
+                  {{ page.title }}
+                  <span>{{ page.accroche }}</span>
+                </h2>
+              </div>
+            </header>
+
+            <div class="inner">
+              {{ page.content }}
+              {% if page.image and page.image_link and page.image_author and page.image_license %}
+              <em>L'image qui illustre cet article est un travail de <a href="{{ page.image_link }}">{{ page.image_author}}</a> proposé sous license {{ page.image_license }}. Merci !</em>
+              {% endif %}
+            </div>
+          </div>
+
+      </section>
+    {% else %}
     {{ page.content }}
+    {% endif %}
 {% endblock %}

@@ -3224,6 +3224,10 @@
                 width: 2.25em;
             }
 
+        #banner .logo > img {
+          width: 30%;
+        }
+
         #banner h2 {
             -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
             -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
@@ -3504,7 +3508,16 @@
             background-color: #555867;
         }
 
-        .wrapper.spotlight:before {
+        .wrapper.style7 {
+            background-color: #000;
+            color: #fff;
+        }
+        .wrapper.style7 form {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .wrapper.spotlight:before, .separated:before {
             background-repeat: no-repeat;
             background-size: 100% 100%;
             content: '';
@@ -3536,7 +3549,7 @@
             border-bottom: none;
             font-weight: bold;
             font-size: 1.5em;
-                text-align: center;
+            text-align: center;
         }
 
         .wrapper.spotlight h4 {
@@ -3571,7 +3584,7 @@
             }
 
             .wrapper.spotlight .header {
-                height: 12em;
+                height: 16em;
                 text-align: center;
             }
 
@@ -3582,10 +3595,6 @@
             .wrapper.spotlight .footer {
                 height: 5em;
                 text-align: center;
-            }
-
-            .wrapper.spotlight .footer img {
-                height: 100%;
             }
 
             .wrapper.spotlight .image {
@@ -3607,7 +3616,7 @@
             }
 
             .wrapper.spotlight.style1 {
-            background-color: #ffe95f;
+            background-color: #fbd150;
             }
 
             .wrapper.spotlight.style1 h2,
@@ -3622,13 +3631,13 @@
             }
 
             .wrapper.spotlight.style2 {
-                background-color: #fcc312;
+                background-color: #faf9ad;
             }
 
             .wrapper.spotlight.style2 h2,
             .wrapper.spotlight.style2 h4,
             .wrapper.spotlight.style2 .style {
-                color: #fcf8bb;
+                color: #69c993;
             }
 
                 .wrapper.spotlight.style2:before {
@@ -3651,6 +3660,18 @@
 
             .wrapper.spotlight.style4 {
                 background-color: #39477c;
+            }
+
+            .wrapper.separated.style1:before{
+                background-image: url("../images/separator4.png");
+                background-color: #87a1a2;
+            }
+            .wrapper.separated.style1 {
+              margin-top: 9em;
+              background-color: #fff;
+            }
+            .wrapper.spotlight.style3 .inner {
+              padding-bottom: 0px !important;
             }
 
         @media screen and (max-width: 980px) {
@@ -7703,4 +7724,9 @@
 
 #mc_embed_signup {
   padding: 50px;
+}
+
+.white {
+  background-color: #fff !important;
+  color: #000 !important;
 }
