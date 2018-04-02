@@ -2177,12 +2177,13 @@
 
 /* Image */
 img {
-    max-width: 100%;
+    max-width: 600px;
 }
 
 @media screen and (max-width: 640px) {
 
     img {
+      max-width: 100%;
       height: auto;
     }
 
@@ -4074,4 +4075,20 @@ img {
 .white {
   background-color: #fff !important;
   color: #000 !important;
+}
+
+.anchor{
+   display:block;
+   height:90px;
+   margin-top:-90px;
+   visibility:hidden;
+}
+
+@media screen and (max-width: 736px) {
+
+  .anchor{
+     height:30px;
+     margin-top:-30px;
+  }
+
 }
