@@ -1888,9 +1888,9 @@
     }
 
 .punctuated {
-    padding-bottom: 8em;
+    padding-bottom: 5em;
     background-image: url("../images/separator.png");
-    background-position: bottom 0em center;
+    background-position: bottom 2em center;
     background-repeat: no-repeat;
 }
 
@@ -3563,11 +3563,11 @@ img {
             height: 9em;
             position: absolute;
             width: 100%;
-            top: -9em;
+            top: -8.8em;
         }
 
     .wrapper:not(.spotlight) + .wrapper.spotlight {
-      margin-top: 9em;
+      margin-top: 8.7em;
     }
 
         .wrapper.spotlight {
@@ -3725,6 +3725,9 @@ img {
                     padding: 3em 3em 3em 3em ;
                     width: 100%;
                 }
+                .punctuated {
+                    padding-bottom: 5em !important;
+                }
 
                 .wrapper.spotlight .image {
                     margin: 0 2em 2em 0;
@@ -3758,6 +3761,10 @@ img {
 
                 .wrapper .inner {
                     padding: 2em 2em 2em 2em ;
+                }
+
+                .punctuated {
+                    padding-bottom: 5em !important;
                 }
 
                 .wrapper.spotlight .inner {
@@ -3796,6 +3803,10 @@ img {
 
             .wrapper .inner {
                 padding: 2em 1.5em 2em 1.5em ;
+            }
+
+            .punctuated {
+                padding-bottom: 5em !important;
             }
 
         }

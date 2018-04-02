@@ -1,5 +1,5 @@
 
-CountDownTimer('05/15/2018 10:1 AM', 'countdown');
+CountDownTimer('05/05/2018 00:00 AM', 'countdown');
 
 function httpGetAsync(url, callback)
 {
