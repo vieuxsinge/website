@@ -29,10 +29,17 @@
               <img src="{{ SITEURL }}/theme/images/logo_min.png">
               <a href="index.html">Brasserie du Vieux Singe</a>
             </h1>
-            <nav>
-            {% for title, link in MENUITEMS %}
-              <a href="{{ link }}"{% if link == '/' + output_file %} class="active"{% endif %}>{{ title }}</a>
-            {% endfor %}
+            <nav class="menu-wide">
+                {% for title, link, _ in MENUITEMS %}
+                <a href="{{ link }}"{% if link == '/' + output_file %} class="menu-{{ type }} active"{% endif %}>{{ title }}</a>
+                {% endfor %}
+            </nav>
+            <nav class="menu-mobile">
+                {% for title, link, type in MENUITEMS %}
+                {% if type == "mobile" %}
+                <a href="{{ link }}"{% if link == '/' + output_file %} class="menu-{{ type }} active"{% endif %}>{{ title }}</a>
+                {% endif %}
+                {% endfor %}
             </nav>
           </header>
 
@@ -52,8 +59,9 @@
                   <a href="tel:0674785489">06 74 78 54 89 (Alexis)</a><br />
                 </li>
                 <li class="fa-clock-o">
-                  Vente directe et visites le jeudi et vendredi de 17h à 19h.<br />
-                  Les autres jours sur réservation.
+                  <strong>Vente directe</strong> et visites le jeudi et vendredi de 17h à 19h.<br />
+                  Fermé le samedi et le dimanche.<br />
+                  <strong>Visite possible</strong> les autres jours sur réservation.
                 </li>
               </ul>
               <ul class="contact">

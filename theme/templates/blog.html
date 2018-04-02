@@ -3,32 +3,32 @@
 
 {% block content %}
 <!-- Wrapper -->
-	<section id="wrapper">
+  <section id="wrapper">
 
-		<!-- Content -->
-			<div class="wrapper style1">
-				<div class="inner">
+    <!-- Content -->
+      <div class="wrapper style1">
+        <div class="inner">
 
-					<section class="features">
+          <section class="features">
 
-					{% for article in dates %}
-						<article>
-							<a href="{{ SITEURL }}/{{ article.url }}">
-								<div class="image"><img src="{{ article.image }}" alt="" /></div>
-								<p class="date">{{ article.locale_date }}</p>
-								<h3 class="major">
-									{{ article.title }}
-									<span>{{ article.accroche }}</span>
-								</h3>
-							</a>
-						</article>
-					{% endfor %}
+          {% for article in dates %}
+            <article>
+              <a href="{{ SITEURL }}/{{ article.url }}">
+                <div class="image"><img src="{{ article.image }}" alt="" /></div>
+                <p class="date">{{ article.locale_date }}</p>
+                <h3 class="major">
+                  {{ article.title }}
+                  <span>{{ article.accroche }}</span>
+                </h3>
+              </a>
+            </article>
+          {% endfor %}
 
-					</section>
+          </section>
 
-				</div>
-			</div>
+        </div>
+      </div>
 
-	</section>
+  </section>
 
 {% endblock %}

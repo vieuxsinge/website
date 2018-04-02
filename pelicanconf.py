@@ -21,11 +21,11 @@ DEFAULT_PAGINATION = False
 THEME = "theme"
 
 MENUITEMS = (
-    (u'Accueil', '/index.html'),
-    (u'Bières', '/index.html#bieres'),
-    (u'Brasserie', '/index.html#brasserie'),
-    (u'Blog', '/blog.html'),
-    (u'Contact', '/index.html#contact'),
+    (u'Accueil', '/index.html', 'wide'),
+    (u'Bières', '/index.html#bieres', 'wide'),
+    (u'Manifeste', '/manifeste.html', 'mobile'),
+    (u'Actus', '/blog.html', 'mobile'),
+    (u'Infos pratiques', '/index.html#contact', 'mobile'),
 )
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
@@ -34,7 +34,7 @@ STATIC_PATHS = ['documents/brasseries.html', 'images', 'documents', 'extra/CNAME
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 PLUGIN_PATHS = ["plugins", ]
 # PLUGINS = ["better_images", ]
-ARTICLE_EXCLUDES = ['documents',]
-PAGE_EXCLUDES = ['documents',]
+ARTICLE_EXCLUDES = ['documents', ]
+PAGE_EXCLUDES = ['documents', ]
 
 RELATIVE_URLS = True
