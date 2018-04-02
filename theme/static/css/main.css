@@ -2176,13 +2176,13 @@
         }
 
 /* Image */
-img {
+.spotlight img {
     max-width: 600px;
 }
 
 @media screen and (max-width: 640px) {
 
-    img {
+    .spotlight img {
       max-width: 100%;
       height: auto;
     }
