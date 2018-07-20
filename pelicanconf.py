@@ -30,10 +30,10 @@ MENUITEMS = (
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DIRECT_TEMPLATES = ['index', 'blog']
-STATIC_PATHS = ['documents/brasseries.html', 'images', 'documents', 'extra/CNAME', ]
+STATIC_PATHS = ['documents/brasseries.html', 'images', 'assets', 'extra/CNAME', ]
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 PLUGIN_PATHS = ["plugins", ]
-# PLUGINS = ["better_images", ]
+PLUGINS = ["include_assets", ]
 ARTICLE_EXCLUDES = ['documents', ]
 PAGE_EXCLUDES = ['documents', ]
 

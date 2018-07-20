@@ -1,6 +1,21 @@
 {% extends "base.html" %}
-{% block title %}{{ article.title }}{%endblock%}
+{% block meta_extra %}
+	{% if article.stylesheets %}
+  	{% for stylesheet in article.stylesheets %}
+			{{ stylesheet }}
+    {% endfor %}
+  {% endif %}
+{% endblock %}
 
+{% block body_extra %}
+	{% if article.javascripts %}
+  	{% for javascript in article.javascripts %}
+			{{ javascript }}
+    {% endfor %}
+  {% endif %}
+{% endblock %}
+
+{% block title %}{{ article.title }}{%endblock%}
 
 {% block content %}
 
@@ -9,7 +24,7 @@
 
 		<!-- Content -->
 			<div class="wrapper style1">
-			
+
 				<header class="article">
 					<div class="image"><img src="{{ article.image }}" alt="" /></div>
 					<div class="inner">
@@ -20,7 +35,7 @@
 						</h2>
 					</div>
 				</header>
-				
+
 				<div class="inner">
 					{{ article.content }}
 				</div>
