@@ -7,6 +7,19 @@
     {% if page.og_title %}<meta property="og:title" content="{{ page.og_title}}" />{% endif %}
     {% if page.og_description %}<meta property="og:description" content="{{ page.og_description}}" />{% endif %}
     {% if page.og_image %}<meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/{{ page.og_image}}" />{% endif %}
+    	{% if page.stylesheets %}
+    		{% for stylesheet in page.stylesheets %}
+    			{{ stylesheet }}
+    		{% endfor %}
+    	{% endif %}
+{% endblock %}
+
+{% block body_extra %}
+{% if page.javascripts %}
+	{% for javascript in page.javascripts %}
+		{{ javascript }}
+	{% endfor %}
+{% endif %}
 {% endblock %}
 
 {% block content %}
@@ -21,7 +34,9 @@
           <div class="wrapper style1">
 
             <header class="article">
+              {% if page.image %}
               <div class="image"><img src="{{ page.image }}" alt="" /></div>
+              {% endif %}
               <div class="inner">
                 <h2 class="major">
                   {{ page.title }}

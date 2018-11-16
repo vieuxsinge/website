@@ -3,3 +3,6 @@ markdown
 pillow
 beautifulsoup4
 pysvg
+pyyaml
+geocoder
+geojson==1.3.3

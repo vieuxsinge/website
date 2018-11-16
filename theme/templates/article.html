@@ -1,20 +1,18 @@
 {% extends "base.html" %}
 {% block meta_extra %}
 	{% if article.stylesheets %}
-  	{% for stylesheet in article.stylesheets %}
+		{% for stylesheet in article.stylesheets %}
 			{{ stylesheet }}
-    {% endfor %}
-  {% endif %}
+		{% endfor %}
+	{% endif %}
 {% endblock %}
-
 {% block body_extra %}
-	{% if article.javascripts %}
-  	{% for javascript in article.javascripts %}
-			{{ javascript }}
-    {% endfor %}
-  {% endif %}
+{% if article.javascripts %}
+	{% for javascript in article.javascripts %}
+		{{ javascript }}
+	{% endfor %}
+{% endif %}
 {% endblock %}
-
 {% block title %}{{ article.title }}{%endblock%}
 
 {% block content %}
