@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }}{%endblock%}
+{% block title %}{{ page.title }}{% endblock %}
 
 {% block meta_extra %}
     {% if page.og_url %}<meta property="og:url" content="{{ page.og_url}}" />{% endif %}
@@ -26,7 +26,15 @@
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
 
-    {% if page.template_type != 'full-html' %}
+    {% if page.template_type == 'full-html' %}
+    {{ page.content }}
+    {% elif page.template_type == 'map' %}
+      <section id="wrapper">
+          <div class="wrapper style1">
+              {{ page.content }}
+          </div>
+      </section>
+    {% else %}
     <!-- Wrapper -->
       <section id="wrapper">
 
@@ -54,7 +62,5 @@
           </div>
 
       </section>
-    {% else %}
-    {{ page.content }}
     {% endif %}
 {% endblock %}

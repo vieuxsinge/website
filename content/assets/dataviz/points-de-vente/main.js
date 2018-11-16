@@ -17,3 +17,7 @@ var placesLayer = omnivore.csv('assets/dataviz/points-de-vente/geocoded.csv', {
         });
     })
     .addTo(map);
+
+// Hide the controls from leaflet. We don't need them here.
+var lc = document.getElementsByClassName('leaflet-control-zoom');
+lc[0].style.visibility = 'hidden';
