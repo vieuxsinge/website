@@ -51,4 +51,8 @@ publish: install
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 	echo "www.vieuxsinge.com" > $(OUTPUTDIR)/CNAME
 
+github: publish
+	ghp-import -n $(OUTPUTDIR)
+	@git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git gh-pages > /dev/null
+
 .PHONY: html clean serve devserver publish
