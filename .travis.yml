@@ -9,6 +9,6 @@ script:
 deploy:
   provider: script
   skip_cleanup: true
-  script: ghp-import $TRAVIS_BUILD_DIR/output && git push origin gh-pages
+  script: ghp-import -p $TRAVIS_BUILD_DIR/output
   on:
     branch: master
