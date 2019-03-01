@@ -21,7 +21,7 @@ Nous souhaitons sortir de la dénomination « Blonde, Blanche, Ambrée » et dé
 ### En pratique ?
 
 - Nous proposons [une gamme de trois bières](/index.html#bieres) avec des styles et des goûts variés.
-- Nous travaillons régulièrement à la création de nouvelles recettes dans des styles nouveaux.
+- Nous travaillons régulièrement à la création de [nouvelles recettes dans des styles nouveaux](/experimentations.html).
 - Nos ingrédients sont affichés de manière claire et détaillée sur nos étiquettes.
 
 ---
@@ -54,7 +54,7 @@ L'impact environnemental d'une brasserie n'est pas neutre et nous voulons mettre
 - Pour la distribution locale, nous utilisons (et réutilisons !) des fûts en inox plutôt que des fûts en plastique jetable.
 - Nous réutilisons la plupart de notre eau de refroidissement d'un brassin sur l'autre.
 - Nous n'utilisons pas de produits nettoyants à base de chlore.
-- Nos drèches (déchets de brasserie) sont revalorisées pour la plupart par un agriculteur local.
+- Nos drèches (déchets de brasserie) sont revalorisées pour la plupart par [un agriculteur local](http://www.lespetitschapelais.fr/).
 - Nous n'utilisons pas de clarifiants d'aucune sorte (y compris d'origine animale).
 
 ---
@@ -82,6 +82,6 @@ Autant que possible, nous souhaitons vendre en direct ou via le moins de distrib
 ### En pratique ?
 
 - Nous sommes ouverts le jeudi et le vendredi en fin d'après-midi pour de la vente directe à la Brasserie.
-- Des rabais sont pratiqués sur la vente en direct.
+- Des rabais sont pratiqués sur la vente en direct, et les prix sont avantageux pour les groupements d'achats.
 - Nous travaillons de préférence avec des acteurs locaux.
 - Nous proposons la vente de fûts aux particuliers ou aux associations en prêtant des tireuses sur réservation.
