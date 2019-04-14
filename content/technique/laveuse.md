@@ -1,5 +1,5 @@
-Title: Une laveuse de fûts maison
-Slug: une-laveuse-de-futs-maison
+Title: Fabrication d'une laveuse de fûts maison
+Slug: fabrication-laveuse-de-futs-open-source
 Date: 2019-04-07
 Accroche: Ou la victoire de l'inox sur le plastique
 image: /images/laveuse/futs.jpg
@@ -12,7 +12,7 @@ On nous avait pourtant prévenus ! Être brasseur, c'est avant tout passer du te
 
 Aujourd'hui beaucoup de brasseurs travaillent avec des fûts en plastique jetables qui ressemblent à des grosses bouteilles de soda. L'avantage de ces fûts jetables c'est qu'il n'y a pas besoin de gérer le trajet retour, mais *surtout* qu'ils arrivent déjà propres et qu'on s'évite un temps non négligeable de nettoyage.
 
-Les fabricants poussent le bouchon jusqu'à dire que ces fûts sont plus écologiques que des fûts inox car ils sont plus légers à transporter, qu'ils ne font pas de trajet retour et qu'ils seraient recyclables à 100%. La réalité est bien moins glorieuse puisque ces fûts font *tous* un premier trajet à vide depuis le fabricant et qu'aucune filière de recyclage n'est actuellement vraiment en place pour ces fûts.
+Les fabricants poussent le bouchon jusqu'à dire que ces fûts sont plus écologiques que des fûts inox car ils sont plus légers à transporter, qu'ils ne font pas de trajet retour et qu'ils seraient recyclables à 100%. La réalité est bien moins glorieuse puisque ces fûts font *tous* un premier trajet à vide depuis le fabricant et qu'aucune filière de recyclage n'est actuellement vraiment en place.
 
 ![Fûts plastiques vs inox](images/laveuse/plastique.jpg)
 
@@ -48,8 +48,10 @@ Enfin le fût est purgé avec du CO2 pour éviter l'oxydation de la bière.
 
 Mais une démo vaut toujours mieux qu'un long discours :
 
-* [Vidéo sur le fonctionnement général](https://vimeo.com/318256040)
-* [Vidéo sur la partie électronique](https://vimeo.com/318257333)
+
+<iframe src="https://player.vimeo.com/video/318256040?byline=0&portrait=0" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<iframe src="https://player.vimeo.com/video/318257333?byline=0&portrait=0" height="500" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
 ## Contraintes et choix
@@ -58,7 +60,7 @@ Les laveuses de fûts du commerce utilisent souvent la vapeur pour l'étape de d
 Le point négatif c'est le coût d'une petite station vapeur pour laquelle il faut compter au moins 3000€.
 Nous sommes donc partis sur une désinfection à l'acide peracétique.
 
-Côté nettoyage, la soude est connue pour mal réagir en présence de CO<sub>2</sub>, ce qui a pour conséquence d'encrasser l'inox à long terme. Nous utilisons donc de l'air comprimé pour chasser le CO2 présent dans le fût avant son nettoyage. On avait déjà un compresseur à la brasserie pour ça.
+Côté nettoyage, la soude est connue pour mal réagir en présence de CO<sub>2</sub>, ce qui a pour conséquence d'encrasser l'inox à long terme (beerstone). Nous utilisons donc de l'air comprimé pour chasser le CO2 présent dans le fût avant son nettoyage. On avait déjà un compresseur à la brasserie pour ça.
 
 Inversement, la bière s'oxyde assez vite en présence d'oxygène, il nous fallait donc une étape finale de purge au CO2 avant remplissage.
 
@@ -84,7 +86,7 @@ Ensuite, au bout d'un certain temps, les relais électroniques ont tous lâchés
 Depuis cette 3ème version, tous se passe plutôt bien et on profite de séances de remplissage plutôt paisibles ;)
 On s'est même rendus compte que la laveuse pouvait également nous servir à nettoyer nos tireuses avec peu de modifications.
 
-Vous aurez noté la présence d'un bac inox sur la laveuse. On avait au départ prévu de pouvoir laver des fûts ouverts ou des fûts de type sodakeg grâce à un système de boule de lavage. Par manque de temps, cette partie de la laveuse n'a pas encore été développée, mais ne nécessiterait pas beaucoup de travail pour être mise en place.
+Vous aurez noté la présence d'un bac inox sur la laveuse. On avait au départ prévu de pouvoir laver des fûts ouverts ou des fûts de type *sodakeg* grâce à un système de boule de lavage, mais on a tout simplement arrêté d'utiliser ce type de fûts.
 
 ## Nos retours
 
@@ -97,18 +99,12 @@ On évite ainsi de remplir notre environnement de plastique supplémentaire.
 
 Il faut cependant reconnaître qu'il nous aura fallu un peu de temps et de connaissances pour mener ce projet à bout. Difficile de se lancer sans aucun bagage en électronique, et comme pour tout prototype, il nous aura fallu plusieurs itérations avant que la machine ne soit vraiment fonctionnelle.
 
-Finalement, ce petit projet d'automatisation a fait germé de nouvelles idées dans nos esprits de fainéants pour nous simplifier la vie toujours plus. Parmis ces idées, l'automatisation des températures de fermentation, la mise en place d'alertes en cas de problème à la brasserie et une laveuse automatique de fermenteurs (CIP automatique dans le jargon).
+Finalement, ce petit projet d'automatisation a fait germer de nouvelles idées dans nos esprits de fainéants pour nous simplifier encore plus la vie. Parmis ces idées, l'automatisation du contrôle des températures de fermentation, la mise en place d'alertes en cas de problèmes à la brasserie et une laveuse automatique de fermenteurs (*CIP automatique* dans le jargon).
 
 ## Inspirations
 
-Pour la conception, on s'est beaucoup inspirés de ce qui avait déjà été fait, notamment :
+Pour la conception, on s'est beaucoup inspirés de ce qui avait déjà été fait (merci à eux !), notamment [la laveuse de fûts de la microbrasserie Grenaille](http://grenaille.blogspot.com/p/autowash-gp-42.html) et [quelques](https://www.youtube.com/watch?v=6FMlzzj3Ndc) [vidéos](https://www.youtube.com/watch?v=loru8GVTiRk) trouvées sur youtube de personnes qui expliquent comment leur système fonctionne.
 
-- http://grenaille.blogspot.com/p/autowash-gp-42.html
-- https://www.youtube.com/watch?v=6FMlzzj3Ndc
-- https://www.youtube.com/watch?v=loru8GVTiRk
+## Open source
 
-Merci pour le partage !
-
-
-
-
+Comme on aime bien le logiciel libre, [on vous mets à dispo nos plans et notre code source](https://github.com/vieuxsinge/kegwasher), si vous souhaitez mettre en place une laveuse de fûts automatique, foncez :-)
