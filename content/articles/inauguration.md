@@ -2,7 +2,7 @@ Title: Inauguration de la brasserie
 Slug: inauguration
 Date: 2018-09-25
 Accroche: Retours sur l'inauguration
-image: /images/histoire/inauguration.png
+image: /images/Inauguration/inauguration.jpg
 
 Samedi 15 Septembre 2018, on a profité du beau temps (qui comme toujours est des nôtres en Bretagne) pour fêter dignement notre installation, et l'ouverture de la brasserie. Au programme: des copains, des jeux en bois, un four mobile, des concerts, un brassin public et… de la bière du Vieux Singe à la pression !
 
