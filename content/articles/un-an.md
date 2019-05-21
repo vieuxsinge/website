@@ -121,4 +121,4 @@ Notre choix, c’est celui d’être fiers de nos bières, mais également celui
 
 ## Bref…
 
-…Voilà pour le petit tour d'horizon de cette année écoulée. Plein de super choses à venir dans les mois à venir, on vous donne des nouvelles très bientôt !
+…Voilà pour le petit tour d'horizon de cette année écoulée. Plein de super choses dans les mois à venir, on vous donne des nouvelles très bientôt !
