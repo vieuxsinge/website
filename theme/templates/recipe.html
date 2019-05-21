@@ -1,0 +1,254 @@
+{% extends "base.html" %}
+{% block meta_extra %}
+    <link rel="stylesheet" href="./theme/css/recipe.css" />
+{% endblock %}
+{% block body_extra %}
+{% if article.javascripts %}
+	{% for javascript in article.javascripts %}
+		{{ javascript }}
+	{% endfor %}
+{% endif %}
+{% endblock %}
+{% block title %}{{ article.title }}{%endblock%}
+
+{% block content %}
+
+<!-- Wrapper -->
+  <section id="wrapper">
+
+    <!-- Content -->
+      <div class="wrapper style1">
+
+        <header class="article">
+          {% if article.image %}
+          <div class="image"><img src="{{ article.image }}" alt="" /></div>
+          {% endif %}
+          <div class="inner">
+            <h2 class="major">
+              {{ article.title }}
+              <span>{{ article.accroche }}</span>
+            </h2>
+          </div>
+        </header>
+
+        <div class="inner">
+
+
+
+<article class="recipe-single" style="margin-bottom: 20px;">
+      <h2><span class="first-brewed pull-right">{{ article.locale_date  }}</span></h2>
+      <h1 class="clearfix" style="margin-top: 10px;">
+        {{ article.recipe_name }}
+      </h1>
+      <div class="info-bar clearfix">
+        <h2 class="pull-left">{{ article.recipe_description }}
+          <small>{{ article.recipe_style }}</small>
+        </h2>
+        <ul class="details pull-right">
+          <li>ABV<br/>{{ article.recipe_abv}}%</li>
+          <li>IBU<br/>{{ article.recipe_ibu }}</li>
+          <li>OG<br/>{{ article.recipe_og }}</li>
+        </ul>
+      </div>
+      <div class="container">
+
+      <div class="row">
+
+        <div class="col">
+
+          <div class="panel panel-brewdog">
+            <div class="panel-header">
+              <h3>Fondamentaux</h3>
+            </div>
+            <div class="panel-body">
+            <table class="table three-col-table">
+                <tr>
+                  <td><strong>VOLUME</strong></td>
+                  <td>20L</td>
+                </tr>
+
+                <tr>
+                  <td><strong>°alc</strong></td>
+                  <td>6.0%</td>
+                </tr>
+
+                <tr>
+                  <td><strong>Densité finale</strong></td>
+                  <td>1010.0</td>
+                </tr>
+
+                <tr>
+                  <td><strong>Desité initiale</strong></td>
+                  <td>1056.0</td>
+                </tr>
+
+                <tr>
+                  <td><strong>EBC</strong></td>
+                  <td>17.0</td>
+                </tr>
+
+                <tr>
+                  <td><strong>PH</strong></td>
+                  <td>4.4</td>
+                </tr>
+
+                <tr>
+                  <td><strong>Atténuation</strong></td>
+                  <td>82.14%</td>
+                </tr>
+            </table>
+
+                </div>
+              </div>
+              <div class="panel panel-brewdog">
+  <div class="panel-header">
+    <h3>METHOD/TIMINGS</h3>
+  </div>
+  <div class="panel-body">
+    <div class="icon-title">
+      <img src="/assets/icons/icon-mash.png" alt="Mash Icon"/>EMPÂTAGE
+    </div>
+    <table class="table">
+      <tr>
+        <td>65&deg;C</td>
+        <td>75mins</td>
+      </tr>
+    </table>
+
+    <div class="icon-title">
+      <img src="/assets/icons/icon-fermetation.png" alt="Fermentation Icon"/>FERMENTATION
+    </div>
+    <table class="table">
+      <tr>
+        <td>19&deg;C</td>
+      </tr>
+    </table>
+        </div>
+</div>        </div>
+  <div class="col-sm"><div class="panel">
+  <div class="panel-header">
+    <h3>INGRÉDIENTS</h3>
+  </div>
+  <div class="panel-body">
+    <div class="icon-title">
+      <img src="/assets/icons/icon-malt.png" alt="Malt Icon"/>Céréales
+    </div>
+    <table class="table three-col"">
+        <tr>
+          <td>Extra Pale</td>
+          <td>5.30kg</td>
+          <td>11.7lbs</td>
+        </tr>
+    </table>
+
+    <div class="icon-title">
+      <img src="/assets/icons/icon-hops.png" alt="Hops Icon"/>Houblons
+    </div>
+    <table class="table four-col"">
+      <tr>
+        <th></th>
+        <th>(g)</th>
+        <th>Add</th>
+        <th>Attribute</th>
+      </tr>
+        <tr>
+          <td>Ahtanum</td>
+          <td>17.5g</td>
+          <td><span style="white-space: nowrap;">Start</span></td>
+          <td>Bitter</td>
+        </tr>
+        <tr>
+          <td>Chinook</td>
+          <td>15.0g</td>
+          <td><span style="white-space: nowrap;">Start</span></td>
+          <td>Bitter</td>
+        </tr>
+        <tr>
+          <td>Crystal</td>
+          <td>17.5g</td>
+          <td><span style="white-space: nowrap;">Middle</span></td>
+          <td>Flavour</td>
+        </tr>
+        <tr>
+          <td>Chinook</td>
+          <td>17.5g</td>
+          <td><span style="white-space: nowrap;">Middle</span></td>
+          <td>Flavour</td>
+        </tr>
+        <tr>
+          <td>Ahtanum</td>
+          <td>17.5g</td>
+          <td><span style="white-space: nowrap;">End</span></td>
+          <td>Flavour</td>
+        </tr>
+        <tr>
+          <td>Chinook</td>
+          <td>27.5g</td>
+          <td><span style="white-space: nowrap;">End</span></td>
+          <td>Flavour</td>
+        </tr>
+              <tr>
+          <td>Crystal</td>
+          <td>17.5g</td>
+          <td><span style="white-space: nowrap;">End</span></td>
+          <td>Flavour</td>
+        </tr>
+        <tr>
+          <td>Motueka</td>
+          <td>17.5g</td>
+          <td><span style="white-space: nowrap;">End</span></td>
+          <td>Flavour</td>
+        </tr>
+    </table>
+
+    <div class="icon-title">
+      <img src="/assets/icons/icon-yeast.png" alt="Yeast Icon"/>Levure
+    </div>
+    <ul class="ingredient-list">
+      <li>Wyeast 1056 - American Ale</li>
+    </ul>
+  </div>
+</div>
+<div class="panel panel-brewdog">
+  <div class="panel-header">
+    <h3>FOOD Pairing</h3>
+  </div>
+  <div class="panel-body">
+    <div class="icon-title">
+      <img src="/assets/icons/icon-food-pairing.png" alt="Food Pairing Icon"/>
+    </div>
+    <ul class="ingredient-list">
+              <li>Spicy carne asada with a pico de gallo sauce</li>
+              <li>Shredded chicken tacos with a mango chilli lime salsa</li>
+              <li>Cheesecake with a passion fruit swirl sauce</li>
+          </ul>
+  </div>
+</div>        </div>
+        <div class="col-sm">
+          <div class="hidden-xs hidden-sm"><div class="panel panel-brewdog">
+  <div class="panel-header">
+    <h3>PACKAGING</h3>
+  </div>
+  <div class="panel-body no-padding packaging-panel">
+          <img src="https://brewdogrecipes.com/assets/recipes/1.jpg" alt="PUNK IPA 2007 - 2010 packaging" class="img-responsive" />
+      </div>
+</div></div>
+          <div class="panel panel-brewdog">
+  <div class="panel-header">
+    <h3>BREWER'S TIP</h3>
+  </div>
+  <div class="panel-body">
+    <img src="/assets/icons/icon-tip.png" alt="Brewers Tip Icon" style="width: 46px; float: left;" />
+    <p class="icon-left">While it may surprise you, this version of Punk IPA isn&#039;t dry hopped but still packs a punch! To make the best of the aroma hops make sure they are fully submerged and add them just before knock out for an intense hop hit.</p>
+  </div>
+</div>        </div>
+      </div>
+    </div>
+    </article>
+
+
+    </div>
+    </div>
+
+    </section>
+{% endblock %}

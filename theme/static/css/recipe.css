@@ -1,0 +1,133 @@
+.recipe-list .row {
+  margin: 0; }
+
+.recipe-list .row:nth-child(even) {
+  background: #f1f1f2; }
+
+@media (max-width: 991px) {
+  .recipe-list .row:nth-child(even) {
+    background: transparent; } }
+
+@media (max-width: 991px) {
+  .recipe-list .recipe:nth-child(even) {
+    background: #f1f1f2; } }
+
+.recipe-list .row > .recipe {
+  padding: 0; }
+
+.recipe-list .row > .recipe > a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%; }
+
+.recipe-list .row > .recipe > a:hover {
+  background-color: rgba(0, 167, 206, 0.1); }
+
+.recipe-list .row > .recipe .packaging {
+  width: 64px;
+  margin-right: 10px; }
+
+.recipe-list .row > .recipe > a .detail {
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 2px solid #000; }
+
+.recipe-list .row > .recipe > a .detail:last-child {
+  border-right: none; }
+
+.first-brewed {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #ccc;
+  font-size: 20px; }
+
+.info-bar {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+}
+
+.info-bar h2 {
+  color: #000;
+  margin-top: 10px; }
+
+.info-bar h2 small {
+  color: #97989b;
+  font-size: 0.8em;
+}
+
+.info-bar h2 small::after {
+  content: ' | '; }
+
+.info-bar h2 small:last-child::after {
+  content: ''; }
+
+.info-bar ul.details {
+  margin: 0;
+  padding: 0.3em;
+  list-style: none;
+}
+
+.info-bar ul.details li {
+  line-height: 1em;
+  float: left;
+  text-align: center;
+  padding: 2px 20px;
+  border-left: 4px solid #000;
+  margin: 4px 0; }
+
+.pagination-bar {
+  margin: 0 0 20px 0; }
+
+.recipe-single .table tr td {
+  border-top: none !important;
+  border-bottom: 1px solid #97989b; }
+
+.three-col-table tr td:last-child {
+  text-align: right; }
+
+.four-col-table tr th, .four-col-table tr td {
+  border-top: none !important;
+  border-bottom: 1px solid #97989b;
+  text-align: center; }
+
+.four-col-table tr td:first-child {
+  text-align: left; }
+
+.icon-title {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+  color: #000;
+  line-height: 46px;
+  margin-bottom: 10px; }
+
+.icon-title img {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 46px;
+  hieght: 46px; }
+
+ul.ingredient-list {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style: none;
+  width: 100%; }
+
+ul.ingredient-list li {
+  padding: 8px;
+  line-height: 1.42857;
+  vertical-align: top;
+  border-bottom: 1px solid #97989b; }
+
+.icon-left {
+  margin-left: 66px; }
+
+
+  .panel-brewdog > .panel-header {
+    border-bottom: 4px solid #000; }
+
+  .panel-brewdog > .panel-body {
+    background-color: #f1f1f2;
+    color: #97989b; }
+
+  .panel-brewdog > .panel-body.no-padding {
+    padding: 0; }
