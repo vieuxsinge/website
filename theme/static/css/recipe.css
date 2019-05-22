@@ -125,9 +125,11 @@ ul.ingredient-list li {
   .panel-brewdog > .panel-header {
     border-bottom: 4px solid #000; }
 
-  .panel-brewdog > .panel-body {
-    background-color: #f1f1f2;
-    color: #97989b; }
+
 
   .panel-brewdog > .panel-body.no-padding {
     padding: 0; }
+
+.table th {
+  color: black;
+}

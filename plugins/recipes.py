@@ -41,11 +41,10 @@ class RecipeGenerator(Generator):
 
 
     def generate_output(self, writer):
-        print("recipes", self.recipes)
         for recipe in self.recipes:
             writer.write_file(
                 recipe.save_as,
-                'recipe',
+                self.get_template('recipe'),
                 self.context,
                 recipe=recipe,
                 relative_urls=self.settings['RELATIVE_URLS'],

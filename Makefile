@@ -7,7 +7,7 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 VENV := $(shell echo $${VIRTUAL_ENV-$(shell pwd)/.venv})
-VIRTUALENV = virtualenv -p /usr/bin/python3.6
+VIRTUALENV = virtualenv -p /home/dan/.pyenv/versions/3.7.1/bin/python
 INSTALL_STAMP = $(VENV)/.install.stamp
 
 PYTHON=$(VENV)/bin/python

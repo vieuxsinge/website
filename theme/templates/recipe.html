@@ -2,14 +2,7 @@
 {% block meta_extra %}
     <link rel="stylesheet" href="./theme/css/recipe.css" />
 {% endblock %}
-{% block body_extra %}
-{% if article.javascripts %}
-	{% for javascript in article.javascripts %}
-		{{ javascript }}
-	{% endfor %}
-{% endif %}
-{% endblock %}
-{% block title %}{{ article.title }}{%endblock%}
+{% block title %}{{ recipe.name }}{%endblock%}
 
 {% block content %}
 
@@ -20,13 +13,13 @@
       <div class="wrapper style1">
 
         <header class="article">
-          {% if article.image %}
-          <div class="image"><img src="{{ article.image }}" alt="" /></div>
+          {% if recipe.image %}
+          <div class="image"><img src="{{ recipe.image }}" alt="" /></div>
           {% endif %}
           <div class="inner">
             <h2 class="major">
-              {{ article.title }}
-              <span>{{ article.accroche }}</span>
+              {{ recipe.title }}
+              <span>{{ recipe.description }}</span>
             </h2>
           </div>
         </header>
@@ -36,18 +29,18 @@
 
 
 <article class="recipe-single" style="margin-bottom: 20px;">
-      <h2><span class="first-brewed pull-right">{{ article.locale_date  }}</span></h2>
+      <h2><span class="first-brewed pull-right">{{ recipe.date.strftime('%b %Y') }}</span></h2>
       <h1 class="clearfix" style="margin-top: 10px;">
-        {{ article.recipe_name }}
+        {{ recipe.title }}
       </h1>
       <div class="info-bar clearfix">
-        <h2 class="pull-left">{{ article.recipe_description }}
-          <small>{{ article.recipe_style }}</small>
+        <h2 class="pull-left">{{ recipe.description }}
+          <small>{{ recipe.style }}</small>
         </h2>
         <ul class="details pull-right">
-          <li>ABV<br/>{{ article.recipe_abv}}%</li>
-          <li>IBU<br/>{{ article.recipe_ibu }}</li>
-          <li>OG<br/>{{ article.recipe_og }}</li>
+          <li>Alc<br/>{{ recipe.basics['Alcool'] }}</li>
+          <li>IBU<br/>{{ recipe.basics['IBUs'] }}</li>
+          <li>DI<br/>{{ recipe.basics['Densité Initiale'] }}</li>
         </ul>
       </div>
       <div class="container">
@@ -57,154 +50,122 @@
         <div class="col">
 
           <div class="panel panel-brewdog">
-            <div class="panel-header">
-              <h3>Fondamentaux</h3>
-            </div>
             <div class="panel-body">
             <table class="table three-col-table">
-                <tr>
-                  <td><strong>VOLUME</strong></td>
-                  <td>{{ article.recipe.volume }}</td>
-                </tr>
-
-                <tr>
-                  <td><strong>°alc</strong></td>
-                  <td>{{ article.recipe.alcohol }}%</td>
-                </tr>
-
-                <tr>
-                  <td><strong>Densité finale</strong></td>
-                  <td>{{ article.recipe.df }}</td>
-                </tr>
-
-                <tr>
-                  <td><strong>Densité initiale</strong></td>
-                  <td>{{ article.recipe.df }}1056.0</td>
-                </tr>
-
-                <tr>
-                  <td><strong>EBC</strong></td>
-                  <td>17.0</td>
-                </tr>
-
-                <tr>
-                  <td><strong>PH</strong></td>
-                  <td>4.4</td>
-                </tr>
-
-                <tr>
-                  <td><strong>Atténuation</strong></td>
-                  <td>82.14%</td>
-                </tr>
+              {% for label, value in recipe.basics.items() %}
+              <tr>
+                <td><strong>{{ label }}</strong></td>
+                <td>{{ value }}</td>
+              </tr>
+              {% endfor %}
             </table>
 
                 </div>
               </div>
               <div class="panel panel-brewdog">
-  <div class="panel-header">
-    <h3>METHOD/TIMINGS</h3>
-  </div>
   <div class="panel-body">
     <div class="icon-title">
-      <img src="/assets/icons/icon-mash.png" alt="Mash Icon"/>EMPÂTAGE
+      <img src="/theme/images/recettes/marmite.png" alt="Mash Icon"/>EMPÂTAGE
     </div>
-    <table class="table">
-      <tr>
-        <td>{{ article.recipe.mash_temp }}</td>
-        <td>{{ article.recipe.mash_duration }}</td>
-      </tr>
-    </table>
+    <table class="table three-col-table">
+        {% for label, value in recipe.mash.items() %}
+        <tr>
+          <td><strong>{{ label }}</strong></td>
+          <td>{{ value }}</td>
+        </tr>
+        {% endfor %}
+      </table>
 
     <div class="icon-title">
-      <img src="/assets/icons/icon-fermetation.png" alt="Fermentation Icon"/>FERMENTATION
+      <img src="/theme/images/recettes/sceau-fermentation.png" alt="Fermentation Icon"/>FERMENTATION
     </div>
     <table class="table">
-      {% for step in article.recipe.fermentation_steps %}
-      <tr><td>{{ step.name }}</td><td>{{ step.duration }}</td></tr>
+      {% for step in recipe.fermentation %}
+      <tr><td>{{ step }}</td></tr>
       {% endfor %}
     </table>
         </div>
 </div>        </div>
   <div class="col-sm"><div class="panel">
-  <div class="panel-header">
-    <h3>INGRÉDIENTS</h3>
-  </div>
   <div class="panel-body">
     <div class="icon-title">
-      <img src="/assets/icons/icon-malt.png" alt="Malt Icon"/>Céréales
+      <img src="/theme/images/recettes/orge.png" alt="Malt Icon"/>Céréales
     </div>
     <table class="table three-col"">
-      {% for cereal in article.recipe.cereals %}
-        <tr>
-          <td>{{ cereal.name }}</td>
-          <td>{{ cereal.quantity }}</td>
-        </tr>
+      {% for line in recipe.cereals %}
+        {% for cereal, quantity in line.items() %}
+          <tr>
+            <td>{{ cereal }}</td><td>{{ quantity }}</td>
+          </tr>
+        {% endfor %}
       {% endfor %}
     </table>
 
     <div class="icon-title">
-      <img src="/assets/icons/icon-hops.png" alt="Hops Icon"/>Houblons
+      <img src="/theme/images/recettes/houblons.png" alt="Hops Icon"/>Houblons
     </div>
     <table class="table four-col"">
       <tr>
         <th></th>
-        <th>(g)</th>
+        <th></th>
         <th>Moment</th>
         <th>Temps de contact</th>
       </tr>
-      {% for hop in article.recipe.hops %}
+      {% for hop in recipe.hops %}
         <tr>
-          <td>{{ hop.name }}</td>
-          <td>{{ hop.quantity }}</td>
+          <td>{{ hop.hop }} ({{ hop.alpha }})</td>
+          <td>{{ hop.poids }}</td>
           <td>{{ hop.moment }}</td>
-          <td>{{ hop.duration}}</td>
+          <td>{{ hop.temps}}</td>
         </tr>
        {% endfor %}
     </table>
 
     <div class="icon-title">
-      <img src="/assets/icons/icon-yeast.png" alt="Yeast Icon"/>Levure
+      <img src="/theme/images/recettes/levures.png" alt="Yeast Icon"/>Levures
     </div>
     <ul class="ingredient-list">
-      {% for yeast in article.recipe.yeasts %}
-      <li>{{ yeast }}</li>
+      {% for yeast in recipe.yeasts %}
+        {% for label, value in yeast.items() %}
+        <li>{{ label }}: {{ value }}</li>
+        {% endfor %}
       {% endfor %}
     </ul>
   </div>
 </div>
-<div class="panel panel-brewdog">
-  <div class="panel-header">
-    <h3>FOOD Pairing</h3>
-  </div>
+<div class="panel">
   <div class="panel-body">
     <div class="icon-title">
-      <img src="/assets/icons/icon-food-pairing.png" alt="Food Pairing Icon"/>
+      <img src="/theme/images/recettes/eau.png" alt="Goute d'eau"/>Correction de l'eau
     </div>
     <ul class="ingredient-list">
-              <li>Spicy carne asada with a pico de gallo sauce</li>
-              <li>Shredded chicken tacos with a mango chilli lime salsa</li>
-              <li>Cheesecake with a passion fruit swirl sauce</li>
-          </ul>
+      {% for label, value in recipe.water.items() %}
+        <li>{{ label }}: {{ value }}</li>
+      {% endfor %}
+    </ul>
   </div>
 </div>        </div>
         <div class="col-sm">
-          <div class="hidden-xs hidden-sm"><div class="panel panel-brewdog">
+          <div class="hidden-xs hidden-sm"><div class="panel">
   <div class="panel-header">
-    <h3>PACKAGING</h3>
+    <h3>ÉTIQUETTE</h3>
   </div>
   <div class="panel-body no-padding packaging-panel">
-      <img src="{{ article.recipe_bottle_url}}" class="img-responsive" />
+      <img src="/images/recettes/{{ recipe.label['url'] }}" alt="{{ recipe.label['description'] }}" />
   </div>
 </div></div>
-          <div class="panel panel-brewdog">
+{% if recipe.tip %}
+<div class="panel panel-brewdog">
   <div class="panel-header">
-    <h3>BREWER'S TIP</h3>
+    <h3>Pro-tip</h3>
   </div>
   <div class="panel-body">
-    <img src="/assets/icons/icon-tip.png" alt="Brewers Tip Icon" style="width: 46px; float: left;" />
-    <p class="icon-left">While it may surprise you, this version of Punk IPA isn&#039;t dry hopped but still packs a punch! To make the best of the aroma hops make sure they are fully submerged and add them just before knock out for an intense hop hit.</p>
+    <img src="/theme/images/recettes/ampoule.png" alt="Image d'ampoule" style="width: 46px; float: left;" />
+    <p class="icon-left">{{ recipe.tip }}</p>
   </div>
-</div>        </div>
+</div>
+{% endif %}
+</div>
       </div>
     </div>
     </article>
