@@ -34,8 +34,10 @@ DIRECT_TEMPLATES = ['index', 'blog']
 STATIC_PATHS = ['documents/brasseries.html', 'images', 'assets', 'extra/CNAME', ]
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 PLUGIN_PATHS = ["plugins", ]
-PLUGINS = ["include_assets"]
-ARTICLE_EXCLUDES = ['documents', ]
-PAGE_EXCLUDES = ['documents', ]
-
+PLUGINS = ["include_assets", "recipes"]
+ARTICLE_EXCLUDES = ['documents', "recettes"]
+PAGE_EXCLUDES = ['documents', "recettes"]
 RELATIVE_URLS = True
+
+RECIPE_SAVE_AS = "{title}.html"
+RECIPE_URL = "/totot"
