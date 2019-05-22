@@ -64,22 +64,22 @@
             <table class="table three-col-table">
                 <tr>
                   <td><strong>VOLUME</strong></td>
-                  <td>20L</td>
+                  <td>{{ article.recipe.volume }}</td>
                 </tr>
 
                 <tr>
                   <td><strong>°alc</strong></td>
-                  <td>6.0%</td>
+                  <td>{{ article.recipe.alcohol }}%</td>
                 </tr>
 
                 <tr>
                   <td><strong>Densité finale</strong></td>
-                  <td>1010.0</td>
+                  <td>{{ article.recipe.df</td>
                 </tr>
 
                 <tr>
-                  <td><strong>Desité initiale</strong></td>
-                  <td>1056.0</td>
+                  <td><strong>Densité initiale</strong></td>
+                  <td>{{ article.recipe.df}}1056.0</td>
                 </tr>
 
                 <tr>
@@ -110,8 +110,8 @@
     </div>
     <table class="table">
       <tr>
-        <td>65&deg;C</td>
-        <td>75mins</td>
+        <td>{{ article.recipe.mash_temp }}</td>
+        <td>{{ article.recipe.mash_duration }}</td>
       </tr>
     </table>
 
@@ -119,9 +119,9 @@
       <img src="/assets/icons/icon-fermetation.png" alt="Fermentation Icon"/>FERMENTATION
     </div>
     <table class="table">
-      <tr>
-        <td>19&deg;C</td>
-      </tr>
+      {% for step in article.recipe.fermentation_steps %}
+      <tr><td>{{ step.name }}</td><td>{{ step.duration }}</td></tr>
+      {% endfor %}
     </table>
         </div>
 </div>        </div>
@@ -134,11 +134,12 @@
       <img src="/assets/icons/icon-malt.png" alt="Malt Icon"/>Céréales
     </div>
     <table class="table three-col"">
+      {% for cereal in article.recipe.cereals %}
         <tr>
-          <td>Extra Pale</td>
-          <td>5.30kg</td>
-          <td>11.7lbs</td>
+          <td>{{ cereal.name }}</td>
+          <td>{{ cereal.quantity }}</td>
         </tr>
+      {% endfor %}
     </table>
 
     <div class="icon-title">
@@ -148,64 +149,26 @@
       <tr>
         <th></th>
         <th>(g)</th>
-        <th>Add</th>
-        <th>Attribute</th>
+        <th>Moment</th>
+        <th>Temps de contact</th>
       </tr>
+      {% for hop in article.recipe.hops %}
         <tr>
-          <td>Ahtanum</td>
-          <td>17.5g</td>
-          <td><span style="white-space: nowrap;">Start</span></td>
-          <td>Bitter</td>
+          <td>{{ hop.name }}</td>
+          <td>{{ hop.quantity }}</td>
+          <td>{{ hop.moment }}</td>
+          <td>{{ hop.duration}}</td>
         </tr>
-        <tr>
-          <td>Chinook</td>
-          <td>15.0g</td>
-          <td><span style="white-space: nowrap;">Start</span></td>
-          <td>Bitter</td>
-        </tr>
-        <tr>
-          <td>Crystal</td>
-          <td>17.5g</td>
-          <td><span style="white-space: nowrap;">Middle</span></td>
-          <td>Flavour</td>
-        </tr>
-        <tr>
-          <td>Chinook</td>
-          <td>17.5g</td>
-          <td><span style="white-space: nowrap;">Middle</span></td>
-          <td>Flavour</td>
-        </tr>
-        <tr>
-          <td>Ahtanum</td>
-          <td>17.5g</td>
-          <td><span style="white-space: nowrap;">End</span></td>
-          <td>Flavour</td>
-        </tr>
-        <tr>
-          <td>Chinook</td>
-          <td>27.5g</td>
-          <td><span style="white-space: nowrap;">End</span></td>
-          <td>Flavour</td>
-        </tr>
-              <tr>
-          <td>Crystal</td>
-          <td>17.5g</td>
-          <td><span style="white-space: nowrap;">End</span></td>
-          <td>Flavour</td>
-        </tr>
-        <tr>
-          <td>Motueka</td>
-          <td>17.5g</td>
-          <td><span style="white-space: nowrap;">End</span></td>
-          <td>Flavour</td>
-        </tr>
+       {% endfor %}
     </table>
 
     <div class="icon-title">
       <img src="/assets/icons/icon-yeast.png" alt="Yeast Icon"/>Levure
     </div>
     <ul class="ingredient-list">
-      <li>Wyeast 1056 - American Ale</li>
+      {% for yeast in article.recipe.yeasts %}
+      <li>{{ yeast }}</li>
+      {% endfor %}
     </ul>
   </div>
 </div>
@@ -230,8 +193,8 @@
     <h3>PACKAGING</h3>
   </div>
   <div class="panel-body no-padding packaging-panel">
-          <img src="https://brewdogrecipes.com/assets/recipes/1.jpg" alt="PUNK IPA 2007 - 2010 packaging" class="img-responsive" />
-      </div>
+      <img src="{{ article.recipe_bottle_url}}" class="img-responsive" />
+  </div>
 </div></div>
           <div class="panel panel-brewdog">
   <div class="panel-header">

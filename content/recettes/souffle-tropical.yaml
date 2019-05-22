@@ -1,0 +1,56 @@
+name: Souffle Tropical
+description: Légère. Tropicale. Houblonnée.
+description_longue: Une soupe de houblons exotiques ! L'une de nos toutes premières recettes, élaborée dans le garage de notre colocation. Nos colocataires de l'époque nous ont forcés à l'avoir dans la gamme.
+style: American Wheat
+basics:
+  - Alcool: 4,2
+  - Densité Initiale: 1,038
+  - Densité Finale: 1,006
+  - Couleur (EBC): 5
+  - IBUs: 9
+  - pH : 5,4
+water:
+  - sulfates: 150ppm
+  - chlorures: 50ppm
+cereals:
+  - Malt de blé: 150kg
+  - Malt Pils: 125kg
+mash:
+  Température: 66°C
+  Durée: 1h
+  ratio: 3L/kg
+hops:
+  - Citra:
+      alpha: 14,2%
+      poids: 500g
+      moment: Hop Stand (80°C)
+      temps: 15mn
+  - Mosaic:
+      alpha: 10,8%
+      poids: 800g
+      moment: Hop Stand (80°C)
+      temps: 15mn
+  - Citra:
+      alpha: 14,2%
+      poids: 4800g
+      moment: Houblonnage à froid
+      temps: 2j
+  - Mosaic:
+      alpha: 10,8%
+      poids: 1600g
+      moment: Houblonnage à froid
+      temps: 2j
+yeasts:
+  - Nom: US-05
+  - Atténuation: 83%
+  - Densité: 12Mc/g
+  - Taux: 0,79Mc/L/°P
+fermentation:
+  - Ensemencement à 17°C puis consigne à 18°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de Diacetyl rest à 21°C
+  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - Cold crash durant 10 jours
+resucrage:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

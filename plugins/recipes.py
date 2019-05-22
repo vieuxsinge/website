@@ -1,0 +1,1 @@
+from pelican import signals
