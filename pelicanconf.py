@@ -36,7 +36,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 PLUGIN_PATHS = ["plugins", ]
 PLUGINS = ["include_assets", "recipes"]
 ARTICLE_EXCLUDES = ['documents', "recettes"]
-PAGE_EXCLUDES = ['documents', "recettes"]
+PAGE_EXCLUDES = ['documents', "recettes", "pages/comice"]
 RELATIVE_URLS = True
 
 RECIPE_SAVE_AS = "{title}.html"

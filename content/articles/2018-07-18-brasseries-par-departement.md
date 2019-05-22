@@ -16,7 +16,7 @@ Voici une carte du nombre de brasseries par millions d'habitants / département,
 
 A titre de comparaison, voici la même carte pour les États-Unis, réalisée par [Beer & Brewing magazine](https://beerandbrewing.com/):
 
-![](/assets/dataviz/departement/comparaison-us-1.png)
-![](/assets/dataviz/departement/comparaison-us-2.png)
+![Comparaison avec les États-Unis, première image. On s'apperçoit que les États-Unis ont approximativement autant de brasseries qu'en France](/assets/dataviz/departement/comparaison-us-1.png)
+![Comparaison avec les États-Unis, image 2](/assets/dataviz/departement/comparaison-us-2.png)
 
 *Si vous êtes interessés, vous pouvez aller jeter un coup d'oeil [au code source de la page](https://github.com/vieuxsinge/brasseries), le tout est publié sous licence libre.*
