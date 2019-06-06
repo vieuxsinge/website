@@ -8,7 +8,7 @@ save_as: experimentations.html
 
 *Kiwi-Sour Pale Ale — 4,6°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
 
-![Étiquette de la bière " Chaînon Manquant "](chainon-manquant.jpg)
+![Étiquette de la bière " Chaînon Manquant "](images/experimentations/chainon-manquant.png)
 
 Quand on veut faire une bière avec des fruits de saison en plein hiver, on se dit qu'utiliser quelques Kiwis ne pourrait pas faire de mal ! Une bière avec une acidité légère, grâce aux kiwis, parfait pour le début de saison et le grand retour du soleil sur les terrasses ! Brassé en collaboration avec [les Brasseurs Cueilleurs](https://www.facebook.com/BrasseursCueilleurs/).
 

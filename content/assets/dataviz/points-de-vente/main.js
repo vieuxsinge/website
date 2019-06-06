@@ -12,8 +12,7 @@ var placesLayer = omnivore.csv('assets/dataviz/points-de-vente/geocoded.csv', {
   delimiter: ';'});
 
 placesLayer.on('ready', function() {
-  console.log("I'm ready");
-  //map.fitBounds(placesLayer.getBounds());
+  map.fitBounds(placesLayer.getBounds());
   placesLayer.eachLayer(function(layer) {
     layer.bindPopup("<strong>" + layer.feature.properties.Nom + "</strong>" + "<br />" + layer.feature.properties.Adresse);
   });

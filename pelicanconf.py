@@ -26,7 +26,7 @@ MENUITEMS = (
     (u'Manifeste', '/manifeste.html', 'mobile'),
     (u'Actus', '/blog.html', 'mobile'),
     (u'Points de vente', '/ou-nous-trouver.html', 'mobile'),
-    (u'Infos pratiques', '/index.html#infospratiques', 'mobile'),
+    (u'Infos pratiques', '/index.html#infospratiques', 'wide'),
 )
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
