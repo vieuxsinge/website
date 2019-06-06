@@ -9,14 +9,21 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 var placesLayer = omnivore.csv('assets/dataviz/points-de-vente/geocoded.csv', {
   latfield: 'latitude',
   lonfield: 'longitude',
-  delimiter: ';'})
-  .on('ready', function() {
-        map.fitBounds(placesLayer.getBounds());
-        placesLayer.eachLayer(function(layer) {
-            layer.bindPopup("<strong>" + layer.feature.properties.Nom + "</strong>" + "<br />" + layer.feature.properties.Adresse);
-        });
-    })
-    .addTo(map);
+  delimiter: ';'});
+
+placesLayer.on('ready', function() {
+  console.log("I'm ready");
+  //map.fitBounds(placesLayer.getBounds());
+  placesLayer.eachLayer(function(layer) {
+    layer.bindPopup("<strong>" + layer.feature.properties.Nom + "</strong>" + "<br />" + layer.feature.properties.Adresse);
+  });
+});
+
+placesLayer.on('error', function(e) {
+  console.log("Oops, something went wrong.", e)
+});
+
+placesLayer.addTo(map);
 
 // Hide the controls from leaflet. We don't need them here.
 var lc = document.getElementsByClassName('leaflet-control-zoom');
