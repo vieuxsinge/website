@@ -1,4 +1,4 @@
-Title: Fabrication d'une laveuse de fûts maison
+Title: Fabrication d'une laveuse de fûts open source
 Slug: fabrication-laveuse-de-futs-open-source
 Date: 2019-04-07
 Accroche: Ou la victoire de l'inox sur le plastique
@@ -15,7 +15,7 @@ Aujourd'hui beaucoup de brasseurs travaillent avec des fûts en plastique jetabl
 
 Les fabricants poussent le bouchon jusqu'à dire que ces fûts sont plus écologiques que des fûts inox car ils sont plus légers à transporter, qu'ils ne font pas de trajet retour et qu'ils seraient recyclables à 100%. La réalité est bien moins glorieuse puisque ces fûts font *tous* un premier trajet à vide depuis le fabricant et qu'aucune filière de recyclage n'est actuellement vraiment en place.
 
-![Fûts plastiques vs inox](images/laveuse/plastique.jpg "Empilement de fûts plastiques, crédits photo Ker Beer"){: .image .left}
+![Fûts plastiques vs inox](/images/laveuse/plastique.jpg "Empilement de fûts plastiques, crédits photo Ker Beer"){: .image .left}
 
 Franchement pas emballés (c'est le cas de le dire) par tout ce plastique on s'est donc plutôt orientés vers un parc de fûts en inox réutilisables (presque) à vie.
 
@@ -31,7 +31,7 @@ Elle est équipée de 2 têtes de lavage et permet donc de laver 2 fûts simulta
 
 Le lavage dure 5mn au total pendant lesquelles plusieurs cycles s'enchaînent de la manière suivante :
 
-![Diagramme des cycles](images/laveuse/diagrame-cycles.png "Vidange → Rinçage → Nettoyage → Rinçage → Désinfection → Rinçage → Purge CO2"){: .image .left}
+![Diagramme des cycles](/images/laveuse/diagrame-cycles.png "Vidange → Rinçage → Nettoyage → Rinçage → Désinfection → Rinçage → Purge CO2"){: .image .left}
 
 On utilise pour ça des produits assez classiques de l'agroalimentaire qui sont recyclés en circuit fermé.
 Le rinçage est réalisé avec l'eau du réseau.
@@ -59,7 +59,7 @@ Du point de vue de l'utilisation, on souhaitait ne pas avoir à démonter les pl
 On souhaitait également que le lavage se passe de manière automatique pour nous permettre de remplir les fûts propres en parallèle.
 Enfin l'idée c'est également que la laveuse soit fiable et un minimum durable.
 
-![La bête !](images/laveuse/cadre1.jpg "Image du cardre de la laveuse de fûts"){: .image .right}
+![La bête !](/images/laveuse/cadre1.jpg "Image du cardre de la laveuse de fûts"){: .image .right}
 
 Partant de ces contraintes, on a fait le choix d'une laveuse sur roulettes avec 2 bacs produits (détergent et désinfectant), une arrivée d'eau, une arrivée d'air, une arrivée de CO2 et une évacuation. Tous les raccords sont en inox et les tuyaux adaptés au passage de produits agressifs.
 
