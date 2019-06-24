@@ -43,8 +43,7 @@ else
 endif
 
 regenerate:
-	cd $(OUTPUTDIR) && $(PYTHON) -m pelican.server &
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) -l -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 publish: install
 	curl -X POST -F data=@content/assets/dataviz/points-de-vente/places.csv https://api-adresse.data.gouv.fr/search/csv/ -F columns=Adresse -o content/assets/dataviz/points-de-vente/geocoded.csv
