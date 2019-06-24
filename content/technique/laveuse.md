@@ -9,7 +9,7 @@ Status: Draft
 > Cet article est un retour sur la fabrication d'une laveuse et les choix associés.<br>
 > Pour les détails techniques, [tout est publié sous licence libre](https://github.com/vieuxsinge/kegwasher).
 
-On nous avait pourtant prévenus ! Être brasseur, c'est avant tout passer du temps à nettoyer. Sauf que nettoyer, c'est pas ce qu'on préfère. Quand on a démarré, on s'est posé la question du type de fûts avec lesquels on voulait travailler et les fûts inox ne partaient pas forcément gagnants car on peut passer beaucoup de temps à les nettoyer.
+On nous avait pourtant prévenus ! Être brasseur, c'est avant tout passer du temps à nettoyer. Sauf que nettoyer, c'est pas ce qu'on préfère. Quand on a démarré, on s'est posé la question du type de fûts avec lesquels on voulait travailler et les fûts inox ne partaient pas forcément favoris : on peut passer beaucoup de temps à les nettoyer...
 
 Aujourd'hui beaucoup de brasseurs travaillent avec des fûts en plastique jetables qui ressemblent à des grosses bouteilles de soda. L'avantage de ces fûts jetables c'est qu'il n'y a pas besoin de gérer le trajet retour, mais *surtout* qu'ils arrivent déjà propres et qu'on s'évite un temps non négligeable de nettoyage.
 
@@ -20,7 +20,7 @@ Les fabricants poussent le bouchon jusqu'à dire que ces fûts sont plus écolog
 Franchement pas emballés (c'est le cas de le dire) par tout ce plastique on s'est donc plutôt orientés vers un parc de fûts en inox réutilisables (presque) à vie.
 
 Un fût inox (~60€) s'amortit assez vite quand on compare à un fût jetable (~15€).
-Le soucis c'est qu'il faut une machine pour les laver et que, de ce côté, les prix grimpent très vite : il faut compter environ 10 000€ pour une machine basique.
+Le souci c'est qu'il faut une machine pour les laver et que, de ce côté, les prix grimpent très vite : il faut compter environ 10 000€ pour une machine basique.
 
 Après quelques recherches sur Internet, on a décidé de remettre le nez dans nos cours d'électronique pour nous fabriquer une laveuse automatique maison avec un budget de 2000€ !
 
@@ -38,7 +38,7 @@ Le rinçage est réalisé avec l'eau du réseau.
 Le nettoyage avec une solution de soude à 2% et à 80°C.
 La désinfection est faite à froid avec une solution d'acide peracétique à 1%.
 De l'air est envoyé entre chaque cycle pour purger les tuyaux et éviter que les produits ne se mélangent.
-Enfin le fût est purgé avec du CO2 pour éviter l'oxydation de la bière.
+Enfin le fût est purgé avec du CO<sub>2</sub> pour éviter l'oxydation de la bière.
 
 Mais une démo vaut toujours mieux qu'un long discours :
 
@@ -51,9 +51,9 @@ Les laveuses de fûts du commerce utilisent souvent la vapeur pour l'étape de d
 Le point négatif c'est le coût d'une petite station vapeur pour laquelle il faut compter au moins 3000€.
 Nous sommes donc partis sur une désinfection à l'acide peracétique.
 
-Côté nettoyage, la soude est connue pour mal réagir en présence de CO<sub>2</sub>, ce qui a pour conséquence d'encrasser l'inox à long terme (beerstone). Nous utilisons donc de l'air comprimé pour chasser le CO2 présent dans le fût avant son nettoyage. On avait déjà un compresseur à la brasserie pour ça.
+Côté nettoyage, la soude est connue pour mal réagir en présence de CO<sub>2</sub>, ce qui a pour conséquence d'encrasser l'inox à long terme (beerstone). Nous utilisons donc de l'air comprimé pour chasser le CO<sub>2</sub> présent dans le fût avant son nettoyage. On avait déjà un compresseur à la brasserie pour ça.
 
-Inversement, la bière s'oxyde assez vite en présence d'oxygène, il nous fallait donc une étape finale de purge au CO2 avant remplissage.
+Inversement, la bière s'oxyde assez vite en présence d'oxygène, il nous fallait donc une étape finale de purge au CO<sub>2</sub> avant remplissage.
 
 Du point de vue de l'utilisation, on souhaitait ne pas avoir à démonter les plongeurs car c'est une étape assez longue et pénible au bout d'un certain temps.
 On souhaitait également que le lavage se passe de manière automatique pour nous permettre de remplir les fûts propres en parallèle.
@@ -61,7 +61,7 @@ Enfin l'idée c'est également que la laveuse soit fiable et un minimum durable.
 
 ![La bête !](/images/laveuse/cadre1.jpg "Image du cardre de la laveuse de fûts"){: .image .right}
 
-Partant de ces contraintes, on a fait le choix d'une laveuse sur roulettes avec 2 bacs produits (détergent et désinfectant), une arrivée d'eau, une arrivée d'air, une arrivée de CO2 et une évacuation. Tous les raccords sont en inox et les tuyaux adaptés au passage de produits agressifs.
+Partant de ces contraintes, on a fait le choix d'une laveuse sur roulettes avec 2 bacs produits (détergent et désinfectant), une arrivée d'eau, une arrivée d'air, une arrivée de CO<sub>2</sub> et une évacuation. Tous les raccords sont en inox et les tuyaux adaptés au passage de produits agressifs.
 
 Le choix des liquides/gaz qui circulent se fait grâce à un ensemble d'électrovannes ainsi qu'une petite pompe.
 Toutes ces électrovannes sont pilotées par une carte Arduino qui présente l'avantage d'être simple et pas chère.
@@ -70,7 +70,7 @@ Pour plus d'infos sur les détails de conception [tout est publié sous licence 
 
 ## Améliorations
 
-Lors de la première itération, nous n'avions pas prévu d'antiretours pour les liquides et les gaz. Le détergent remontait dans le détendeur de CO2 et inversement. Finalement ces antiretours ce sont vite montrés indispensables.
+Lors de la première itération, nous n'avions pas prévu d'antiretours pour les liquides et les gaz. Le détergent remontait dans le détendeur de CO<sub>2</sub> et inversement. Finalement ces antiretours ce sont vite montrés indispensables.
 
 Ensuite, au bout d'un certain temps, les relais électroniques ont tous lâchés les uns après les autres. C'est à ce moment qu'on s'est rendus compte qu'il fallait les protéger électriquement.
 
