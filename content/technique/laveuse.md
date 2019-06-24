@@ -41,7 +41,7 @@ Enfin le fût est purgé avec du CO2 pour éviter l'oxydation de la bière.
 
 Mais une démo vaut toujours mieux qu'un long discours :
 
-<iframe style="display: block; width: 500px; height: 315px; margin: auto" sandbox="allow-same-origin allow-scripts" src="https://peertube.servebeer.com/videos/embed/00c410c9-e059-47cc-8bc2-f5a8decc9740" frameborder="0" allowfullscreen></iframe>
+<iframe style="display: block; height: 300px; width: 70%; margin: auto" sandbox="allow-same-origin allow-scripts" src="https://peertube.servebeer.com/videos/embed/00c410c9-e059-47cc-8bc2-f5a8decc9740" frameborder="0" allowfullscreen></iframe>
 
 
 ## Contraintes et choix
