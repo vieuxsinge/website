@@ -51,7 +51,7 @@ Les laveuses de fûts du commerce utilisent souvent la vapeur pour l'étape de d
 Le point négatif c'est le coût d'une petite station vapeur pour laquelle il faut compter au moins 3000€.
 Nous sommes donc partis sur une désinfection à l'acide peracétique.
 
-Côté nettoyage, la soude est connue pour mal réagir en présence de CO<sub>2</sub>, ce qui a pour conséquence d'encrasser l'inox à long terme (beerstone). Nous utilisons donc de l'air comprimé pour chasser le CO<sub>2</sub> présent dans le fût avant son nettoyage. On avait déjà un compresseur à la brasserie pour ça.
+Côté nettoyage, la soude est connue pour mal réagir en présence de CO<sub>2</sub>, ce qui a pour conséquence d'encrasser l'inox à long terme ([beerstone](https://fr.wikipedia.org/wiki/Oxalate_de_calcium)). Nous utilisons donc de l'air comprimé pour chasser le CO<sub>2</sub> présent dans le fût avant son nettoyage. On avait déjà un compresseur à la brasserie pour ça.
 
 Inversement, la bière s'oxyde assez vite en présence d'oxygène, il nous fallait donc une étape finale de purge au CO<sub>2</sub> avant remplissage.
 
