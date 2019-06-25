@@ -11,11 +11,11 @@ Status: Draft
 
 On nous avait pourtant prévenus ! Être brasseur, c'est avant tout passer du temps à nettoyer. Sauf que nettoyer, c'est pas ce qu'on préfère. Quand on a démarré, on s'est posé la question du type de fûts avec lesquels on voulait travailler et les fûts inox ne partaient pas forcément favoris : on peut passer beaucoup de temps à les nettoyer...
 
+![Fûts plastiques vs inox](/images/laveuse/plastique.jpg "Empilement de fûts plastiques, crédits photo Ker Beer"){: .image .left}
+
 Aujourd'hui beaucoup de brasseurs travaillent avec des fûts en plastique jetables qui ressemblent à des grosses bouteilles de soda. L'avantage de ces fûts jetables c'est qu'il n'y a pas besoin de gérer le trajet retour, mais *surtout* qu'ils arrivent déjà propres et qu'on s'évite un temps non négligeable de nettoyage.
 
 Les fabricants poussent le bouchon jusqu'à dire que ces fûts sont plus écologiques que des fûts inox car ils sont plus légers à transporter, qu'ils ne font pas de trajet retour et qu'ils seraient recyclables à 100%. La réalité est bien moins glorieuse puisque ces fûts font *tous* un premier trajet à vide depuis le fabricant et qu'aucune filière de recyclage n'est actuellement vraiment en place.
-
-![Fûts plastiques vs inox](/images/laveuse/plastique.jpg "Empilement de fûts plastiques, crédits photo Ker Beer"){: .image .left}
 
 Franchement pas emballés (c'est le cas de le dire) par tout ce plastique on s'est donc plutôt orientés vers un parc de fûts en inox réutilisables (presque) à vie.
 
@@ -31,7 +31,7 @@ Elle est équipée de 2 têtes de lavage et permet donc de laver 2 fûts simulta
 
 Le lavage dure 5mn au total pendant lesquelles plusieurs cycles s'enchaînent de la manière suivante :
 
-![Diagramme des cycles](/images/laveuse/diagrame-cycles.png "Vidange → Rinçage → Nettoyage → Rinçage → Désinfection → Rinçage → Purge CO2"){: .image .left}
+![Diagramme des cycles](/images/laveuse/diagrame-cycles.png "Vidange → Rinçage → Nettoyage → Rinçage → Désinfection → Rinçage → Purge CO2"){: .image .center }
 
 On utilise pour ça des produits assez classiques de l'agroalimentaire qui sont recyclés en circuit fermé.
 Le rinçage est réalisé avec l'eau du réseau.
@@ -42,7 +42,7 @@ Enfin le fût est purgé avec du CO<sub>2</sub> pour éviter l'oxydation de la b
 
 Mais une démo vaut toujours mieux qu'un long discours :
 
-<iframe style="display: block; height: 300px; width: 70%; margin: auto" sandbox="allow-same-origin allow-scripts" src="https://peertube.servebeer.com/videos/embed/00c410c9-e059-47cc-8bc2-f5a8decc9740" frameborder="0" allowfullscreen></iframe>
+<iframe style="display: block; height: 300px; width: 70%; margin: 0 auto 2em auto;" sandbox="allow-same-origin allow-scripts" src="https://peertube.servebeer.com/videos/embed/00c410c9-e059-47cc-8bc2-f5a8decc9740" frameborder="0" allowfullscreen></iframe>
 
 
 ## Contraintes et choix
@@ -70,9 +70,9 @@ Pour plus d'infos sur les détails de conception [tout est publié sous licence 
 
 ## Améliorations
 
-Lors de la première itération, nous n'avions pas prévu d'antiretours pour les liquides et les gaz. Le détergent remontait dans le détendeur de CO<sub>2</sub> et inversement. Finalement ces antiretours ce sont vite montrés indispensables.
+Pour la première version, nous n'avions pas prévu d'antiretours pour les liquides et les gaz. Le détergent remontait dans le détendeur de CO<sub>2</sub> et inversement. Finalement ces antiretours ce sont vite montrés indispensables.
 
-Ensuite, au bout d'un certain temps, les relais électroniques ont tous lâchés les uns après les autres. C'est à ce moment qu'on s'est rendus compte qu'il fallait les protéger électriquement.
+Au bout d'un certain temps, les relais électroniques ont tous lâchés les uns après les autres. C'est à ce moment qu'on s'est rendus compte qu'il fallait les protéger électriquement.
 
 Depuis cette 3ème version, tous se passe plutôt bien et on profite de séances de remplissage plutôt paisibles ;)
 On s'est même rendus compte que la laveuse pouvait également nous servir à nettoyer nos tireuses avec peu de modifications.
@@ -88,17 +88,17 @@ Le temps de lavage est complètement masqué car tout se fait en parallèle du r
 
 On évite ainsi de remplir notre environnement de plastique supplémentaire.
 
-Il faut cependant reconnaître qu'il nous aura fallu un peu de temps et de connaissances pour mener ce projet à bout. Difficile de se lancer sans aucun bagage en électronique, et comme pour tout prototype, il nous aura fallu plusieurs itérations avant que la machine ne soit vraiment fonctionnelle.
+Il faut cependant reconnaître qu'il nous aura fallu un peu de temps et de connaissances pour mener ce projet à bout. Difficile de se lancer sans aucun bagage en électronique, et comme pour tout prototype, il nous aura fallu plusieurs étapes avant que la machine ne soit vraiment fonctionnelle.
 
-Finalement, ce petit projet d'automatisation a fait germer de nouvelles idées dans nos esprits de fainéants pour nous simplifier encore plus la vie. Parmis ces idées, l'automatisation du contrôle des températures de fermentation, la mise en place d'alertes en cas de problèmes à la brasserie et une laveuse automatique de fermenteurs (*CIP automatique* dans le jargon).
+Finalement, ce petit projet a fait germer de nouvelles idées dans nos esprits de fainéants pour nous simplifier encore plus la vie. Parmis ces idées, l'automatisation du contrôle des températures de fermentation, la mise en place d'alertes en cas de problèmes à la brasserie et une laveuse automatique de fermenteurs (*CIP automatique* dans le jargon).
 
 ## Inspirations
 
-Pour la conception, on s'est beaucoup inspirés de ce qui avait déjà été fait (merci à eux !), notamment [la laveuse de fûts de la microbrasserie Grenaille](http://grenaille.blogspot.com/p/autowash-gp-42.html) et [quelques](https://www.youtube.com/watch?v=6FMlzzj3Ndc) [vidéos](https://www.youtube.com/watch?v=loru8GVTiRk) trouvées sur youtube de personnes qui expliquent comment leur système fonctionne.
+Pour la conception, on s'est beaucoup inspirés de ce qui avait déjà été fait, notamment [la laveuse de fûts de la microbrasserie Grenaille](http://grenaille.blogspot.com/p/autowash-gp-42.html) et [quelques](https://www.youtube.com/watch?v=6FMlzzj3Ndc) [vidéos](https://www.youtube.com/watch?v=loru8GVTiRk) trouvées sur youtube de personnes qui expliquent comment leur système fonctionne : merci à eux !
 
 ## Open source
 
-Comme on aime bien le logiciel libre, [on vous mets à dispo nos plans et notre code source](https://github.com/vieuxsinge/kegwasher), si vous souhaitez mettre en place une laveuse de fûts automatique, foncez :-)
+Comme on aime bien le logiciel libre, [on met à dispo nos plans et notre code source](https://github.com/vieuxsinge/kegwasher). Pour les collègues brasseurs qui voudraient s'en fabriquer une, foncez ! :-)
 
 <div style="text-align: center; padding-bottom: 20px">
     <a class="button" href="https://github.com/vieuxsinge/kegwasher">Accéder aux détails techniques</a>
