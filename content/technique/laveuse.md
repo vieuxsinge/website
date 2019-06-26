@@ -4,7 +4,6 @@ Date: 2019-04-07
 Accroche: Ou la victoire de l'inox sur le plastique
 image: /images/laveuse/futs.jpg
 Author: Fred
-Status: Draft
 
 > Cet article est un retour sur la fabrication d'une laveuse et les choix associés.<br>
 > Pour les détails techniques, [tout est publié sous licence libre](https://github.com/vieuxsinge/kegwasher).
