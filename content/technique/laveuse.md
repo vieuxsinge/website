@@ -1,6 +1,6 @@
 Title: Fabrication d'une laveuse de fûts open source
 Slug: fabrication-laveuse-de-futs-open-source
-Date: 2019-04-07
+Date: 2019-06-26
 Accroche: Ou la victoire de l'inox sur le plastique
 image: /images/laveuse/futs.jpg
 Author: Fred
