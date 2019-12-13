@@ -37,9 +37,14 @@
   border-right: none; }
 
 .first-brewed {
-  font-family: 'Pathway Gothic One', sans-serif;
-  color: #ccc;
-  font-size: 20px; }
+  font-size: 1em;
+}
+
+first-brewed :before {
+    color: #000000ab;
+    font-size: 0.7em;
+    content: "Brassé depuis…";
+}
 
 .info-bar {
   font-family: 'Pathway Gothic One', sans-serif;
@@ -133,3 +138,4 @@ ul.ingredient-list li {
 .table th {
   color: black;
 }
+
