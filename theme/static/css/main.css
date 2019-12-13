@@ -3691,6 +3691,21 @@
                 background-color: #39477c;
             }
 
+            
+            .wrapper.spotlight.style5:before {
+                background-image: url("../images/separator5.png");
+            }
+                
+            .wrapper.spotlight.style5 {
+                background-color: #f3685c;
+            }
+
+            .wrapper.spotlight.style5 h2,
+            .wrapper.spotlight.style5 h4,
+            .wrapper.spotlight.style5 .style {
+                color: #fff;
+            }
+
             .wrapper.separated.style1:before{
                 background-image: url("../images/separator4.png");
                 background-color: #799a97;
