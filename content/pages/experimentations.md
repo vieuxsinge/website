@@ -4,6 +4,15 @@ save_as: experimentations.html
 
 *On aime bien expérimenter, parfois avec des copain⋅e⋅s, parfois juste entre nous, en resulte quelques bières saisonnières qui sont dispo jusqu'à épuisement des stocks*.
 
+## Contact / Septembre 2019
+
+*Sour à la rhubarbe, 4°alc. Étiquette Nicolas Curmer.*
+
+![Étiquette de la bière " Contact "](images/experimentations/contact.jpg)
+
+Notre première *Sour* à proprement parler, une bière avec une légère acidité et avec de la rhubarbe du coin ([l'Arbre aux Sorbets](https://www.facebook.com/arbreauxsorbets/)). Brassé avec la brasserie [Skumenn](https://www.skumenn.com/).
+
+
 ## Chaînon Manquant / Mars 2019
 
 *Kiwi-Sour Pale Ale — 4,6°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
