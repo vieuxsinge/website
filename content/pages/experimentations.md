@@ -4,6 +4,28 @@ save_as: experimentations.html
 
 *On aime bien expérimenter, parfois avec des copain⋅e⋅s, parfois juste entre nous, en resulte quelques bières saisonnières qui sont dispo jusqu'à épuisement des stocks*.
 
+## Triple / Février 2020
+
+*Triple d'abbaye, 9°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
+
+![Étiquette de la bière « Triple »](images/experimentations/triple.jpg)
+
+Pour cette recette, on est allé sur un style qui nous a fait découvrir la bière, mais qui finalement est assez peu représenté par les brasseries du coin : la triple « belge ». On en a même veilli quelques bouteilles en fûts de Whiskey de la distillerie de la roche aux fées. Brassée en collab avec Tony et Colin de BioZH. Une bonne occase de sortir de nos sentiers battus.
+
+
+## Saison au houblon frais / Novembre 2019
+
+*Saison, 5°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
+
+![Étiquette de la bière « Saison au houblon frais. On y voit un personnage tomber dans le vide avec des liannes de houblon qui l'entoure »](images/experimentations/saison.png)
+
+Nous utilisons déjà du malt local, grâce à Hervé de chez Yec'hed malt, on a maintenant la chance d'avoir du houblon cultivé localement, grâce à Romain, qui s'est installé en houblonnier à Allaire (à la limite du Morbihan).
+
+En septembre, on est donc allé récupérer les cônes de houblons chez lui. Sitôt récoltés, sitôt utilisés, le Chinook, Cascade et Centennial se retrouvent donc dans une Saison au houblon frais : une bière assez sèche, avec des aromatiques légèrement poivrés.
+
+On est hyper contents de pouvoir faire cette bière avec des matières premières locales !
+
+
 ## Contact / Septembre 2019
 
 *Sour à la rhubarbe, 4°alc. Étiquette Nicolas Curmer.*

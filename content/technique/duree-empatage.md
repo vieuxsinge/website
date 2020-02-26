@@ -32,9 +32,13 @@ Encore plus frappant: la différence entre un empâtage d'une heure et un empât
 
 Marshall Scott, de brulosophy, a fait [un test pour voir la différence entre un empâtage de 30mn et un empâtage de 60mn](http://brulosophy.com/2014/09/01/does-mash-length-matter-exbeeriment-results/) sans réellement trouver de différence entre les deux.
 
+Il y a également eu [un test comparant un empatage d'une nuit VS un empatage de 60mn](http://brulosophy.com/2018/01/08/mash-length-overnight-vs-60-minutes-exbeeriment-results/) qui semble montrer qu'il est possible d'extraire plus de sucres en faisant un empâtage toute une nuit.
+
+Certaines brasseries du coin font ça également, et semblent en tirer les mêmes résultats.
+
 ## L'impact du temps d’empâtage sur l'extraction des sucres
 
-Il existe plusieurs types de sucres dans la bière:
+Il existe plusieurs types de sucres dans la bière, fermentescibles ou non par des saccharomyces cerevisiae:
 
 - le glucose : une seule molécule, fermentescible
 - le maltose : deux molécules de glucose liées ensemble, fermentescible
@@ -45,7 +49,7 @@ Il existe plusieurs types de sucres dans la bière:
 
 ## Azote
 
-Mais, il semble que l'empatâge ait également d'autres vertus, et permet de rendre disponible de l'azote (*PSN: Permanently Soluble Nitrogen*), qui semble permettre la création d'acides aminés, utiles aux levures (qui créent des protéines pour leur survie).
+Il semble que l'empatâge ait également d'autres vertus, et permette de rendre disponible de l'azote (*PSN: Permanently Soluble Nitrogen*), qui semble permettre la création d'acides aminés, utiles aux levures (qui créent des protéines pour leur survie).
 
 ![Potentiel d'extraction avec azote](/images/empatage/extraction-time-nitrogen.png)
 
@@ -62,3 +66,16 @@ J'ai donc creusé un petit peu sur le sujet
 Il semblerait qu'en fonction du ratio eau/grain utilisé et de la finesse du concassage du grain, un empâtage de deux heures soit nécessaire pour être sûr de convertir tout le sucre disponible dans le malt.
 
 Le plus simple pour en être sûr reste sûrement [le test à l'iode](http://www.braukaiser.com/wiki/index.php?title=Iodine_Test), qui permet de valider que l'ensemble des sucres ont été convertis.
+
+
+## Ressources
+
+http://howtobrew.com/book/section-3/how-the-mash-works/manipulating-the-starch-conversion-rest, traduction sur https://www.brassageamateur.com/wiki/How_to_brew/Section_3/Chap_14_:_Le_brassage,_comment_%C3%A7a_marche_%3F
+
+> The grist/water ratio is another factor influencing the performance of the mash. A thinner mash of >2 quarts of water per pound of grain dilutes the relative concentration of the enzymes, slowing the conversion, but ultimately leads to a more fermentable mash because the enzymes are not inhibited by a high concentration of sugars. A stiff mash of <1.25 quarts of water per pound is better for protein breakdown, and results in a faster overall starch conversion, but the resultant sugars are less fermentable and will result in a sweeter, maltier beer. A thicker mash is more gentle to the enzymes because of the lower heat capacity of grain compared to water. A thick mash is better for multirest mashes because the enzymes are not denatured as quickly by a rise in temperature.
+
+> As always, time changes everything; it is the final factor in the mash. Starch conversion may be complete in only 30 minutes, so that during the remainder of a 60 minute mash, the brewer is working the mash conditions to produce the desired profile of wort sugars. Depending on the mash pH, water ratio and temperature, the time required to complete the mash can vary from under 30 minutes to over 90. At a higher temperature, a stiffer mash and a higher pH, the alpha amylase is favored and starch conversion will be complete in 30 minutes or less. Longer times at these conditions will allow the beta amylase time to breakdown more of the longer sugars into shorter ones, resulting in a more fermentable wort, but these alpha-favoring conditions are deactivating the beta; such a mash is self-limiting.
+
+> Le ratio grain/eau est un autre facteur influençant l'efficacité du brassage. Une maîsche moins dense, supérieure à 3,5 litres d'eau par kilo de grain, diluera la relative concentration des enzymes, ralentissant la transformation, mais au bout du compte peut mener à un moût plus fermentescible car les enzymes seront moins ralenties par la forte concentration en sucres. Une maîsche plus dense, inférieure à 2,5 litres d'eau par kilo de grain, est meilleure pour la cassure des protéines et résultera en une transformation plus rapide de l'amidon, mais les sucres obtenus sont moins fermentescibles et donneront une bière plus sucrée et maltée. Une maîsche plus épaisse est plus agréable pour les enzymes à cause de la la faible capacité calorifique du grain comparée à celle de l'eau. Une maîsche plus épaisse est mieux adaptée pour les brassages en multipalier car les enzymes ne sont pas si rapidement dénaturées par l'élévation de température.
+
+> Comme toujours, le temps change tout ; c'est le dernier facteur influant sur le brassage. La conversion de l'amidon peut être finalisée en seulement 30 minutes, ainsi durant le temps restant sur un brassage de 60 minutes, le brasseur travaillera sur les conditions nécessaires à la production d'un profil particulier des sucres de son moût. Selon le pH du brassin, le ratio eau/grains et la température, la durée nécessaire pour finaliser le brassage varie entre 30 et plus de 90 minutes. 
