@@ -139,3 +139,11 @@ ul.ingredient-list li {
   color: black;
 }
 
+.recipe-title {
+  font-size: 1.7em;
+  text-decoration: underline;
+}
+
+.recipe-single {
+  margin-top: 70px;
+}

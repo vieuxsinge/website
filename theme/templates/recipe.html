@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block meta_extra %}
-    <link rel="stylesheet" href="./theme/css/recipe.css" />
+    <link rel="stylesheet" href="/theme/css/recipe.css" />
 {% endblock %}
 {% block title %}{{ recipe.name }}{%endblock%}
 
@@ -12,17 +12,6 @@
     <!-- Content -->
       <div class="wrapper style1">
 
-        <header class="article">
-          {% if recipe.image %}
-          <div class="image"><img src="{{ recipe.image }}" alt="" /></div>
-          {% endif %}
-          <div class="inner">
-            <h2 class="major">
-              {{ recipe.title }}
-              <span>{{ recipe.description }}</span>
-            </h2>
-          </div>
-        </header>
 
         <div class="inner">
 
@@ -30,9 +19,10 @@
 
 <article class="recipe-single" style="margin-bottom: 20px;">
       <h2><span class="first-brewed pull-right">{{ recipe.date.strftime('%b %Y') }}</span></h2>
-      <h1 class="clearfix" style="margin-top: 10px;">
+      <h1 class="clearfix recipe-title">
         {{ recipe.title }}
       </h1>
+      {% if recipe.description_longue %}{{ recipe.description_longue }}{% endif %}
       <div class="info-bar clearfix">
         <h2 class="pull-left">{{ recipe.description }}
           <small>{{ recipe.style }}</small>
@@ -43,6 +33,9 @@
           <li>DI<br/>{{ recipe.basics['Densité Initiale'] }}</li>
         </ul>
       </div>
+      {% if recipe.tip %}
+        <p style="clear:both"><img src="/theme/images/recettes/ampoule.png" alt="Image d'ampoule" style="width: 46px; float: left;" />{{ recipe.tip }}</p>
+      {% endif %}
       <div class="container">
 
       <div class="row">
@@ -102,7 +95,7 @@
     </table>
 
     <div class="icon-title">
-      <img src="/theme/images/recettes/houblons.png" alt="Hops Icon"/>Houblons
+      <img src="/theme/images/recettes/houblons.png" alt="Hops Icon"/>Houblons (en mg/L)
     </div>
     <table class="table four-col"">
       <tr>
@@ -113,7 +106,7 @@
       </tr>
       {% for hop in recipe.hops %}
         <tr>
-          <td>{{ hop.hop }} ({{ hop.alpha }})</td>
+          <td>{{ hop.hop }} {% if hop.alpha %}({{ hop.alpha }}){% endif %}</td>
           <td>{{ hop.poids }}</td>
           <td>{{ hop.moment }}</td>
           <td>{{ hop.temps}}</td>
@@ -132,11 +125,26 @@
       {% endfor %}
     </ul>
   </div>
+
+  {% if recipe.adjuncts %}
+  <div class="icon-title">
+    ✱ Autres
+  </div>
+  <ul class="ingredient-list">
+    {% for adjunct in recipe.adjuncts %}
+      {% for label, value in adjunct.items() %}
+      <li>{{ label }}: {{ value }}</li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
 </div>
 <div class="panel">
   <div class="panel-body">
     <div class="icon-title">
-      <img src="/theme/images/recettes/eau.png" alt="Goute d'eau"/>Correction de l'eau
+      <img src="/theme/images/recettes/eau.png" alt="Goute d'eau"/>Correction de l'eau (visé)
     </div>
     <ul class="ingredient-list">
       {% for label, value in recipe.water.items() %}
@@ -148,26 +156,15 @@
         <div class="col-sm">
           <div class="hidden-xs hidden-sm"><div class="panel">
   <div class="panel-header">
-    <h3>ÉTIQUETTE</h3>
+    <h3>Étiquette</h3>
   </div>
   <div class="panel-body no-padding packaging-panel">
       <img src="/images/recettes/{{ recipe.label['url'] }}" alt="{{ recipe.label['description'] }}" />
   </div>
 </div></div>
-{% if recipe.tip %}
-<div class="panel panel-brewdog">
-  <div class="panel-header">
-    <h3>Pro-tip</h3>
-  </div>
-  <div class="panel-body">
-    <img src="/theme/images/recettes/ampoule.png" alt="Image d'ampoule" style="width: 46px; float: left;" />
-    <p class="icon-left">{{ recipe.tip }}</p>
-  </div>
-</div>
-{% endif %}
+
 </div>
       </div>
-    </div>
     </article>
 
 

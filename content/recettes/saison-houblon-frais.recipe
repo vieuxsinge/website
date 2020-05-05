@@ -1,0 +1,65 @@
+title: Saison au houblon frais
+save_as : recettes/saison-houblon-frais.html
+date: "2020-05-01"
+label:
+  url: saison-houblon-frais.png
+  description: Un personnage semble tomber dans un champ de houblon !
+description: Légère, Sèche, Locale
+description_longue: Une bière locale au maximum, avec des houblons récoltés à Allaire houblonné dans le Morbihan, le jour même :-)
+style: ""
+tip: 
+basics:
+  Alcool: 5,5%
+  Densité Initiale: 1,043
+  Densité Finale: 1,005
+  Couleur (EBC): 8
+  IBUs: 25
+  pH cible : 5,4
+
+water:
+  Sulfates: 150ppm
+  Chlorures: 50ppm
+
+cereals:
+  - Malt Pale: 86%
+  - Malt Pilsen: 7%
+  - Malt de blé: 7%
+
+mash:
+  Température: 65°C
+  Durée: 1h
+  Ratio: 3L/kg
+
+hops:
+  - hop: Chinook
+    alpha: 
+    poids: 5 g/L
+    moment: Hop Stand (70°C)
+    temps: 15mn
+  - hop: Cascade
+    alpha: 
+    poids: 5 g/L
+    moment: Hop Stand (70°C)
+    temps: 15mn
+  - hop: Centennial
+    alpha: 
+    poids: 5 g/L
+    moment: Hop Stand (70°C)
+    temps: 15mn
+
+yeasts:
+  - Nom: Belle Saison
+    Atténuation: 90%
+    Densité: 13Mc/g
+    Taux: 0,64Mc/L/°P
+
+fermentation:
+  - Ensemencement à 16°C, consigne à 17°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de Diacetyl rest à 21°C
+  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

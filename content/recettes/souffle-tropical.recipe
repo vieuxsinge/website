@@ -1,27 +1,28 @@
 title: Souffle Tropical
-date: "2019-05-22"
+save_as : recettes/soufle-tropical.html
+date: "2020-05-01"
 label:
   url: souffle-tropical.png
   description: Un toucan très coloré, avec des lunettes de soleil !
 description: Légère. Tropicale. Houblonnée.
-description_longue: Une soupe de houblons exotiques ! L'une de nos toutes premières recettes, élaborée dans le garage de notre colocation. Nos colocataires de l'époque nous ont forcés à l'avoir dans la gamme.
+description_longue: L'une de nos toutes premières recettes, élaborée dans le garage de notre colocation. Nos colocataires de l'époque nous ont forcés à l'avoir dans la gamme.
 style: American Wheat
 tip: Bien que ça puisse paraître surprenant, on ne mets aucun houblon avant le hop-stand, question de n'avoir aucune amertume !
 basics:
-  Alcool: 4,2%
+  Alcool: 4,5%
   Densité Initiale: 1,038
   Densité Finale: 1,006
   Couleur (EBC): 5
   IBUs: 9
-  pH : 5,4
+  pH cible : 5,4
 
 water:
   Sulfates: 150ppm
   Chlorures: 50ppm
 
 cereals:
-  - Malt de blé: 150kg
-  - Malt Pils: 125kg
+  - Malt de blé: 54%
+  - Malt Pils: 46%
 
 mash:
   Température: 66°C
@@ -31,30 +32,30 @@ mash:
 hops:
   - hop: Citra
     alpha: 14,2%
-    poids: 500g
-    moment: Hop Stand (80°C)
+    poids: 0,3g/L
+    moment: Hop Stand (70°C)
     temps: 15mn
   - hop: Mosaic
     alpha: 10,8%
-    poids: 800g
-    moment: Hop Stand (80°C)
+    poids: 0,5g/L
+    moment: Hop Stand (70°C)
     temps: 15mn
   - hop: Citra
     alpha: 14,2%
-    poids: 4800g
+    poids: 3g/L
     moment: A froid
     temps: 2j
   - hop: Mosaic
     alpha: 10,8%
-    poids: 1600g
+    poids: 1g/L
     moment: A froid
     temps: 2j
 
 yeasts:
   - Nom: US-05
     Atténuation: 83%
-    Densité: 12Mc/g
-    Taux: 0,79Mc/L/°P
+    Densité: 13Mc/g
+    Taux: 0,74Mc/L/°P
 
 fermentation:
   - Ensemencement à 17°C puis consigne à 18°C

@@ -1,0 +1,89 @@
+title: West Coast IPA
+save_as : recettes/west-coast-ipa.html
+date: "2020-05-01"
+label:
+  url: west-coast-ipa.png
+  description: Trois amies sur le quai d'une gare, attendent le train.
+description: Fruitée, Résineuse, Amère.
+description_longue: 
+style: ""
+tip: 
+basics:
+  Alcool: 6,5%
+  Densité Initiale: 1,056
+  Densité Finale: 1,010
+  Couleur (EBC): 13
+  IBUs: 72
+  pH cible : 5,4
+
+water:
+  Sulfates: 200ppm
+
+cereals:
+  - Malt Pale: 87%
+  - Carahell: 13%
+
+mash:
+  Température: 65°C
+  Durée: 1h
+  Ratio: 3L/kg
+
+hops:
+  - hop: CTZ
+    alpha: 14%
+    poids: 625
+    moment: Premier Jus
+    temps: 90mn
+  - hop: CTZ
+    alpha: 14%
+    poids: 310
+    moment: Ébullition
+    temps: 60mn
+  - hop: Simcoe
+    alpha: 13%
+    poids: 310
+    moment: Ébullition
+    temps: 60mn
+  - hop: CTZ
+    alpha: 14%
+    poids: 1200
+    moment: Hop Stand (70°C)
+    temps: 20mn
+  - hop: Simcoe
+    alpha: 13%
+    poids: 1200
+    moment: Hop Stand (70°C)
+    temps: 15mn
+  - hop: CTZ
+    alpha: 14%
+    poids: 1 g/L
+    moment: Hop Stand (70°C)
+    temps: 15mn
+  - hop: Simcoe
+    alpha: 13%
+    poids: 2 g/L
+    moment: A froid
+    temps: 15mn
+  - hop: Amarillo
+    alpha: 10%
+    poids: 3 g/L
+    moment: A froid
+    temps: 15mn
+
+
+yeasts:
+  - Nom: BRY-97
+    Atténuation: 83%
+    Densité: 13Mc/g
+    Taux: 0,56Mc/L/°P
+
+fermentation:
+  - Ensemencement à 16°C, consigne à 17°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de Diacetyl rest à 21°C
+  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

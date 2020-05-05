@@ -1,0 +1,89 @@
+title: Nouveau Monde
+save_as : recettes/nouveau-monde.html
+date: "2020-05-01"
+label:
+  url: nouveau-monde.png
+  description: Un singe sur un radeau, tenant une longue vue.
+description: ""
+description_longue: Une soupe de houblons exotiques ! L'une de nos toutes premières recettes, élaborée dans le garage de notre colocation. Nos colocataires de l'époque nous ont forcés à l'avoir dans la gamme.
+style: American Pale Ale
+tip: Attention aux temps des transferts ! Ils dépendent du volume, et laisser trop longtemps extrait de l'amertume…
+basics:
+  Alcool: 5%
+  Densité Initiale: 1,042
+  Densité Finale: 1,007
+  Couleur (EBC): 8
+  IBUs: 32
+  pH cible : 5,4
+
+water:
+  Sulfates: 150ppm
+  Chlorures: 50ppm
+
+cereals:
+  - Malt Pale: 100%
+
+mash:
+  Température: 66°C
+  Durée: 1h
+  Ratio: 3L/kg
+
+hops:
+  - hop: Chinook
+    alpha: 11,9%
+    poids: 100
+    moment: Premier Jus
+    temps: 90mn
+  - hop: Cascade
+    alpha: 6,9%
+    poids: 130
+    moment: Premier Jus
+    temps: 90mn
+  - hop: Chinook
+    alpha: 11,9%
+    poids: 270
+    moment: Whirlpool
+    temps: 20mn
+  - hop: Cascade
+    alpha: 6,9%
+    poids: 400
+    moment: Whirlpool
+    temps: 20mn
+  - hop: Chinook
+    alpha: 11,9%
+    poids: 870
+    moment: Hop Stand (70°C)
+    temps: 15mn
+  - hop: Cascade
+    alpha: 6,9%
+    poids: 1 g/L
+    moment: Hop Stand (70°C)
+    temps: 15mn
+  - hop: Chinook
+    alpha: 11,9%
+    poids: 2 g/L
+    moment: A froid
+    temps: 15mn
+  - hop: Cascade
+    alpha: 6,9%
+    poids: 2 g/L
+    moment: A froid
+    temps: 15mn
+
+
+yeasts:
+  - Nom: US-05
+    Atténuation: 83%
+    Densité: 13Mc/g
+    Taux: 0,74Mc/L/°P
+
+fermentation:
+  - Ensemencement à 17°C puis consigne à 18°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de Diacetyl rest à 21°C
+  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

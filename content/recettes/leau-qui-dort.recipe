@@ -1,0 +1,60 @@
+title: L'Eau Qui Dort
+save_as : recettes/leau-qui-dort.html
+date: "2020-05-01"
+label:
+  url: leau-qui-dort.png
+  description: Une grenouille en train de chiller sur son nénuphar, avec un yukulélé.
+description: Ronde, Torréfiée, Vanillée
+description_longue:
+style: Stout à la vanille
+tip: Faire une teinture avec de la vanille dans le l'alcool à 50° le jour du brassin, l'incorporer après la fermentation primaire.
+basics:
+  Alcool: 6%
+  Densité Initiale: 1,063
+  Densité Finale: 1,025
+  Couleur (EBC): 130
+  IBUs: 15
+  pH cible : 5,5
+
+water:
+  Sulfates: 50ppm
+  Chlorures: 150ppm
+
+cereals:
+  - Malt Pale : 54% 
+  - Munich : 20%
+  - Carared : 7%
+  - Caraaroma : 7%
+  - Carafa II : 7%
+  - Orge torréfiée : 5%
+
+mash:
+  Température: 69°C
+  Durée: 1h
+  Ratio: 2,5L/kg
+
+hops:
+  - hop: Goldings
+    alpha: 5,8%
+    poids: 1,2g/L
+    moment: Ébullition
+    temps: 60mn
+
+adjuncts:
+  - Vanille : 0,7 g/L
+
+yeasts:
+  - Nom: Windsor
+    Atténuation: 75%
+    Densité: 13Mc/g
+    Taux: 0,80Mc/L/°P
+
+fermentation:
+  - Ensemencement à 18°C, consigne à 18°C.
+  - Ajout de la vanille après la fermentation.
+  - Recirculation durant 2j.
+  - Cold crash durant 10j.
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

@@ -1,0 +1,59 @@
+title: Triple
+save_as : recettes/triple.html
+date: "2020-05-01"
+label:
+  url: triple.png
+  description: Trois singes devant une abbaye, en train de déguster une bière.
+description: Céréales, Sèche, Réconfortante.
+description_longue: 
+style: Triple Belge
+tip: Pour cette recette, on cherche à ne pas avoir trop de sucres résiduels, d'ou le re-pitch et la température d'empâtage assez basse.
+basics:
+  Alcool: 9%
+  Densité Initiale: 1,065
+  Densité Finale: 1,016
+  Couleur (EBC): 8
+  IBUs: 32
+  pH cible : 5,4
+
+water:
+  Sulfates: 100ppm
+  Chlorures: 100ppm
+
+cereals:
+  - Malt Pale: 100%
+
+mash:
+  Température: 64°C
+  Durée: 1h
+  Ratio: 3L/kg
+
+hops:
+  - hop: Goldings
+    alpha: 5,8%
+    poids: 2g/L
+    moment: Premier Jus
+    temps: 90mn
+
+
+adjuncts:
+   - sucre: 40 g/L (faire un sirop)
+
+yeasts:
+  - Nom: Belgian Ardennes
+    Atténuation: 75%
+
+  - Nom: US-05 (en repitch en secondaire)
+    Atténuation: 83%
+    Densité: 13Mc/g
+    Taux: 0,74Mc/L/°P
+
+fermentation:
+  - Ensemencement à 19°C puis consigne à 19°C
+  - Une fois le gros de la fermentation passée, ajouter le sucre.
+  - Laisser terminer la fermentation.
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol
