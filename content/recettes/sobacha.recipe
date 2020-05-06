@@ -1,0 +1,72 @@
+title: Sobacha
+save_as : recettes/sobacha.html
+date: "2018-09-01"
+label:
+  url: sobacha.png
+  description: Une pousse de blé noir
+description: ""
+description_longue: 
+style: Lager houblonnée
+tip: Faites la teinture avec le sarrasin grillé dans de l'alcool à 50° le jour du brassin, ce sera prêt au moment de l'utiliser !
+basics:
+  Alcool: 5.2%
+  Densité Initiale: 1,044
+  Densité Finale: 1,004
+  Couleur (EBC): 6
+  IBUs: 14
+  pH cible : 5,4
+
+water:
+  Sulfates: 200ppm
+  Chlorures: 50ppm
+
+cereals:
+  - Malt Pilsen: 100%
+
+adjuncts:
+   - Sarrasin grillé:  1,6g/L
+
+mash:
+  Température: 67°C
+  Durée: 1h
+  Ratio: 3L/kg
+
+hops:
+  - hop: Hallertau Blanc
+    alpha: 10.9%
+    poids: 170
+    moment: Premier Jus
+    temps: 80mn
+  - hop: Hallertau Blanc
+    alpha: 10.9%
+    poids: 340
+    moment: Whirlpool
+    temps: 30mn
+  - hop: Hallertau Blanc
+    alpha: 10.9%
+    poids: 830
+    moment: Whirlpool
+    temps: 15mn
+  - hop: Hallertau Blanc
+    alpha: 10.9%
+    poids: 6 g/L
+    moment: À froid
+    temps: 2j
+
+yeasts:
+  - Nom: W34/70
+    Atténuation: 83%
+
+fermentation:
+  - Consigne à 13°C, jusqu’à 50 % d’atténuation (5j)
+  - Consigne à 14°C, jusqu’à 75 % d’atténuation (1j)
+  - Consigne à 17°C, jusqu’à 90 % d’atténuation (1j)
+  - Consigne à 19°C, jusqu’à 100 % d’atténuation (1j)
+  - 2 jours de Diacetyl rest
+  - Ajout teinture de sarrasin
+  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

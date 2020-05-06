@@ -1,0 +1,97 @@
+title: Monstrueuse Normalité
+save_as : recettes/monstrueuse-normalité.html
+date: "2018-10-12"
+label:
+  url: monstrueuse-normalité.png
+  description: Un mutant en train de s'envoyer des cones de houblon dans le gosier.
+description: Juteuse, Fruitée
+description_longue: 
+style: New England IPA
+tip: Houblonnez à froid en deux fois (DDH), attention à l'oxydation à la mise en bouteilles !
+basics:
+  Alcool: 6%
+  Densité Initiale: 1,057
+  Densité Finale: 1,014
+  Couleur (EBC): 10
+  IBUs: 60
+  pH cible : 5,4
+
+water:
+  Sulfates: 100ppm
+  Chlorures: 200ppm
+
+cereals:
+  - Malt Pale: 52%
+  - Malt de blé: 26%
+  - Flocons d'avoine: 22%
+
+adjuncts:
+   - sucre: 18 g/L (faire un sirop)
+
+mash:
+  Température: 69°C
+  Durée: 1h
+  Ratio: 2,4L/kg
+
+hops:
+  - hop: Cascade
+    alpha: 6.5%
+    poids: 1 g/L
+    moment: Whirlpool
+    temps: 30mn
+  - hop: Citra
+    alpha: 14.5%
+    poids: 1 g/L
+    moment: Whirlpool
+    temps: 30mn
+  - hop: Rakau
+    alpha: 12.5%
+    poids: 1 g/L
+    moment: Whirlpool
+    temps: 30mn
+  - hop: Cascade
+    alpha: 6.5%
+    poids: 1.5 g/L
+    moment: À froid (1)
+    temps: 2j
+  - hop: Citra
+    alpha: 14.5%
+    poids: 1 g/L
+    moment: À froid (1)
+    temps: 2j
+  - hop: Rakau
+    alpha: 12.5%
+    poids: 1 g/L
+    moment: À froid (1)
+    temps: 2j
+  - hop: Cascade
+    alpha: 6.5%
+    poids: 1.5 g/L
+    moment: À froid (2)
+    temps: 2j
+  - hop: Citra
+    alpha: 14.5%
+    poids: 1.5 g/L
+    moment: À froid (2)
+    temps: 2j
+  - hop: Rakau
+    alpha: 12.5%
+    poids: 1.5 g/L
+    moment: À froid (2)
+    temps: 2j
+
+yeasts:
+  - Nom: S04
+    Atténuation: 75%
+
+fermentation:
+  - Ensemencement à 16°C, consigne à 17°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de Diacetyl rest à 21°C
+  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - Ajout du second Dry Hop, recirculation durant 2 jours
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

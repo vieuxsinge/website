@@ -5,9 +5,8 @@ label:
   url: saison-houblon-frais.png
   description: Un personnage semble tomber dans un champ de houblon !
 description: Légère, Sèche, Locale
-description_longue: Une bière locale au maximum, avec des houblons récoltés à Allaire houblonné dans le Morbihan, le jour même :-)
 style: ""
-tip: 
+tip: Il faut mettre 4 à 10 fois plus de houblons frais que de houblon en pellets, n'hésitez pas !
 basics:
   Alcool: 5,5%
   Densité Initiale: 1,043

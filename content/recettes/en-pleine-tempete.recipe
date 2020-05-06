@@ -1,0 +1,49 @@
+title: En Pleine Tempête
+save_as : recettes/en-pleine-tempête.html
+date: "2020-05-01"
+label:
+  url: en-pleine-tempête.png
+  description: Un renard en train de fumer la pipe, au plein milieu d'une tempête.
+description: ""
+description_longue: 
+style: Bitter à l'Anglaise
+tip: 
+basics:
+  Alcool: 5,5%
+  Densité Initiale: 1,051
+  Densité Finale: 1,013
+  Couleur (EBC): 20
+  IBUs: 20
+  pH cible : 5,4
+
+mash:
+  Température: 67°C
+  Durée: 1h
+  Ratio: 3L/kg
+
+water:
+  Sulfates: 250ppm
+  Chlorures: 100ppm
+
+cereals:
+  - Malt Pale: 87%
+  - Carared: 13%
+
+hops:
+  - hop: Goldings
+    alpha: 11,9%
+    poids: 1.7 g/L
+    moment: Premier Jus
+    temps: 90mn
+
+yeasts:
+  - Nom: Essais encore en cours !
+    Atténuation: 75%
+
+fermentation:
+  - Ensemencement à 18°C puis consigne à 18°C
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol
