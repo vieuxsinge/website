@@ -26,7 +26,7 @@ cereals:
 mash:
   Température: 64°C
   Durée: 1h
-  Ratio: 3L/kg
+  Ration eau-grain: 3L/kg
 
 hops:
   - hop: Goldings
@@ -45,8 +45,6 @@ yeasts:
 
   - Nom: US-05 (en repitch en secondaire)
     Atténuation: 83%
-    Densité: 13Mc/g
-    Taux: 0,74Mc/L/°P
 
 fermentation:
   - Ensemencement à 19°C puis consigne à 19°C

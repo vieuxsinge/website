@@ -5,7 +5,7 @@ label:
   url: nouveau-monde.png
   description: Un singe sur un radeau, tenant une longue vue.
 description: ""
-description_longue: Une soupe de houblons exotiques ! L'une de nos toutes premières recettes, élaborée dans le garage de notre colocation. Nos colocataires de l'époque nous ont forcés à l'avoir dans la gamme.
+description_longue: Une bière qui s'inspire des premières utilisations du houblon à froid aux États-Unis. Une amertume marquée mais pas dominante, du céréale présent et les houblons Chinook et Cascade qui donnent des notes d'agrume.
 style: American Pale Ale
 tip: Attention aux temps des transferts ! Ils dépendent du volume, et laisser trop longtemps extrait de l'amertume…
 basics:
@@ -26,7 +26,7 @@ cereals:
 mash:
   Température: 66°C
   Durée: 1h
-  Ratio: 3L/kg
+  Ratio eau-grain: 3L/kg
 
 hops:
   - hop: Chinook
@@ -74,8 +74,6 @@ hops:
 yeasts:
   - Nom: US-05
     Atténuation: 83%
-    Densité: 13Mc/g
-    Taux: 0,74Mc/L/°P
 
 fermentation:
   - Ensemencement à 17°C puis consigne à 18°C

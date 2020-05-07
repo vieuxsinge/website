@@ -27,7 +27,7 @@ cereals:
 mash:
   Température: 65°C
   Durée: 1h
-  Ratio: 3L/kg
+  Ration eau-grain: 3L/kg
 
 hops:
   - hop: Chinook
@@ -49,8 +49,6 @@ hops:
 yeasts:
   - Nom: Belle Saison
     Atténuation: 90%
-    Densité: 13Mc/g
-    Taux: 0,64Mc/L/°P
 
 fermentation:
   - Ensemencement à 16°C, consigne à 17°C

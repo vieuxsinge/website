@@ -31,7 +31,7 @@ cereals:
 mash:
   Température: 69°C
   Durée: 1h
-  Ratio: 2,5L/kg
+  Ration eau-grain: 2,5L/kg
 
 hops:
   - hop: Goldings
@@ -46,8 +46,6 @@ adjuncts:
 yeasts:
   - Nom: Windsor
     Atténuation: 75%
-    Densité: 13Mc/g
-    Taux: 0,80Mc/L/°P
 
 fermentation:
   - Ensemencement à 18°C, consigne à 18°C.

@@ -9,7 +9,7 @@ description_longue:
 style: Sour Pale Ale
 tip: 
 basics:
-  Alcool: 6%
+  Alcool: 4.6%
   Densité Initiale: 1,047
   Densité Finale: 1,007
   Couleur (EBC): 10
@@ -29,7 +29,7 @@ adjuncts:
 mash:
   Température: 66°C
   Durée: 1h
-  Ratio: 3L/kg
+  Ration eau-grain: 3L/kg
 
 hops:
   - hop: Simcoe

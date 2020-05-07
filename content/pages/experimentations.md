@@ -2,7 +2,15 @@ Title: Experimentation
 Slug: experimentations
 save_as: experimentations.html
 
-*On aime bien expérimenter, parfois avec des copain⋅e⋅s, parfois juste entre nous, en resulte quelques bières saisonnières qui sont dispo jusqu'à épuisement des stocks*.
+*On aime bien expérimenter, parfois avec des copains⋅ines, et parfois juste entre nous ! Le résultat  : quelques brassins uniques qui sont dispo jusqu'à épuisement des stocks*.
+
+## West Coast IPA / Avril 2020
+
+*West Coast IPA, 6,5°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
+
+![Étiquette de la bière « West Coast IPA » : trois ami⋅e⋅s attendant sur le quai d'une gare.](images/recettes/west-coast-ipa.png)
+
+Une IPA influencée par ce qui se fait sur la côte ouest des USA : une amertume franche, une base maltée et du houblon en masse !
 
 ## Triple / Février 2020
 
@@ -32,7 +40,7 @@ On est hyper contents de pouvoir faire cette bière avec des matières première
 
 ![Étiquette de la bière " Contact "](images/experimentations/contact.jpg)
 
-Notre première *Sour* à proprement parler, une bière avec une légère acidité et avec de la rhubarbe du coin ([l'Arbre aux Sorbets](https://www.facebook.com/arbreauxsorbets/)). Brassé avec la brasserie [Skumenn](https://www.skumenn.com/).
+Notre première *Sour* à proprement parler, une bière avec une légère acidité et avec de la rhubarbe du coin ([l'Arbre aux Sorbets](https://www.facebook.com/arbreauxsorbets/)). Brassée avec la brasserie [Skumenn](https://www.skumenn.com/).
 
 
 ## Chaînon Manquant / Mars 2019

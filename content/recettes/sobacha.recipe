@@ -29,7 +29,7 @@ adjuncts:
 mash:
   Température: 67°C
   Durée: 1h
-  Ratio: 3L/kg
+  Ration eau-grain: 3L/kg
 
 hops:
   - hop: Hallertau Blanc

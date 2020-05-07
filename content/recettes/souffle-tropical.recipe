@@ -27,7 +27,7 @@ cereals:
 mash:
   Température: 66°C
   Durée: 1h
-  Ratio: 3L/kg
+  Ration eau-grain: 3L/kg
 
 hops:
   - hop: Citra
@@ -54,8 +54,6 @@ hops:
 yeasts:
   - Nom: US-05
     Atténuation: 83%
-    Densité: 13Mc/g
-    Taux: 0,74Mc/L/°P
 
 fermentation:
   - Ensemencement à 17°C puis consigne à 18°C

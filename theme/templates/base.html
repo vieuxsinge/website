@@ -19,10 +19,10 @@
       <div id="page-wrapper">
 
         <!-- Header -->
-        {% if output_file.split('/')[-1].split('.')[0] == "index" %}
-          <header id="header" class="alt">
-        {% else %}
-          <header id="header">
+        {% if page and page.is_index %}
+            <header id="header" class="alt">
+          {% else %}
+            <header id="header">
         {% endif %}
             <h1>
               <img src="{{ SITEURL }}/theme/images/logo_min.png">

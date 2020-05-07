@@ -2,7 +2,7 @@ title: En Pleine Tempête
 save_as : recettes/en-pleine-tempête.html
 date: "2020-05-01"
 label:
-  url: en-pleine-tempête.png
+  url: en-pleine-tempete.png
   description: Un renard en train de fumer la pipe, au plein milieu d'une tempête.
 description: ""
 description_longue: 
@@ -19,7 +19,7 @@ basics:
 mash:
   Température: 67°C
   Durée: 1h
-  Ratio: 3L/kg
+  Ration eau-grain: 3L/kg
 
 water:
   Sulfates: 250ppm

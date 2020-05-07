@@ -31,7 +31,7 @@ adjuncts:
 mash:
   Température: 69°C
   Durée: 1h
-  Ratio: 2,4L/kg
+  Ration eau-grain: 2,4L/kg
 
 hops:
   - hop: Cascade
