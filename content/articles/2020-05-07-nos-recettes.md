@@ -4,7 +4,7 @@ url: recettes
 save_as: recettes/index.html
 image: /images/recettes/brassin.jpg
 
-Ça fait un moment qu'on souhaite publier nos recettes en ligne, le confinement aura au moins permis qu'on s'y attèle :-)
+Ça fait un moment qu'on souhaite publier nos recettes en ligne, le confinement aura au moins permis qu'on s'y attelle :-)
 
 Toutes les recettes des bières qui sont sorties de nos cuves y sont recensées, l'idée étant à la fois d'alimenter les discussions entre brasseries et de permettre aux amateurs⋅rices d'avoir plus d'informations sur nos manières de faire.
 
