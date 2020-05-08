@@ -13,7 +13,7 @@ basics:
   Densité Initiale: 1,042
   Densité Finale: 1,007
   Couleur (EBC): 8
-  IBUs: 32
+  Amertume (IBU): 32
   pH cible : 5,4
 
 water:
@@ -31,44 +31,44 @@ mash:
 hops:
   - hop: Chinook
     alpha: 11,9%
-    poids: 100
-    moment: Premier Jus
+    poids: 100 mg/L
+    moment: First Wort Hop
     temps: 90mn
   - hop: Cascade
     alpha: 6,9%
-    poids: 130
-    moment: Premier Jus
+    poids: 130 mg/L
+    moment: First Wort Hop
     temps: 90mn
   - hop: Chinook
     alpha: 11,9%
-    poids: 270
-    moment: Whirlpool
+    poids: 270 mg/L
+    moment: Hop Stand
     temps: 20mn
   - hop: Cascade
     alpha: 6,9%
-    poids: 400
-    moment: Whirlpool
+    poids: 400 mg/L
+    moment: Hop Stand
     temps: 20mn
   - hop: Chinook
     alpha: 11,9%
-    poids: 870
-    moment: Hop Stand (70°C)
+    poids: 870 mg/L
+    moment: Hop Stand
     temps: 15mn
   - hop: Cascade
     alpha: 6,9%
     poids: 1 g/L
-    moment: Hop Stand (70°C)
+    moment: Hop Stand
     temps: 15mn
   - hop: Chinook
     alpha: 11,9%
     poids: 2 g/L
     moment: A froid
-    temps: 15mn
+    temps: 2j
   - hop: Cascade
     alpha: 6,9%
     poids: 2 g/L
     moment: A froid
-    temps: 15mn
+    temps: 2j
 
 
 yeasts:
@@ -76,10 +76,11 @@ yeasts:
     Atténuation: 83%
 
 fermentation:
-  - Ensemencement à 17°C puis consigne à 18°C
+  - Ensemencement à 16°C puis consigne à 17°C
   - Augmentation de 1°C par jour jusqu'à arriver à 21°C
-  - 2 jours de Diacetyl rest à 21°C
-  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - 2 jours de diacetyl rest à 21°C
+  - Houblonnage à cru
+  - Agitation au CO2 durant 2 jours
   - Cold crash durant 10 jours
 
 conditioning:

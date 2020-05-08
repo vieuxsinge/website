@@ -4,16 +4,16 @@ date: "2020-05-01"
 label:
   url: souffle-tropical.png
   description: Un toucan très coloré, avec des lunettes de soleil !
-description: Légère. Tropicale. Houblonnée.
-description_longue: L'une de nos toutes premières recettes, élaborée dans le garage de notre colocation. Nos colocataires de l'époque nous ont forcés à l'avoir dans la gamme.
+description: ""
+description_longue: L'une de nos toutes premières recettes, élaborée dans le garage de notre colocation. Elle a failli s'apeller « Tropicat » a cause d'une sombre histoire de naissance de chats...
 style: American Wheat
-tip: Bien que ça puisse paraître surprenant, on ne mets aucun houblon avant le hop-stand, question de n'avoir aucune amertume !
+tip: Bien que ça puisse paraître surprenant, on ne met aucun houblon avant le hop-stand, question de limiter l'amertume au minimum !
 basics:
   Alcool: 4,5%
   Densité Initiale: 1,038
   Densité Finale: 1,006
   Couleur (EBC): 5
-  IBUs: 9
+  Amertume (IBU): 9
   pH cible : 5,4
 
 water:
@@ -21,33 +21,33 @@ water:
   Chlorures: 50ppm
 
 cereals:
-  - Malt de blé: 54%
-  - Malt Pils: 46%
+  - Malt de blé: 46%
+  - Malt Pils: 54%
 
 mash:
   Température: 66°C
   Durée: 1h
-  Ration eau-grain: 3L/kg
+  Ratio eau-grain: 3L/kg
 
 hops:
   - hop: Citra
     alpha: 14,2%
-    poids: 0,3g/L
+    poids: 300 mg/L
     moment: Hop Stand (70°C)
     temps: 15mn
   - hop: Mosaic
     alpha: 10,8%
-    poids: 0,5g/L
+    poids: 500 mg/L
     moment: Hop Stand (70°C)
     temps: 15mn
   - hop: Citra
     alpha: 14,2%
-    poids: 3g/L
+    poids: 3 g/L
     moment: A froid
     temps: 2j
   - hop: Mosaic
     alpha: 10,8%
-    poids: 1g/L
+    poids: 1 g/L
     moment: A froid
     temps: 2j
 
@@ -56,10 +56,11 @@ yeasts:
     Atténuation: 83%
 
 fermentation:
-  - Ensemencement à 17°C puis consigne à 18°C
+  - Ensemencement à 16°C puis consigne à 17°C
   - Augmentation de 1°C par jour jusqu'à arriver à 21°C
-  - 2 jours de Diacetyl rest à 21°C
-  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - 2 jours de <em>diacetyl rest</em> à 21°C
+  - Houblonnage à cru
+  - Agitation au CO2 durant 2 jours
   - Cold crash durant 10 jours
 
 conditioning:

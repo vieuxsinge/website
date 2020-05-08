@@ -4,16 +4,16 @@ date: "2018-12-01"
 label:
   url: chainon-manquant.png
   description: Une gravure, représentant un singe et un homme, debouts, avec un kiwi mis bien en évidence.
-description: ""
-description_longue: 
-style: Sour Pale Ale
-tip: 
+description: Ovni brassicole !
+description_longue: Quand on veut faire une bière avec des fruits de saison en plein hiver, on se dit qu'utiliser quelques Kiwis ne pourrait pas faire de mal ! Une bière avec une acidité légère, grâce aux kiwis, parfait pour le début de saison et le grand retour du soleil sur les terrasses ! Brassé en collaboration avec les Brasseurs Cueilleurs.
+style: Sour Pale Ale au Kiwi
+tip: L'ajout de kiwi bien vert a apporté une acidité inattendue transformant la pale ale fruitée en bière acidulée. Kiwi passé en jus à l'extracteur, pasteurisé et ajouté le lendemain. 
 basics:
   Alcool: 4.6%
   Densité Initiale: 1,047
   Densité Finale: 1,007
   Couleur (EBC): 10
-  IBUs: 33
+  Amertume (IBU): 33
   pH cible : 5,4
 
 water:
@@ -29,17 +29,17 @@ adjuncts:
 mash:
   Température: 66°C
   Durée: 1h
-  Ration eau-grain: 3L/kg
+  Ratio eau-grain: 3L/kg
 
 hops:
   - hop: Simcoe
     alpha: 12%
-    poids: 200
-    moment: Premier Jus
+    poids: 200 mg/L
+    moment: First Wort Hop
     temps: 80mn
   - hop: Simcoe
     alpha: 12%
-    poids: 500
+    poids: 500 mg/L
     moment: Whirlpool
     temps: 30mn
   - hop: Simcoe
@@ -48,7 +48,7 @@ hops:
     moment: Whirlpool
     temps: 15mn
   - hop: Simcoe
-    alpha: 6.5%
+    alpha: 12%
     poids: 5 g/L
     moment: À froid
     temps: 2j
@@ -61,7 +61,8 @@ fermentation:
   - Ensemencement à 16°C, consigne à 17°C
   - Augmentation de 1°C par jour jusqu'à arriver à 21°C
   - 2 jours de Diacetyl rest à 21°C
-  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - Ajout du houblon en Houblonnage à cru
+  - Agitation au CO2 durant 2 jours
   - Cold crash durant 10 jours
 
 conditioning:

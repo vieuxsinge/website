@@ -4,8 +4,8 @@ date: "2020-05-01"
 label:
   url: leau-qui-dort.png
   description: Une grenouille en train de chiller sur son nénuphar, avec un yukulélé.
-description: Ronde, Torréfiée, Vanillée
-description_longue:
+description: ""
+description_longue: Des notes de cacao et de vanille, a accompagner d'un canapé et d'un feu de cheminée.
 style: Stout à la vanille
 tip: Faire une teinture avec de la vanille dans le l'alcool à 50° le jour du brassin, l'incorporer après la fermentation primaire.
 basics:
@@ -13,7 +13,7 @@ basics:
   Densité Initiale: 1,063
   Densité Finale: 1,025
   Couleur (EBC): 130
-  IBUs: 15
+  Amertume (IBU): 15
   pH cible : 5,5
 
 water:
@@ -31,12 +31,12 @@ cereals:
 mash:
   Température: 69°C
   Durée: 1h
-  Ration eau-grain: 2,5L/kg
+  Ratio eau-grain: 2,5L/kg
 
 hops:
   - hop: Goldings
     alpha: 5,8%
-    poids: 1,2g/L
+    poids: 1,2 g/L
     moment: Ébullition
     temps: 60mn
 

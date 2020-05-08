@@ -4,8 +4,8 @@ date: "2020-05-01"
 label:
   url: west-coast-ipa.png
   description: Trois amies sur le quai d'une gare, attendent le train.
-description: Fruitée, Résineuse, Amère.
-description_longue: 
+description: ""
+description_longue: "Une IPA influencée par ce qui se fait sur la côte ouest des USA : une amertume franche, une base maltée et « un peu » de houblon !"
 style: ""
 tip: 
 basics:
@@ -13,7 +13,7 @@ basics:
   Densité Initiale: 1,056
   Densité Finale: 1,010
   Couleur (EBC): 13
-  IBUs: 72
+  Amertume (IBU): 72
   pH cible : 5,4
 
 water:
@@ -26,32 +26,32 @@ cereals:
 mash:
   Température: 65°C
   Durée: 1h
-  Ration eau-grain: 3L/kg
+  Ratio eau-grain: 3L/kg
 
 hops:
   - hop: CTZ
     alpha: 14%
-    poids: 625
-    moment: Premier Jus
+    poids: 625 mg/L
+    moment: First Wort Hop
     temps: 90mn
   - hop: CTZ
     alpha: 14%
-    poids: 310
+    poids: 310 mg/L
     moment: Ébullition
-    temps: 60mn
+    temps: 30mn
   - hop: Simcoe
     alpha: 13%
-    poids: 310
+    poids: 310 mg/L
     moment: Ébullition
-    temps: 60mn
+    temps: 30mn
   - hop: CTZ
     alpha: 14%
-    poids: 1200
+    poids: 1,2 g/L 
     moment: Hop Stand (70°C)
     temps: 20mn
   - hop: Simcoe
     alpha: 13%
-    poids: 1200
+    poids: 1,2 g/L
     moment: Hop Stand (70°C)
     temps: 15mn
   - hop: CTZ
@@ -78,8 +78,9 @@ yeasts:
 fermentation:
   - Ensemencement à 16°C, consigne à 17°C
   - Augmentation de 1°C par jour jusqu'à arriver à 21°C
-  - 2 jours de Diacetyl rest à 21°C
-  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - 2 jours de <em>diacetyl rest</em> à 21°C
+  - Houblonnage à cru
+  - Agitation au CO2 durant 2 jours
   - Cold crash durant 10 jours
 
 conditioning:

@@ -18,7 +18,9 @@
 
 
 <article class="recipe-single" style="margin-bottom: 20px; margin-top: 5em;">
-  <p class="info">Si vous ne savez pas comment utiliser cette recette, ne partez pas tout de suite ! On vous conseille de suivre <a href="http://univers-biere.net/tuto_tout_grain.php">cet excellent tuto du <em>Nain brasseur</em></a> ⋅ <a href="/recettes">Voir les autres recettes</a>.</p>
+  <a class="button pull-right" href="/recettes">Voir les autres recettes</a>
+  <p class="info">Si vous ne savez pas comment utiliser cette recette, on vous conseille de suivre <a href="http://univers-biere.net/tuto_tout_grain.php">l'excellent tuto du <em>Nain brasseur</em></a>.
+  </p>
       <h2><span class="first-brewed pull-right">{{ recipe.date.strftime('%b %Y') }}</span></h2>
       <h1 class="clearfix recipe-title">
         {{ recipe.title }}
@@ -30,7 +32,7 @@
         </h2>
         <ul class="details pull-right">
           <li>Alc<br/>{{ recipe.basics['Alcool'] }}</li>
-          <li>IBU<br/>{{ recipe.basics['IBUs'] }}</li>
+          <li>IBU<br/>{{ recipe.basics['Amertume (IBU)'] }}</li>
           <li>DI<br/>{{ recipe.basics['Densité Initiale'] }}</li>
         </ul>
       </div>
@@ -44,7 +46,7 @@
 
         <div class="col">
 
-          <div class="panel panel-brewdog">
+          <div class="panel">
             <div class="panel-body">
             <table class="table three-col-table">
               {% for label, value in recipe.basics.items() %}
@@ -57,7 +59,7 @@
 
                 </div>
               </div>
-              <div class="panel panel-brewdog">
+              <div class="panel">
   <div class="panel-body">
     <div class="icon-title">
       <img src="/theme/images/recettes/marmite.png" alt="Mash Icon"/>EMPÂTAGE
@@ -90,14 +92,14 @@
       {% for line in recipe.cereals %}
         {% for cereal, quantity in line.items() %}
           <tr>
-            <td>{{ cereal }}</td><td>{{ quantity }}</td>
+            <td>{{ cereal }}</td><td class="align-right">{{ quantity }}</td>
           </tr>
         {% endfor %}
       {% endfor %}
     </table>
 
     <div class="icon-title">
-      <img src="/theme/images/recettes/houblons.png" alt="Hops Icon"/>Houblons (en mg/L)
+      <img src="/theme/images/recettes/houblons.png" alt="Hops Icon"/>Houblons
     </div>
     <table class="table four-col"">
       <tr>
@@ -110,8 +112,8 @@
         <tr>
           <td>{{ hop.hop }} {% if hop.alpha %}({{ hop.alpha }}){% endif %}</td>
           <td>{{ hop.poids }}</td>
-          <td>{{ hop.moment }}</td>
-          <td>{{ hop.temps}}</td>
+          <td class="medium">{{ hop.moment }}</td>
+          <td class="medium align-right">{{ hop.temps}}</td>
         </tr>
        {% endfor %}
     </table>
@@ -119,42 +121,45 @@
     <div class="icon-title">
       <img src="/theme/images/recettes/levures.png" alt="Yeast Icon"/>Levures
     </div>
-    <ul class="ingredient-list">
+    <table class="table three-col"">
       {% for yeast in recipe.yeasts %}
         {% for label, value in yeast.items() %}
-        <li>{{ label }}: {{ value }}</li>
+          <tr>
+            <td>{{ label }}</td><td class="align-right">{{ value }}</td>
+          </tr>
         {% endfor %}
       {% endfor %}
-    </ul>
+    </table>
   </div>
 
   {% if recipe.adjuncts %}
   <div class="icon-title">
     ✱ Autres
   </div>
-  <ul class="ingredient-list">
+  <table class="table three-col"">
     {% for adjunct in recipe.adjuncts %}
       {% for label, value in adjunct.items() %}
-      <li>{{ label }}: {{ value }}</li>
+        <tr>
+          <td>{{ label }}</td><td class="align-right">{{ value }}</td>
+        </tr>
       {% endfor %}
     {% endfor %}
-  </ul>
+  </table>
 </div>
 {% endif %}
+  <div class="icon-title">
+    <img src="/theme/images/recettes/eau.png" alt="Goute d'eau"/>Profil de l'eau visé
+  </div>
+  <table class="table three-col"">
+    {% for label, value in recipe.water.items() %}
+          <tr>
+            <td>{{ label }}</td><td class="align-right">{{ value }}</td>
+          </tr>
+      {% endfor %}
+  </table>
+</div>
 
 </div>
-<div class="panel">
-  <div class="panel-body">
-    <div class="icon-title">
-      <img src="/theme/images/recettes/eau.png" alt="Goute d'eau"/>Correction de l'eau (visé)
-    </div>
-    <ul class="ingredient-list">
-      {% for label, value in recipe.water.items() %}
-        <li>{{ label }}: {{ value }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>        </div>
 {% if recipe.tip %}
         <p style="clear:both"><img src="/theme/images/recettes/ampoule.png" alt="Image d'ampoule" style="width: 46px; float: left;" />{{ recipe.tip }}</p>
       {% endif %}

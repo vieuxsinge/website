@@ -2251,6 +2251,10 @@
         transform: scale(1.05, 1.05);
     }
 
+    .miniature {
+        max-width: 33%;
+    }
+
 /* List */
 
     ol {

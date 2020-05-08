@@ -5,7 +5,7 @@ label:
   url: sobacha.png
   description: Une pousse de blé noir
 description: ""
-description_longue: 
+description_longue: "Une lager infusée avec du sarrasin torréfié et houblonnée à cru avec du Hallertau Blanc, fabriquée pour le calendrier des bières bretonnes de Penn ar Box."
 style: Lager houblonnée
 tip: Faites la teinture avec le sarrasin grillé dans de l'alcool à 50° le jour du brassin, ce sera prêt au moment de l'utiliser !
 basics:
@@ -13,7 +13,7 @@ basics:
   Densité Initiale: 1,044
   Densité Finale: 1,004
   Couleur (EBC): 6
-  IBUs: 14
+  Amertume (IBU): 14
   pH cible : 5,4
 
 water:
@@ -29,22 +29,22 @@ adjuncts:
 mash:
   Température: 67°C
   Durée: 1h
-  Ration eau-grain: 3L/kg
+  Ratio eau-grain: 3L/kg
 
 hops:
   - hop: Hallertau Blanc
     alpha: 10.9%
-    poids: 170
-    moment: Premier Jus
+    poids: 170 mg/L
+    moment: First Wort Hop
     temps: 80mn
   - hop: Hallertau Blanc
     alpha: 10.9%
-    poids: 340
+    poids: 340 mg/L
     moment: Whirlpool
     temps: 30mn
   - hop: Hallertau Blanc
     alpha: 10.9%
-    poids: 830
+    poids: 830 mg/L
     moment: Whirlpool
     temps: 15mn
   - hop: Hallertau Blanc
@@ -62,9 +62,10 @@ fermentation:
   - Consigne à 14°C, jusqu’à 75 % d’atténuation (1j)
   - Consigne à 17°C, jusqu’à 90 % d’atténuation (1j)
   - Consigne à 19°C, jusqu’à 100 % d’atténuation (1j)
-  - 2 jours de Diacetyl rest
+  - 2 jours de <em>diacetyl rest</em>
   - Ajout teinture de sarrasin
-  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - Houblonnage à cru
+  - Agitation au CO2 durant 2 jours
   - Cold crash durant 10 jours
 
 conditioning:

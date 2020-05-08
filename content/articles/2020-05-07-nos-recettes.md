@@ -8,33 +8,27 @@ image: /images/recettes/brassin.jpg
 
 Toutes les recettes des bières qui sont sorties de nos cuves y sont recensées, l'idée étant à la fois d'alimenter les discussions entre brasseries et de permettre aux amateurs⋅rices d'avoir plus d'informations sur nos manières de faire.
 
-Nous ne sommes pas seuls et pensons que la coopération et le partage sont plus forts que la compétition et le culte du secret. Si vous avez envie de vous inspirer de nos recettes, de nous faire des retours, ou si vous êtes simplement curieux⋅se, voici un peu de grain à moudre, avec nos recettes détaillées :
+Nous ne sommes pas seuls et pensons que la coopération et le partage sont plus forts que la compétition et le culte du secret. Si vous avez envie de vous inspirer de nos recettes, de nous faire des retours, ou si vous êtes simplement curieux⋅se, voici un peu de grain à moudre !
 
 *Cliquez sur une image pour accéder à la recette correspondante*.
 
 ## Gamme fixe
 
-[![Nouveau Monde / American Pale Ale](/images/recettes/nouveau-monde.png)](/recettes/nouveau-monde.html)
+[![Nouveau Monde / American Pale Ale](/images/recettes/nouveau-monde.png)](/recettes/nouveau-monde.html){: .image .miniature }
+[![Souffle Tropical / American Wheat](/images/recettes/souffle-tropical.png)](/recettes/souffle-tropical.html){: .image .miniature }
+[![En Pleine Tempête / London Bitter](/images/recettes/en-pleine-tempete.png)](/recettes/en-pleine-tempête.html){: .image .miniature }
 
-[![Souffle Tropical / American Wheat](/images/recettes/souffle-tropical.png)](/recettes/souffle-tropical.html)
-
-[![En Pleine Tempête / London Bitter](/images/recettes/en-pleine-tempete.png)](/recettes/en-pleine-tempête.html)
-
-[![L'Eau Qui Dort / Stout à la vanille](/images/recettes/leau-qui-dort.png)](/recettes/leau-qui-dort.html)
+[![L'Eau Qui Dort / Stout à la vanille](/images/recettes/leau-qui-dort.png)](/recettes/leau-qui-dort.html){: .image .miniature }
 
 
-## Brassins uniques :
+## Brassins uniques
 
-[![West Coast IPA](/images/recettes/west-coast-ipa.png)](/recettes/west-coast-ipa.html)
+[![West Coast IPA](/images/recettes/west-coast-ipa.png)](/recettes/west-coast-ipa.html){: .image .miniature }
+[![Triple](/images/recettes/triple.png)](/recettes/triple.html){: .image .miniature }
+[![Saison au houblon frais](/images/recettes/saison-houblon-frais.png)](/recettes/saison-houblon-frais.html){: .image .miniature }
 
-[![Triple](/images/recettes/triple.png)](/recettes/triple.html)
-
-[![Saison au houblon frais](/images/recettes/saison-houblon-frais.png)](/recettes/saison-houblon-frais.html)
-
-[![Monstrueuse Normalité / New England IPA](/images/recettes/monstrueuse-normalité.png)](/recettes/monstrueuse-normalité.html)
-
-[![Chaînon Manquant / Sour Pale Ale au Kiwi](/images/recettes/chainon-manquant.png)](/recettes/chainon-manquant.html)
-
-[![Sobacha / Lager au Hallertau blanc et au sarrasin torréfié](/images/recettes/sobacha.png)](/recettes/sobacha.html)
+[![Monstrueuse Normalité / New England IPA](/images/recettes/monstrueuse-normalité.png)](/recettes/monstrueuse-normalité.html){: .image .miniature }
+[![Chaînon Manquant / Sour Pale Ale au Kiwi](/images/recettes/chainon-manquant.png)](/recettes/chainon-manquant.html){: .image .miniature }
+[![Sobacha / Lager au Hallertau blanc et au sarrasin torréfié](/images/recettes/sobacha.png)](/recettes/sobacha.html){: .image .miniature }
 
 A bientôt :-)

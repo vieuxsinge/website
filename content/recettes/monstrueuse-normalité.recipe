@@ -4,8 +4,8 @@ date: "2018-10-12"
 label:
   url: monstrueuse-normalité.png
   description: Un mutant en train de s'envoyer des cones de houblon dans le gosier.
-description: Juteuse, Fruitée
-description_longue: 
+description: ""
+description_longue: "Une bière inspirée du style New England IPA: un boulot sur la texture, qu'on essaye de rapprocher d'un petit jus d'orange, grâce à l’utilisation des flocons d'avoine et du blé. Et puis on s'est lâché sur les quantités de houblon, faut le dire."
 style: New England IPA
 tip: Houblonnez à froid en deux fois (DDH), attention à l'oxydation à la mise en bouteilles !
 basics:
@@ -13,7 +13,7 @@ basics:
   Densité Initiale: 1,057
   Densité Finale: 1,014
   Couleur (EBC): 10
-  IBUs: 60
+  Amertume (IBU): 60
   pH cible : 5,4
 
 water:
@@ -31,7 +31,7 @@ adjuncts:
 mash:
   Température: 69°C
   Durée: 1h
-  Ration eau-grain: 2,4L/kg
+  Ratio eau-grain: 2,4L/kg
 
 hops:
   - hop: Cascade
@@ -86,10 +86,13 @@ yeasts:
 
 fermentation:
   - Ensemencement à 16°C, consigne à 17°C
+  - Jour 3, Houblonnage à cru
+  - Agitation au CO2 durant 2 jours
+  - Ajout du sucre
   - Augmentation de 1°C par jour jusqu'à arriver à 21°C
-  - 2 jours de Diacetyl rest à 21°C
-  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
-  - Ajout du second Dry Hop, recirculation durant 2 jours
+  - 2 jours de <em>diacetyl rest</em> à 21°C
+  - Ajout du second Houblonnage à cru
+  - Agitation au CO2 durant 2 jours
   - Cold crash durant 10 jours
 
 conditioning:

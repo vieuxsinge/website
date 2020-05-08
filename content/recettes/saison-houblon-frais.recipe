@@ -4,7 +4,11 @@ date: "2020-05-01"
 label:
   url: saison-houblon-frais.png
   description: Un personnage semble tomber dans un champ de houblon !
-description: Légère, Sèche, Locale
+description_longue: "Nous utilisons déjà du malt local, grâce à Hervé de chez Yec'hed malt, on a maintenant la chance d'avoir du houblon cultivé localement, grâce à Romain, qui s'est installé en houblonnier à Allaire (à la limite du Morbihan).
+
+En septembre, on est donc allé récupérer les cônes de houblons chez lui. Sitôt récoltés, sitôt utilisés, le Chinook, Cascade et Centennial se retrouvent donc dans une Saison au houblon frais : une bière assez sèche, avec des aromatiques légèrement poivrés.
+
+On est hyper contents de pouvoir faire cette bière avec des matières premières locales !"
 style: ""
 tip: Il faut mettre 4 à 10 fois plus de houblons frais que de houblon en pellets, n'hésitez pas !
 basics:
@@ -12,7 +16,7 @@ basics:
   Densité Initiale: 1,043
   Densité Finale: 1,005
   Couleur (EBC): 8
-  IBUs: 25
+  Amertume (IBU): 25
   pH cible : 5,4
 
 water:
@@ -27,7 +31,7 @@ cereals:
 mash:
   Température: 65°C
   Durée: 1h
-  Ration eau-grain: 3L/kg
+  Ratio eau-grain: 3L/kg
 
 hops:
   - hop: Chinook
@@ -53,8 +57,9 @@ yeasts:
 fermentation:
   - Ensemencement à 16°C, consigne à 17°C
   - Augmentation de 1°C par jour jusqu'à arriver à 21°C
-  - 2 jours de Diacetyl rest à 21°C
-  - Ajout du houblon en Dry Hop, recirculation durant 2 jours
+  - 2 jours de <em>diacetyl rest</em> à 21°C
+  - Houblonnage à cru
+  - Agitation au CO2 durant 2 jours
   - Cold crash durant 10 jours
 
 conditioning:

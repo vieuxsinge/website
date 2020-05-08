@@ -147,3 +147,7 @@ ul.ingredient-list li {
 .recipe-single {
   margin-top: 70px;
 }
+
+.medium {
+  font-size: 0.9em;
+}

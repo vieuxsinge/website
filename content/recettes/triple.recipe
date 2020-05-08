@@ -4,8 +4,8 @@ date: "2020-05-01"
 label:
   url: triple.png
   description: Trois singes devant une abbaye, en train de déguster une bière.
-description: Céréales, Sèche, Réconfortante.
-description_longue: 
+description: ""
+description_longue: "Pour cette recette, on est allé sur un style qui nous a fait découvrir la bière, mais qui finalement est assez peu représenté par les brasseries du coin : la triple « belge ». On en a même veilli quelques bouteilles en fûts de Whiskey de la distillerie de la roche aux fées. Brassée en collab avec Tony et Colin de BioZH. Une bonne occase de sortir de nos sentiers battus."
 style: Triple Belge
 tip: Pour cette recette, on cherche à ne pas avoir trop de sucres résiduels, d'ou le re-pitch et la température d'empâtage assez basse.
 basics:
@@ -13,7 +13,7 @@ basics:
   Densité Initiale: 1,065
   Densité Finale: 1,016
   Couleur (EBC): 8
-  IBUs: 32
+  Amertume (IBU): 32
   pH cible : 5,4
 
 water:
@@ -26,13 +26,13 @@ cereals:
 mash:
   Température: 64°C
   Durée: 1h
-  Ration eau-grain: 3L/kg
+  Ratio eau-grain: 3L/kg
 
 hops:
   - hop: Goldings
     alpha: 5,8%
-    poids: 2g/L
-    moment: Premier Jus
+    poids: 2 g/L
+    moment: First Wort Hop
     temps: 90mn
 
 
@@ -49,6 +49,7 @@ yeasts:
 fermentation:
   - Ensemencement à 19°C puis consigne à 19°C
   - Une fois le gros de la fermentation passée, ajouter le sucre.
+  - Ajouter les levures US-05.
   - Laisser terminer la fermentation.
   - Cold crash durant 10 jours
 
