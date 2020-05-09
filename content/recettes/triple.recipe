@@ -7,7 +7,7 @@ label:
 description: ""
 description_longue: "Pour cette recette, on est allé sur un style qui nous a fait découvrir la bière, mais qui finalement est assez peu représenté par les brasseries du coin : la triple « belge ». On en a même veilli quelques bouteilles en fûts de Whiskey de la distillerie de la roche aux fées. Brassée en collab avec Tony et Colin de BioZH. Une bonne occase de sortir de nos sentiers battus."
 style: Triple Belge
-tip: Pour cette recette, on cherche à ne pas avoir trop de sucres résiduels, d'ou le re-pitch et la température d'empâtage assez basse.
+tip: Pour cette recette, on cherche à ne pas avoir trop de sucres résiduels, d'ou le re-pitch et la température d'empâtage assez basse. La densité initiale ne prends pas en compte l'ajout du sirop de sucre, qu'on rajoute en fin de primaire pour éviter que les levures délaissent les sucres simples.
 basics:
   Alcool: 9%
   Densité Initiale: 1,065
