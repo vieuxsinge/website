@@ -25,7 +25,7 @@ MENUITEMS = (
     (u'Bières', '/index.html#bieres', 'wide'),
     (u'Manifeste', '/manifeste.html', 'mobile'),
     (u'Actus', '/blog.html', 'mobile'),
-    (u'Boutique en ligne', 'https://boutique.vieuxsinge.com', 'mobile'),
+    (u'Drive', 'https://boutique.vieuxsinge.com', 'mobile'),
     (u'Infos pratiques', '/index.html#infospratiques', 'wide'),
 )
 DISPLAY_PAGES_ON_MENU = False
