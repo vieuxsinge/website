@@ -1,4 +1,5 @@
 Title: Nos recettes
+Accroche: Publication de nos recettes en open source.
 Date: 2020-05-07
 url: recettes
 save_as: recettes/index.html
