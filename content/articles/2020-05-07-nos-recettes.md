@@ -24,10 +24,10 @@ Nous ne sommes pas seuls et pensons que la coopération et le partage sont plus 
 
 ## Brassins uniques
 
+[![Le remède](/images/recettes/le-remede.png)](/recettes/le-remede.html){: .image .miniature }
 [![West Coast IPA](/images/recettes/west-coast-ipa.png)](/recettes/west-coast-ipa.html){: .image .miniature }
 [![Triple](/images/recettes/triple.png)](/recettes/triple.html){: .image .miniature }
 [![Saison au houblon frais](/images/recettes/saison-houblon-frais.png)](/recettes/saison-houblon-frais.html){: .image .miniature }
-
 [![Monstrueuse Normalité / New England IPA](/images/recettes/monstrueuse-normalité.png)](/recettes/monstrueuse-normalité.html){: .image .miniature }
 [![Chaînon Manquant / Sour Pale Ale au Kiwi](/images/recettes/chainon-manquant.png)](/recettes/chainon-manquant.html){: .image .miniature }
 [![Sobacha / Lager au Hallertau blanc et au sarrasin torréfié](/images/recettes/sobacha.png)](/recettes/sobacha.html){: .image .miniature }

@@ -1,0 +1,68 @@
+title: Le remède
+save_as : recettes/le-remede.html
+date: "2020-06-08"
+label:
+  url: le-remede.png
+  description: Une étiquette de sirop pour la toux qui indique « contre la toux, prenez le remède »
+description: ""
+description_longue: "Bière acide avec de la pèche de vigne et de l'abricot. Attention, c'est chargé en fruit."
+style: ""
+tip: 
+basics:
+  Alcool: 4,2%
+  Densité Initiale: 1,037
+  Densité Finale: 1,006
+  Couleur (EBC): 5
+  Amertume (IBU): 6
+  pH cible : 5,4
+
+water:
+  "" : Rien de particulier.
+
+cereals:
+  - Malt Pilsen: 63%
+  - Malt de blé: 26%
+  - Apport des fruits: 12%
+
+mash:
+  Température: 65°C
+  Durée: 1h
+  Ratio eau-grain: 3L/kg
+
+hops:
+  - hop: Goldings
+    alpha: 14%
+    poids: 500 mg/L
+    moment: Ébullition
+    temps: 60mn
+
+adjuncts:
+  - Pèche de vigne (purée) : 180 g/L
+  - Abricot (purée) : 180 g/L
+
+yeasts:
+  - Nom: Helveticus (Sour Pitch Lallemand)
+    Atténuation: 
+  - Nom: US-05
+    Atténuation: 85%
+
+fermentation:
+  - Empatage et rinçage habituels
+  - Baisser le pH à 4,2
+  - Ébullition de 10mn plutôt qu’une heure
+  - Envoi en fermenteur pour l’acidification
+  - Refroidissement à 40°C
+  - Attendre pH de 3,4 (2j)
+  - Ébullition durant 1h
+  - Ajout du houblon
+  - Refroidissement classique
+  - Ensemencement à 16°C, consigne à 17°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de <em>diacetyl rest</em> à 21°C
+  - Houblonnage à cru
+  - Maintien du houblon en suspension (2j)
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

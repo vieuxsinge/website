@@ -4,13 +4,22 @@ save_as: experimentations.html
 
 *On aime bien expérimenter, parfois avec des copains⋅ines, et parfois juste entre nous ! Le résultat  : quelques brassins uniques qui sont dispo jusqu'à épuisement des stocks*.
 
+
+## Le remède / Juin 2020
+
+*Sour pèche de vigne abricot, 4°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
+
+![Étiquette de la bière « Le remède », sous la forme d'une étiquette de médicament.](images/recettes/le-remede.png)
+
+Une bière acide avec de la pèche de vigne et de l'abricot. Attention, c'est chargé en fruit.
+
 ## West Coast IPA / Avril 2020
 
 *West Coast IPA, 6,5°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
 
 ![Étiquette de la bière « West Coast IPA » : trois ami⋅e⋅s attendant sur le quai d'une gare.](images/recettes/west-coast-ipa.png)
 
-Une IPA influencée par ce qui se fait sur la côte ouest des USA : une amertume franche, une base maltée et du houblon en masse !
+Une IPA influencée par ce qui se fait sur la côte ouest des USA : une amertume franche, une base maltée et « un peu » de houblon !
 
 ## Triple / Février 2020
 
