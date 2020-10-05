@@ -1,5 +1,5 @@
 Title: Nos recettes
-Accroche: Publication de nos recettes en open source.
+Accroche: Publication de nos recettes en open source
 Date: 2020-05-07
 url: recettes
 save_as: recettes/index.html
@@ -24,6 +24,8 @@ Nous ne sommes pas seuls et pensons que la coopération et le partage sont plus 
 
 ## Brassins uniques
 
+[![12 Vilain⋅e⋅s](/images/recettes/12vilain⋅e⋅s.png)](/recettes/12-vilain⋅e⋅s.html){: .image .miniature }
+[![Brassin de soutien](/images/recettes/soutien.jpg)](/recettes/covid19-soutien.html){: .image .miniature }
 [![Le remède](/images/recettes/le-remede.png)](/recettes/le-remede.html){: .image .miniature }
 [![West Coast IPA](/images/recettes/west-coast-ipa.png)](/recettes/west-coast-ipa.html){: .image .miniature }
 [![Triple](/images/recettes/triple.png)](/recettes/triple.html){: .image .miniature }

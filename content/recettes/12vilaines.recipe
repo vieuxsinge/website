@@ -1,0 +1,68 @@
+title: 12 Vilain⋅e⋅s
+save_as : recettes/12-vilain⋅e⋅s.html
+date: "2020-09-15"
+label:
+  url: 12vilain⋅e⋅s.png
+  description: Un singe prénommé « King Gallo »
+description: ""
+description_longue: "une American Pale Ale au Idaho7, au format 75cl, vétu de ses 12 étiquettes différentes. 12 outlaws bretilliens, désinées par les auteurs⋅rices de La Vilaine."
+style: American Pale Ale
+tip: On essaye d'avoir ici une levure qui atténue pas trop, pour avoir un peu de sucre résiduel.
+basics:
+  Alcool: 5%
+  Densité Initiale: 1,051
+  Densité Finale: 1,016
+  Couleur (EBC): 10
+  Amertume (IBU): 24
+  pH cible : 5,4
+
+water:
+  Sulfates: 150ppm
+  Chlorures: 50ppm
+
+cereals:
+  - Pils: 70%
+  - Munich: 30%
+
+mash:
+  Température: 66°C
+  Durée: 1h
+  Ratio eau-grain: 3L/kg
+
+hops:
+  - hop: Idaho7
+    alpha: 11,9%
+    poids: 0,18 g/L
+    moment: First Wort Hop
+    temps: 90mn
+  - hop: Idaho7
+    alpha: 11,9%
+    poids: 0,43 g/L
+    moment: Whirlpool #1
+    temps: 30mn
+  - hop: Idaho7
+    alpha: 11,9%
+    poids: 1g/L
+    moment: Whirlpool #2
+    temps: 30mn
+  - hop: Idaho7
+    alpha: 11,9%
+    poids: 4,7 g/L
+    moment: A froid
+    temps: 2j
+
+yeasts:
+  - Nom: London (Lallemand)
+    Atténuation: 70%
+
+fermentation:
+  - Ensemencement à 16°C puis consigne à 17°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de <em>diacetyl rest</em> à 21°C
+  - Houblonnage à cru
+  - Maintien du houblon en suspension (2j)
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

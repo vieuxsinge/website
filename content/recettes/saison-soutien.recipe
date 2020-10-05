@@ -1,0 +1,62 @@
+title: Brassin de soutien (Saison)
+save_as : recettes/covid19-soutien.html
+date: "2020-08-15"
+label:
+  url: soutien.jpg
+  description: Un poing fermé levé, qui tiens une bouteille de bière !
+description: ""
+description_longue: "Une saison assez simple, avec uniquement du malt Vienna"
+style: Saison
+tip: 
+basics:
+  Alcool: 4,5%
+  Densité Initiale: 1,035
+  Densité Finale: 1,003
+  Couleur (EBC): 11
+  Amertume (IBU): 14
+  pH cible : 5,4
+
+water:
+  Sulfates: 100ppm
+  Chlorures: 100ppm
+
+cereals:
+  - Vienna: 100%
+
+mash:
+  Température: 65°C
+  Durée: 1h
+  Ratio eau-grain: 3L/kg
+
+hops:
+  - hop: Nelson Sauvin
+    alpha: 13%
+    poids: 0,2 g/L
+    moment: First Wort Hop
+    temps: 90mn
+  - hop: Nelson Sauvin
+    alpha: 13%
+    poids: 0,4 g/L
+    moment: Hopstand
+    temps: 20mn
+  - hop: Nelson Sauvin
+    alpha: 13%
+    poids: 2,5 g/L
+    moment: a froid
+    temps: 2j
+
+yeasts:
+  - Nom: BE-134
+    Atténuation: 89%
+
+fermentation:
+  - Ensemencement à 16°C puis consigne à 17°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de <em>diacetyl rest</em> à 21°C
+  - Houblonnage à cru
+  - Maintien du houblon en suspension (2j)
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol
