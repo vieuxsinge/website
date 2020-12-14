@@ -1,8 +1,7 @@
 Title: Magasin de Noël 2020
 Slug: noel-2020
 Date: 2020-12-14
-Accroche: 
-image: /images/2020-12-noel/comptoir.jpg
+image: /images/manifeste/manifeste.jpg
 
 Pour les fêtes de fin d'année, si vous avez envie de glisser quelques unes de nos bières parmi vos cadeaux, on a aménagé les horaires du magasin.
 
@@ -16,14 +15,14 @@ L'Eau Qui Dort, Souffle Tropical, Nouveau Monde, Triple barriquée, Panier de Cr
 
 Horaires :
 
-- Jeudi 17 - 12h-19h
-- Vendredi 18 - 12h-19h
-- Samedi 19 - 12h-19h
-- Lundi 21 - 12h-19h
-- Mardi 22 - 12h-19h
-- Mercredi 23 - 12h-19h
-- Jeudi 24 - 12h-17h
+* Jeudi 17 - 12h-19h
+* Vendredi 18 - 12h-19h
+* Samedi 19 - 12h-19h
+* Lundi 21 - 12h-19h
+* Mardi 22 - 12h-19h
+* Mercredi 23 - 12h-19h
+* Jeudi 24 - 12h-17h
 
-Si vous préférez, vous pouvez aussi commander en click & collect sur https://boutique.vieuxsinge.com (commandes la veille pour le lendemain).
+Si vous préférez, vous pouvez aussi [commander en click & collect](https://boutique.vieuxsinge.com) (commandes la veille pour le lendemain).
 
 A bientôt :-)
