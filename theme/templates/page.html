@@ -27,6 +27,23 @@
     {{ translations.translations_for(page) }}
 
     {% if page.template_type == 'full-html' %}
+    {% if page.include_splash %}
+    <!-- Banner -->
+    <section id="banner">
+      <div class="inner">
+        <div class="logo"><img src="images/about/logo.png" alt="Brasserie du Vieux Singe" /></div>
+        <p>Bières typées, artisanales & bio — Rennes</p>
+      </div>
+    </section>
+    {% endif %}
+    {% if page.include_latest_news %}
+    <section class="wrapper style7">
+      <div class="inner align-center">
+        {% set news = articles[0] %}
+        <strong><a href="{{ news.url }}">{{ news.title }}</a>{% if news.accroche %} — <em>{{ news.accroche }}</em>{% endif %}</strong>
+      </div>
+    </section>
+    {% endif %}
     {{ page.content }}
     {% elif page.template_type == 'map' %}
       <section id="wrapper">
