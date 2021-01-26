@@ -34,7 +34,7 @@ Nous souhaitons nous allier à nos collègues brasseurs indépendants pour mettr
 
 ### En pratique ?
 
-- Nos recettes sont [publiées en ligne](/recettes.html), pour être facilement reproduites par qui le souhaite. Nous en parlons d'ailleurs avec plaisir !
+- Nos recettes sont [publiées en ligne](/recettes/), pour être facilement reproduites par qui le souhaite. Nous en parlons d'ailleurs avec plaisir !
 - Nous publions [aussi souvent](/fabrication-laveuse-de-futs-open-source.html) [que](/un-an.html) [possible](/du-larochelle.html) les résultats de nos expérimentations.
 - [Les plans de nos projets sont mis à disposition](/fabrication-laveuse-de-futs-open-source.html) pour un partage, une diffusion et une réutilisation, selon le principe des logiciels libres.
 - Nous sommes investis dans des projets collectifs qui ont pour but le développement de la brasserie artisanale et de sa filière.
