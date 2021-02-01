@@ -1,74 +1,90 @@
-﻿Nom;Adresse;latitude;longitude;result_label;result_score;result_type;result_id;result_housenumber;result_name;result_street;result_postcode;result_city;result_context;result_citycode
-A Cantina;6 rue Charles Croizé, 35740 Pacé;48.146904;-1.766292;6 Rue Charles Croize 35740 Pacé;0.91;housenumber;ADRNIVX_0000002011570610;6;Rue Charles Croize;;35740;Pacé;35, Ille-et-Vilaine, Bretagne;35210
-Au Fil du Vin;2 Allée de Tournemine, 22400 Lamballe;48.467849;-2.547982;2 Allée de Tournemine 22400 Lamballe;0.92;housenumber;ADRNIVX_0000002100132052;2;Allée de Tournemine;;22400;Lamballe;22, Côtes-d'Armor, Bretagne;22093
-Au Fil du Vin;7 impasse du Goëlo, 22970 Ploumagoar;48.555657;-3.124796;7 Impasse du Goelo 22970 Ploumagoar;0.91;housenumber;ADRNIVX_0000000353986763;7;Impasse du Goelo;;22970;Ploumagoar;22, Côtes-d'Armor, Bretagne;22225
-Au loup garou gourmand;place de l'église, 29180 Lochronan;48.098496;-4.208541;Place de l'Église 29180 Locronan;0.83;street;29134_XXXX_ed6f5c;;Place de l'Église;;29180;Locronan;29, Finistère, Bretagne;29134
-Au père Bouc;43, Rue Saint Hélier 35000 Rennes;48.106731;-1.669136;43 Rue Saint-Hélier 35000 Rennes;0.95;housenumber;ADRNIVX_0000000262185624;43;Rue Saint-Hélier;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-BioZH;La fouinardière, Route du meuble, 35760 Saint Grégoire;48.165022;-1.707454;Route de la Fouinardière 35760 Saint-Grégoire;0.72;street;35278_XXXX_4f6581;;Route de la Fouinardière;;35760;Saint-Grégoire;35, Ille-et-Vilaine, Bretagne;35278
-Bleizi Du;7bis rampe St Nicolas, 29600 Morlaix;48.582314;-3.831466;7 BIS Rampe Saint-Nicolas 29600 Morlaix;0.75;housenumber;ADRNIVX_0000000266090755;7 BIS;Rampe Saint-Nicolas;;29600;Morlaix;29, Finistère, Bretagne;29151
-Breizhicoop;15 Avenue de Pologne, 35200 Rennes;48.084705;-1.65086;15 Avenue de Pologne 35200 Rennes;0.94;housenumber;ADRNIVX_0000000262227027;15;Avenue de Pologne;;35200;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Café restaurant St Fiacre;1 place de la mairie, 35630 Les Iffs;48.288164;-1.866686;1 Place de la Mairie 35630 Les Iffs;0.91;housenumber;ADRNIVX_0000002009668334;1;Place de la Mairie;;35630;Les Iffs;35, Ille-et-Vilaine, Bretagne;35134
-Cavavin Chartres;2 place René Cassin, 35131 Chartres de Bretagne;48.040925;-1.706146;2 Place René Cassin 35131 Chartres-de-Bretagne;0.91;housenumber;ADRNIVX_0000000262268648;2;Place René Cassin;;35131;Chartres-de-Bretagne;35, Ille-et-Vilaine, Bretagne;35066
-Cavavin Mordelles;		        Place des Muletiers, 35310 Mordelles;48.071858;-1.851108;Place des Muletiers 35310 Mordelles;0.92;street;35196_XXXX_b951df;;Place des Muletiers;;35310;Mordelles;35, Ille-et-Vilaine, Bretagne;35196
-Cave Bréalaise;35 Rue de Montfort, 35310 Bréal-sous-Montfort;48.05338;-1.869173;35 Rue de Montfort 35310 Bréal-sous-Montfort;0.91;housenumber;ADRNIVX_0000000262243415;35;Rue de Montfort;;35310;Bréal-sous-Montfort;35, Ille-et-Vilaine, Bretagne;35037
-Chez Alain;18 Rue Poullain Duparc, 35000 Rennes;48.10864;-1.681018;18 Rue Poullain Duparc 35000 Rennes;0.94;housenumber;ADRNIVX_0000000262181277;18;Rue Poullain Duparc;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Espace Beausoleil;Allée de la Mine, 35131 Pont Péan;48.014111;-1.711584;Allée de la Mine 35131 Pont-Péan;0.91;street;35363_XXXX_6b5591;;Allée de la Mine;;35131;Pont-Péan;35, Ille-et-Vilaine, Bretagne;35363
-Grain de sel;16 rue St Michel, 44350 Guerande;47.327537;-2.428401;16 Rue Saint-Michel 44350 Guérande;0.79;housenumber;ADRNIVX_0000000279926132;16;Rue Saint-Michel;;44350;Guérande;44, Loire-Atlantique, Pays-de-la-Loire;44069
-It's Five O'Clock Somewhere;12 Rue Saint-Melaine, 35000 Rennes;48.114881;-1.67812;12 Rue Saint-Melaine 35000 Rennes;0.94;housenumber;ADRNIVX_0000000324815853;12;Rue Saint-Melaine;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Ker Beer;10 Rue Vandamme, 75014 Paris;48.839594;2.32291;10 Rue Vandamme 75014 Paris;0.94;housenumber;ADRNIVX_0000000270804739;10;Rue Vandamme;;75014;Paris;75, Paris, Île-de-France;75114
-Kyushu;5 place St Melaine, 35740 Pacé;48.14745;-1.772604;5 Place Saint-Melaine 35740 Pacé;0.77;housenumber;ADRNIVX_0000000262127879;5;Place Saint-Melaine;;35740;Pacé;35, Ille-et-Vilaine, Bretagne;35210
-La louve;116, rue des Poissonniers, 75018 Paris;48.89434;2.352985;116 Rue des Poissonniers 75018 Paris;0.95;housenumber;ADRNIVX_0000000358972323;116;Rue des Poissonniers;;75018;Paris;75, Paris, Île-de-France;75118
-L'Air Libre;2 Rue Jules Vallès, 35136 St Jacques de La Lande;48.064547;-1.725159;Rue Jules Vallès 35136 Saint-Jacques-de-la-Lande;0.79;street;35281_0542_496218;;Rue Jules Vallès;;35136;Saint-Jacques-de-la-Lande;35, Ille-et-Vilaine, Bretagne;35281
-L'Écume des Bières;5 Rue des Cordiers, Saint-35400 Malo;48.648023;-2.024204;5 Rue des Cordiers 35400 Saint-Malo;0.93;housenumber;ADRNIVX_0000000261869657;5;Rue des Cordiers;;35400;Saint-Malo;35, Ille-et-Vilaine, Bretagne;35288
-L'Épicerie Au Grand Air;Place de la rotonde, 35000 Rennes;48.106979;-1.686601;Place de la Rotonde 35000 Rennes;0.93;street;35238_XXXX_86eac8;;Place de la Rotonde;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-L'Épicerie du Mail;36 Mail François Mitterrand, 35000 Rennes;48.109798;-1.689305;36 Mail François Mitterrand 35000 Rennes;0.94;housenumber;ADRNIVX_0000000262177837;36;Mail François Mitterrand;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-La Bonne Heure;15 rue Emile Le Taillandier, 22300 Lannion;48.731715;-3.45956;15 Rue Émile le Taillandier 22300 Lannion;0.93;housenumber;ADRNIVX_0000000353983463;15;Rue Émile le Taillandier;;22300;Lannion;22, Côtes-d'Armor, Bretagne;22113
-Le Byggvir;73A rue de Bretagne, 35133 Beaucé;48.340558;-1.163411;Rue de Bretagne 35133 Beaucé;0.79;street;35021_0020_8844a3;;Rue de Bretagne;;35133;Beaucé;35, Ille-et-Vilaine, Bretagne;35021
-La Cave à Flo;3, allée de Bray, ZA de Bray, 35510 Cesson Sévigné;48.109109;-1.614538;3 Allée de Bray 35510 Cesson-Sévigné;0.7;housenumber;ADRNIVX_0000000262185265;3;Allée de Bray;;35510;Cesson-Sévigné;35, Ille-et-Vilaine, Bretagne;35051
-La Cave d'Élodie;16 rue du Faubourg Berthault 35190 Becherel;48.29417;-1.946035;16 Rue du Faubourg Berthault 35190 Bécherel;0.92;housenumber;ADRNIVX_0000000262022693;16;Rue du Faubourg Berthault;;35190;Bécherel;35, Ille-et-Vilaine, Bretagne;35022
-La Cave de Céline;39 Rue de Rennes, 35230 Noyal-Châtillon-sur-Seiche;48.042459;-1.666653;39 Rue de Rennes 35230 Noyal-Châtillon-sur-Seiche;0.91;housenumber;ADRNIVX_0000000308793482;39;Rue de Rennes;;35230;Noyal-Châtillon-sur-Seiche;35, Ille-et-Vilaine, Bretagne;35206
-La Cave de Fablo;ZA La Métairie, 35520 Melesse;48.213052;-1.703822;La Métairie 35520 Melesse;0.81;street;35173_C124_0e4d8a;;La Métairie;;35520;Melesse;35, Ille-et-Vilaine, Bretagne;35173
-La Rennes du Bal;		        49 Rue Ginguené, 35000 Rennes;48.099093;-1.68133;49 Rue Ginguene 35000 Rennes;0.95;housenumber;ADRNIVX_0000000262203155;49;Rue Ginguene;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-La réserve;4 rue de dinan, 35850 Gévezé;48.221264;-1.789762;4 Rue de Dinan 35850 Gévezé;0.91;housenumber;ADRNIVX_0000000308825300;4;Rue de Dinan;;35850;Gévezé;35, Ille-et-Vilaine, Bretagne;35120
-Le Bistrot d'Angel;8 rue de la Mairie, 35580 Goven;48.006503;-1.845467;8 Rue de la Mairie 35580 Goven;0.91;housenumber;ADRNIVX_0000000262307095;8;Rue de la Mairie;;35580;Goven;35, Ille-et-Vilaine, Bretagne;35123
-Le Cellier Rennais;6 Rue de la Binquenais, 35200 Rennes;48.090581;-1.667583;6 Rue de la Binquenais 35200 Rennes;0.93;housenumber;ADRNIVX_0000000262219344;6;Rue de la Binquenais;;35200;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Le Chai D'rv;17 Rue d'Haigerloch, 35530 Noyal-sur-Vilaine;48.113536;-1.523788;17 Rue d'Haigerloch 35530 Noyal-sur-Vilaine;0.91;housenumber;ADRNIVX_0000002100467570;17;Rue d'Haigerloch;;35530;Noyal-sur-Vilaine;35, Ille-et-Vilaine, Bretagne;35207
-Le Chai du Barbu;26 rue de Rennes, 35140 St Aubin de Cormier;48.259034;-1.409267;26 Rue de Rennes 35140 Saint-Aubin-du-Cormier;0.75;housenumber;ADRNIVX_0000000324867009;26;Rue de Rennes;;35140;Saint-Aubin-du-Cormier;35, Ille-et-Vilaine, Bretagne;35253
-Le Chasné;9 rue de l'École, 35250 Chasné sur illet;48.242489;-1.561344;9 Rue de l'École 35250 Chasné-sur-Illet;0.91;housenumber;ADRNIVX_0000000262065665;9;Rue de l'École;;35250;Chasné-sur-Illet;35, Ille-et-Vilaine, Bretagne;35067
-Le Coin Mousse;4 Mail François Mitterrand, 35000 Rennes;48.110339;-1.686743;4 Mail François Mitterrand 35000 Rennes;0.94;housenumber;ADRNIVX_0000000262177749;4;Mail François Mitterrand;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Le Gout du Bio;36 rue Marechal de Lattre de Tassy, 35580 Guichen;47.974492;-1.79453;36 Rue Maréchal de Lattre de Tassigny 35580 Guichen;0.83;housenumber;ADRNIVX_0000000262329790;36;Rue Maréchal de Lattre de Tassigny;;35580;Guichen;35, Ille-et-Vilaine, Bretagne;35126
-Le Guibra;18 rue de la grange, 35250 St Sulpice la Foret;48.218429;-1.580444;18 Rue de la Grange 35250 Saint-Sulpice-la-Forêt;0.82;housenumber;ADRNIVX_0000000262078656;18;Rue de la Grange;;35250;Saint-Sulpice-la-Forêt;35, Ille-et-Vilaine, Bretagne;35315
-Le marchand de bière;Place du bas des lices, 35000 Rennes;48.112555;-1.685294;Place du Bas des Lices 35000 Rennes;0.94;street;35238_XXXX_6868cd;;Place du Bas des Lices;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Le petit café dans la prairie;41 rue des Ducs de Bretagne, Le Gorvello  56450 Theix-Noyalo;47.63996;-2.597292;41 Rue des Ducs de Bretagne (Theix) 56450 Theix-Noyalo;0.65;housenumber;ADRNIVX_0000000358238626;41;Rue des Ducs de Bretagne (Theix);;56450;Theix-Noyalo;56, Morbihan, Bretagne;56251
-Le pif en l'air;4 rue des Trente, 35000 Rennes;48.107038;-1.687288;4 Rue des Trente 35000 Rennes;0.94;housenumber;ADRNIVX_0000000262181542;4;Rue des Trente;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Le Sur Mesure Rennes;18 Rue de Robien, 35000 Rennes;48.117074;-1.677703;18 Rue de Robien 35000 Rennes;0.94;housenumber;ADRNIVX_0000000262161945;18;Rue de Robien;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Les Audacieuses;36 rue de Paris, 35000 Rennes;48.112441;-1.666788;36 Rue de Paris 35000 Rennes;0.95;housenumber;ADRNIVX_0000000262173333;36;Rue de Paris;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Les Clandestines;36 rue de Paris, 35000 Rennes;48.112441;-1.666788;36 Rue de Paris 35000 Rennes;0.95;housenumber;ADRNIVX_0000000262173333;36;Rue de Paris;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Les Goulus;11 place St Melaine, 35740 Pacé;48.147455;-1.77324;11 Place Saint-Melaine 35740 Pacé;0.78;housenumber;ADRNIVX_0000002100473478;11;Place Saint-Melaine;;35740;Pacé;35, Ille-et-Vilaine, Bretagne;35210
-Les Petits Chapelais;Les Petits Chapelais 35310 Chavagne;48.071471;-1.763418;Les Petits Chapelais 35310 Chavagne;0.91;street;35076_B140_13c3e5;;Les Petits Chapelais;;35310;Chavagne;35, Ille-et-Vilaine, Bretagne;35076
-Les Pieds sur Terre Biocoop;19 Rue Saint-Nicolas, 35410 Châteaugiron;48.047566;-1.504679;19 Rue Saint-Nicolas 35410 Châteaugiron;0.92;housenumber;ADRNIVX_0000000262272190;19;Rue Saint-Nicolas;;35410;Châteaugiron;35, Ille-et-Vilaine, Bretagne;35069
-Les Pieds sur Terre Biocoop;28 Route de Bain, 35150 Janzé;47.954219;-1.504329;Route de Bain 35150 Janzé;0.82;street;35136_XXXX_a944ee;;Route de Bain;;35150;Janzé;35, Ille-et-Vilaine, Bretagne;35136
-Les Sommeliers Cavistes;17bis Rue Garengeot, 35500 Vitré;48.123687;-1.212223;17 BIS Rue Garengeot 35500 Vitré;0.84;housenumber;ADRNIVX_0000000262183972;17 BIS;Rue Garengeot;;35500;Vitré;35, Ille-et-Vilaine, Bretagne;35360
-Lysadis;2 Avenue des Monts-Gaultier 35230 Noyal-Châtillon-sur-Seiche;48.040139;-1.677196;2 Rue des Monts Gaultier 35230 Noyal-Châtillon-sur-Seiche;0.81;housenumber;ADRNIVX_0000000339268835;2;Rue des Monts Gaultier;;35230;Noyal-Châtillon-sur-Seiche;35, Ille-et-Vilaine, Bretagne;35206
-Maguey;99 rue de Charenton, 75000 Paris;48.847544;2.377493;99 Rue de Charenton 75012 Paris;0.79;housenumber;ADRNIVX_0000000270791518;99;Rue de Charenton;;75012;Paris;75, Paris, Île-de-France;75112
-Mar'mousse;25 rue Adolphe Le Bail 22190 Plerin;48.525054;-2.74251;25 Rue Adolphe le Bail 22190 Plérin;0.92;housenumber;ADRNIVX_0000000276831355;25;Rue Adolphe le Bail;;22190;Plérin;22, Côtes-d'Armor, Bretagne;22187
-Marché des Lices;Place des lices, 35000 Rennes;48.113348;-1.68301;Place des Lices 35000 Rennes;0.94;street;35238_XXXX_a4b3fc;;Place des Lices;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Oeuf – La Crêperie;38 Rue de Saint-Malo, 35000 Rennes;48.116512;-1.68079;38 Rue Saint-Malo 35000 Rennes;0.86;housenumber;ADRNIVX_0000000262162100;38;Rue Saint-Malo;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Office de tourisme;		        11 Rue Saint-Yves, 35000 Rennes;48.110578;-1.682564;11 Rue Saint-Yves 35000 Rennes;0.94;housenumber;ADRNIVX_0000000262177693;11;Rue Saint-Yves;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Pub le Keltia;11 rue du pont, 29800 Landerneau;48.450151;-4.249197;11 Rue du Pont 29800 Landerneau;0.92;housenumber;ADRNIVX_0000000266160250;11;Rue du Pont;;29800;Landerneau;29, Finistère, Bretagne;29103
-Scarabée Biocoop Bruz;5-7 rue de Gavrinis, 35170 Bruz;48.030347;-1.759052;7 Rue de Gavrinis 35170 Bruz;0.86;housenumber;ADRNIVX_0000002006336592;7;Rue de Gavrinis;;35170;Bruz;35, Ille-et-Vilaine, Bretagne;35047
-Scarabée Biocoop Cesson;8 rue des peupliers, 35510 CESSON-SÉVIGNÉ;48.113345;-1.607046;8 Avenue des Peupliers 35510 Cesson-Sévigné;0.78;housenumber;ADRNIVX_0000000262176728;8;Avenue des Peupliers;;35510;Cesson-Sévigné;35, Ille-et-Vilaine, Bretagne;35051
-Scarabée Biocoop Cleunay;132 rue Eugène Pottier, 35000 Rennes;48.102258;-1.712084;132 Rue Eugène Pottier 35000 Rennes;0.94;housenumber;ADRNIVX_0000000262190689;132;Rue Eugène Pottier;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Scarabée Biocoop Papu;18 rue Papu, 35000 Rennes;48.110953;-1.693177;18 Rue Papu 35000 Rennes;0.94;housenumber;ADRNIVX_0000000262174023;18;Rue Papu;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Scarabée Biocoop rue de Paris;131 rue de Paris, 35000 Rennes;48.11461;-1.65736;131 Rue de Paris 35000 Rennes;0.95;housenumber;ADRNIVX_0000000262169071;131;Rue de Paris;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Scarabée Biocoop St Grégoire;8 rue de la Cerisaie, 35760 St Grégoire;48.138388;-1.690783;8 Rue de la Cerisaie 35760 Saint-Grégoire;0.8;housenumber;ADRNIVX_0000000262137526;8;Rue de la Cerisaie;;35760;Saint-Grégoire;35, Ille-et-Vilaine, Bretagne;35278
-Scarabée Biocoop Vasselot;10 rue Vasselot, 35000 Rennes;48.108572;-1.678877;10 Rue Vasselot 35000 Rennes;0.94;housenumber;ADRNIVX_0000000262181337;10;Rue Vasselot;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Scarabée Biocoop Vern;Centre Commercial du Val D’Orson, 35770 Vern Sur Seiche;48.063897;-1.622571;Rue de l'Orson 35770 Vern-sur-Seiche;0.47;street;35352_XXXX_23394b;;Rue de l'Orson;;35770;Vern-sur-Seiche;35, Ille-et-Vilaine, Bretagne;35352
-SNC Château des Pères;Le Château, Piré-sur-35150 Seiche;48.00909;-1.430569;Piré-sur-Seiche;0.59;municipality;35220;;Piré-sur-Seiche;;35150;Piré-sur-Seiche;35, Ille-et-Vilaine, Bretagne;35220
-St Cochon;50 rue ange blaize, Rennes 35000;48.099862;-1.681188;50 Rue Ange Blaize 35000 Rennes;0.89;housenumber;ADRNIVX_0000000262198609;50;Rue Ange Blaize;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
-Terra Phoenix;21 rue Jules Duval, 35630 Bazouges sous Hédé;48.314149;-1.771435;21 Rue Jules Duval 35630 Hédé-Bazouges;0.77;housenumber;ADRNIVX_0000000262017195;21;Rue Jules Duval;;35630;Hédé-Bazouges;35, Ille-et-Vilaine, Bretagne;35130
-Tous à la cave;17 rue Jacques Blouet, 35580 Guichen;47.968352;-1.796639;17 Rue Jacques Blouet 35580 Guichen;0.92;housenumber;ADRNIVX_0000002100463890;17;Rue Jacques Blouet;;35580;Guichen;35, Ille-et-Vilaine, Bretagne;35126
-Ty Kav & Bar;22 Rue d'Alsace, 56860 Séné;47.650033;-2.716072;22 Rue d'Alsace 56860 Séné;0.91;housenumber;ADRNIVX_0000000268885492;22;Rue d'Alsace;;56860;Séné;56, Morbihan, Bretagne;56243
-Un café des possibles;9 place François Duine, 35440 Guipel;48.29825;-1.721165;9 Place François Duine 35440 Guipel;0.91;housenumber;ADRNIVX_0000000262025588;9;Place François Duine;;35440;Guipel;35, Ille-et-Vilaine, Bretagne;35128
-VnB Vitré;4 Rue Fougeray, 35500 Vitré;48.109122;-1.218314;4 Rue du Fougeray 35500 Vitré;0.83;housenumber;ADRNIVX_0000000308817716;4;Rue du Fougeray;;35500;Vitré;35, Ille-et-Vilaine, Bretagne;35360
-VnB Route de Lorient Rennes;Route de Lorient, 35000 Rennes;48.107007;-1.718757;Route de Lorient 35000 Rennes;0.92;street;35238_XXXX_fd66fe;;Route de Lorient;;35000;Rennes;35, Ille-et-Vilaine, Bretagne;35238
+Nom;                            Adresse;latitude;longitude;result_label;result_score;result_type;result_id;result_housenumber;result_name;result_street;result_postcode;result_city;result_context;result_citycode;result_oldcitycode;result_oldcity;result_district
+A Cantina;                      6 rue Charles Croizé, 35740 Pacé;;;;;;;;;;;;;;;;
+Au Fil du Vin;                  2 Allée de Tournemine, 22400 Lamballe;;;;;;;;;;;;;;;;
+Au Fil du Vin;                  7 impasse du Goëlo, 22970 Ploumagoar;;;;;;;;;;;;;;;;
+Au loup garou gourmand;         place de l'église, 29180 Locronan;;;;;;;;;;;;;;;;
+Au père Bouc;                   43, Rue Saint Hélier 35000 Rennes;;;;;;;;;;;;;;;;
+Au temps des cerises;           9 RUE DE PARIS,	35220	Chateaubourg;;;;;;;;;;;;;;;;
+Be Malt (www.bemalt.fr); 	35760, Saint Grégoire;;;;;;;;;;;;;;;;
+Bar le puits sans fond;         10 rue de la Libération,	22630	Evran;;;;;;;;;;;;;;;;
+BioZH;                          La fouinardière, Route du meuble, 35760 Saint Grégoire;;;;;;;;;;;;;;;;
+Bleizi Du;                      7bis rampe St Nicolas, 29600 Morlaix;;;;;;;;;;;;;;;;
+Breizhicoop;                    15 Avenue de Pologne, 35200 Rennes;;;;;;;;;;;;;;;;
+Café restaurant St Fiacre;      1 place de la mairie, 35630 Les Iffs;;;;;;;;;;;;;;;;
+Cavavin Chartres;               2 place René Cassin, 35131 Chartres de Bretagne;;;;;;;;;;;;;;;;
+Cavavin Mordelles;		Place des Muletiers, 35310 Mordelles;;;;;;;;;;;;;;;;
+Cave Bréalaise;                 35 Rue de Montfort, 35310 Bréal-sous-Montfort;;;;;;;;;;;;;;;;
+Chez Alain;                     18 Rue Poullain Duparc, 35000 Rennes;;;;;;;;;;;;;;;;
+Coopérative La Louve;           116 rue des Poissonniers,	75018	Paris;;;;;;;;;;;;;;;;
+Entre Pots;                     2, place de Moro Giafféri,	75014	Paris;;;;;;;;;;;;;;;;
+Épicerie de St Germain;         6 place Poulain	35250,	St Germain sur Ille;;;;;;;;;;;;;;;;
+Espace Beausoleil;              Allée de la Mine, 35131 Pont Péan;;;;;;;;;;;;;;;;
+Grain de sel;                   16 rue St Michel, 44350 Guerande;;;;;;;;;;;;;;;;
+It's Five O'Clock Somewhere;    12 Rue Saint-Melaine, 35000 Rennes;;;;;;;;;;;;;;;;
+Ker Beer;                       10 Rue Vandamme, 75014 Paris;;;;;;;;;;;;;;;;
+Kyushu;                         5 place St Melaine, 35740 Pacé;;;;;;;;;;;;;;;;
+L'Air Libre;                    2 Rue Jules Vallès, 35136 St Jacques de La Lande;;;;;;;;;;;;;;;;
+L'Écume des Bières;             5 Rue des Cordiers, Saint-35400 Malo;;;;;;;;;;;;;;;;
+L'Épicerie Au Grand Air;        Place de la rotonde, 35000 Rennes;;;;;;;;;;;;;;;;
+L'Épicerie du Mail;             36 Mail François Mitterrand, 35000 Rennes;;;;;;;;;;;;;;;;
+L'escale paysanne;              15 place Docteur Queinnec,	56140	Malestroit;;;;;;;;;;;;;;;;
+La Bonne Heure;                 15 rue Emile Le Taillandier, 22300 Lannion;;;;;;;;;;;;;;;;
+La Cave à Flo;                  3, allée de Bray, ZA de Bray, 35510 Cesson Sévigné;;;;;;;;;;;;;;;;
+La Cave d'Élodie;               16 rue du Faubourg Berthault 35190 Becherel;;;;;;;;;;;;;;;;
+La Cave de Céline;              39 Rue de Rennes, 35230 Noyal-Châtillon-sur-Seiche;;;;;;;;;;;;;;;;
+La Cave de Fablo;               ZA La Métairie, 35520 Melesse;;;;;;;;;;;;;;;;
+La Dionyversite;                6 Place du Bel Air,	93200	St Denis;;;;;;;;;;;;;;;;
+La louve;                       116, rue des Poissonniers, 75018 Paris;;;;;;;;;;;;;;;;
+LA RECYCL';                     23 Rue Paul Barreau	58140,	Lormes;;;;;;;;;;;;;;;;
+La Rennes du Bal;		49 Rue Ginguené, 35000 Rennes;;;;;;;;;;;;;;;;
+La réserve;                     4 rue de dinan, 35850 Gévezé;;;;;;;;;;;;;;;;
+Le Bercail;                     33 rue Saint Melaine,	35200	Rennes;;;;;;;;;;;;;;;;
+Le Bistrot d'Angel;             8 rue de la Mairie, 35580 Goven;;;;;;;;;;;;;;;;
+Le Byggvir;                     73A rue de Bretagne, 35133 Beaucé;;;;;;;;;;;;;;;;
+Le Cellier Rennais;             6 Rue de la Binquenais, 35200 Rennes;;;;;;;;;;;;;;;;
+Le Chai D'rv;                   17 Rue d'Haigerloch, 35530 Noyal-sur-Vilaine;;;;;;;;;;;;;;;;
+Le Chai du Barbu;               26 rue de Rennes, 35140 St Aubin de Cormier;;;;;;;;;;;;;;;;
+Le Chasné;                      9 rue de l'École, 35250 Chasné sur illet;;;;;;;;;;;;;;;;
+Le Coin Mousse;                 4 Mail François Mitterrand, 35000 Rennes;;;;;;;;;;;;;;;;
+Le Gout du Bio;                 36 rue Marechal de Lattre de Tassy, 35580 Guichen;;;;;;;;;;;;;;;;
+Le Guibra;                      18 rue de la grange, 35250 St Sulpice la Foret;;;;;;;;;;;;;;;;
+Le Lok'all;                     1 rue du Pont Coz,	29600	Morlaix;;;;;;;;;;;;;;;;
+Le marchand de bière;           Place du bas des lices, 35000 Rennes;;;;;;;;;;;;;;;;
+Le petit café dans la prairie;  41 rue des Ducs de Bretagne, Le Gorvello  56450 Theix-Noyalo;;;;;;;;;;;;;;;;
+Le pif en l'air;                4 rue des Trente, 35000 Rennes;;;;;;;;;;;;;;;;
+Le potager de Lily;             4 RUE GEORGES CLEMENCEAU,	35240	Retiers;;;;;;;;;;;;;;;;
+Le Sur Mesure Rennes;           18 Rue de Robien, 35000 Rennes;;;;;;;;;;;;;;;;
+Les Audacieuses;                36 rue de Paris, 35000 Rennes;;;;;;;;;;;;;;;;
+Les Clandestines;               36 rue de Paris, 35000 Rennes;;;;;;;;;;;;;;;;
+Les Goulus;                     11 place St Melaine, 35740 Pacé;;;;;;;;;;;;;;;;
+Les Oiseaux de passage;         20 rue de la chaux, 22100 Dinan;;;;;;;;;;;;;;;;
+Les Petits Chapelais;           Les Petits Chapelais 35310 Chavagne;;;;;;;;;;;;;;;;
+Les Pieds sur Terre Biocoop;    19 Rue Saint-Nicolas, 35410 Châteaugiron;;;;;;;;;;;;;;;;
+Les Pieds sur Terre Biocoop;    28 Route de Bain, 35150 Janzé;;;;;;;;;;;;;;;;
+Les Sommeliers Cavistes;        17bis Rue Garengeot, 35500 Vitré;;;;;;;;;;;;;;;;
+Lysadis;                        2 Avenue des Monts-Gaultier 35230 Noyal-Châtillon-sur-Seiche;;;;;;;;;;;;;;;;
+Maguey;                         99 rue de Charenton, 75000 Paris;;;;;;;;;;;;;;;;
+Mar'mousse;                     25 rue Adolphe Le Bail 22190 Plerin;;;;;;;;;;;;;;;;
+Marché des Lices;               Place des lices, 35000 Rennes;;;;;;;;;;;;;;;;
+Oeuf – La Crêperie;             38 Rue de Saint-Malo, 35000 Rennes;;;;;;;;;;;;;;;;
+Office de tourisme;		11 Rue Saint-Yves, 35000 Rennes;;;;;;;;;;;;;;;;
+Petite Nature;                  1 place de la rotonde,	35000	Rennes;;;;;;;;;;;;;;;;
+Pub le Keltia;                  11 rue du pont, 29800 Landerneau;;;;;;;;;;;;;;;;
+SARL JSMP EPISERVICE;       	22 grande rue,	37350	Le grand Pressigny;;;;;;;;;;;;;;;;
+Scarabée Biocoop Bruz;          5-7 rue de Gavrinis, 35170 Bruz;;;;;;;;;;;;;;;;
+Scarabée Biocoop Cesson;        8 rue des peupliers, 35510 CESSON-SÉVIGNÉ;;;;;;;;;;;;;;;;
+Scarabée Biocoop Cleunay;       132 rue Eugène Pottier, 35000 Rennes;;;;;;;;;;;;;;;;
+Scarabée Biocoop Papu;          18 rue Papu, 35000 Rennes;;;;;;;;;;;;;;;;
+Scarabée Biocoop rue de Paris;  131 rue de Paris, 35000 Rennes;;;;;;;;;;;;;;;;
+Scarabée Biocoop St Grégoire;   8 rue de la Cerisaie, 35760 St Grégoire;;;;;;;;;;;;;;;;
+Scarabée Biocoop Vasselot;      10 rue Vasselot, 35000 Rennes;;;;;;;;;;;;;;;;
+Scarabée Biocoop Vern;          Centre Commercial du Val D’Orson, 35770 Vern Sur Seiche;;;;;;;;;;;;;;;;
+SNC Château des Pères;          Le Château, Piré-sur-35150 Seiche;;;;;;;;;;;;;;;;
+St Cochon;                      50 rue ange blaize, Rennes 35000;;;;;;;;;;;;;;;;
+Terra Phoenix;                  21 rue Jules Duval, 35630 Bazouges sous Hédé;;;;;;;;;;;;;;;;
+Ti Grains;                      23 rue guy ropartz,	35200	Rennes;;;;;;;;;;;;;;;;
+Tous à la cave;                 17 rue Jacques Blouet, 35580 Guichen;;;;;;;;;;;;;;;;
+Ty Kav & Bar;                   22 Rue d'Alsace, 56860 Séné;;;;;;;;;;;;;;;;
+Un café des possibles;          9 place François Duine, 35440 Guipel;;;;;;;;;;;;;;;;
+VnB Route de Lorient Rennes;    Route de Lorient, 35000 Rennes;;;;;;;;;;;;;;;;
+VnB Vitré;                      4 Rue Fougeray, 35500 Vitré;;;;;;;;;;;;;;;;
