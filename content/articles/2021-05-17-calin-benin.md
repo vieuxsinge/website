@@ -7,25 +7,23 @@ Status: Draft
 
 On sort aujourd'hui un brassin réalisé uniquement a partir de céréales sans gluten. Le fruit d'une collaboration entamée il y a deux ans avec les [Brasseurs Cueilleurs](https://brasseurscueilleurs.fr/).
 
-Et… on a le plaisir de vous annoncer que malgré le défi technique que cela constitue le résultat est très plaisant !
+Et… on a le plaisir de vous annoncer que malgré le défi technique que cela constitue le résultat est très plaisant :-)
 
-On a effectivement du revisiter le process de fabrication pour permettre aux personnes coeliaques de pouvoir boire une vraie petit bibine digne de ce nom bien tranquilou. On l'a nommée « Calin Bénin » parce qu'une bière c'est avant tout de l'amour. Comment ça on est trop fleur bleue ?!
+On a du revisiter nos process de fabrication pour brasser à partir de sorgho et de millet, pour permettre aux personnes coeliaques de boire de la « craft ».
 
-On a utilisé du millet et du sorgho en remplacement de l'orge et du blé qu'on utilise traditionellement.
- 
-Le millet est une céréale encore moins gourmande que sa cousine le sorgho. C'est la plus petite céréale (et non le quinoa n'est pas une céréale), elle a un bon gout de noisette. Comme le sorgho elle est très utilisée en afrique, notamment pour faire de la bière ! Notre millet du sud ouest a été malté par la malterie du vieux silo, merci à elles et eux.
+On a donc utilisé du millet et du sorgho en remplacement de l'orge et du blé qu'on utilise traditionellement lors de nos brassins. Le millet la plus petite céréale (et non le quinoa n'est pas une céréale !) et a un bon gout de noisette. Comme le sorgho elle est très utilisée en afrique, notamment pour faire de la bière…
 
-Nous souhaitons partager notre expérience avec un maximum de brasseries, pour que partout puissent essemer des bières que pourront boire des malades de coeliaque.
+Notre millet vient de la malterie du Vieux Silo, dans le sud ouest, merci à elles et eux.
+
+On a mis pas mal de temps à récupérer des informations à divers endroits, et l'idée de cet article est de partager notre expérience, pour rendre la fabrication de bière sans gluten plus accessible.
 
 Si vous voulez en savoir plus sur le process… c'est par ici, et on reste disponibles pour échanger avec vous à ce sujet !
 
 ## Le process…
 
-(Attention, a partir d'ici ça devient plus technique !)
+(Attention, a partir d'ici ça devient plus technique)
 
-Traditionellement, la gélatinisation et l'activation des enzymes se fait en même temps, parce que les températures de gélatinisation de l'orge et du blé sont les mêmes que les températures d'activation des enzymes alpha et beta amylases.
-
-Voici une petite référence des céréales et de leur températures de gélatinisation :
+Comme vous le savez surement, traditionellement la gélatinisation et l'activation des enzymes se fait en même temps : les plages de températures de gélatinisation de l'orge et du blé sont les mêmes que les températures d'activation des enzymes alpha et beta amylases.
 
 | Céréales | Gélatinisation | Notes                                                   |
 | -------- | -------------- | ------------------------------------------------------- |
@@ -35,20 +33,19 @@ Voici une petite référence des céréales et de leur températures de gélatin
 | Sorgho   | 68-72 °C       | Attention à la caramélisation en cas de chauffe directe |
 | Sarrasin | 80°C           | [https://zerotolerance.mywikis.net/wiki/Buckwheat](https://zerotolerance.mywikis.net/wiki/Buckwheat)        |
 
-Comme vous le voyez les choses se corsent ici : la température élevée de gelatinisation nécessaire pour le sorgho et le millet dénature nos enzymes et les rends inutiles. Il faut donc en rajouter après l'étape de gelatinisation.
+Comme vous le voyez, pour le millet, le sorgho et le sarrasin les choses se corsent : la température de gelatinisation est assez elevée et dénature nos enzymes. Il faut donc en rajouter après l'étape de gelatinisation. Nous utilisons ici des enzymes exogènes.
 
 On va donc :
 
-1. Gélatiniser nos céréales pour dissoudre l'amidon dans l'eau ;
+1. Gélatiniser nos céréales pour dissoudre l'amidon dans l'eau en chauffant à la bonne température ;
 2. Liquéfier l'amidon grace à l'action enzymatique de l'alpha-amylase ;
-3. Convertir les dextrines en sucres fermentescibles grace aux beta-amylases.
+3. Saccharifier les dextrines en sucres fermentescibles grace aux beta-amylases.
 
 ![Étapes de la simplification des sucres](/images/2021-05-sans-gluten/Stages_of_starch_conversion.gif)
 
-Et aussi :
+En en profite à ce stade pour ajouter des beta-glucanases, qui ont pour effet d'améliorer la filtration et de réduire la viscosité du mout.
 
-4. Réduire la viscosité du mout, pour améliorer la filtration, à l'aide de beta-glucanases ;
-5. Supprimer les résidus de gluten avec les protéases. Cette étape n'est pas normalement nécessaire, mais nous avons trouvé des résidus d'orge dans le millet…
+Nous avons trouvé des résidus d'orge dans le millet, et avons donc également rajouté des protéases pour éliminer toute source de gluten. Cela n'est pas théoriquement nécessaire si vous utilisez des céréales sans trace de gluten.
 
 | Étapes                                                       | Température | Notes                                      |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------ |
@@ -59,14 +56,14 @@ Et aussi :
 | Mash-out                                                      | 78°C        |                                            |
 | Fermentation                                                  |             | Ajout de protéases<br />dans le fermenteur |
 
-Pour 500kg de grain :
+Pour vous donner un ordre d'idée, pour 500kg de grain nous avons fait :
 
-- 1er palier avec un ratio de 2,5L/kg. 1250L d'eau à environ 88°C.
-- 2ème palier  on dilue avec environ 800L d'eau à 15° et on obtient une maische à environ 63° avec un ratio de 4L/kg. 
+- Un palier avec un ratio de 2,5L/kg, soit 1250L d'eau à environ 88°C.
+- Un second palier, en diluant avec ~800L d'eau à 15°, pour obtenir une maische à ~63° et un ratio de 4L/kg. 
 
 ### Ingrédients
 
-Au niveau ingrédients, on a ajouté pas mal de balle de riz, pour éviter le colmatage, ce qu'on a réussi de manière assez étonnante. On a eu quelques surprises lors de la première recirculation qui était un peu compliquée mais… tout s'est bien passé sinon !
+Au niveau ingrédients, on a choisi de la jouer *safe* et on a utilisé pas mal de balle de riz pour éviter le colmatage. Une réussite, contre toute attente ! On a eu quelques surprises lors de la première recirculation qui était un peu compliquée mais… le temps de nettoyer les tuyaux et c'était reparti.
 
 | Ingrédient                                 | Quantité               |
 | ------------------------------------------ | ---------------------- |
@@ -114,7 +111,7 @@ Et hop, en fermenteurs ! Une fois la fermentation terminée, petit dry hopping, 
 
 ## Enzymes ?
 
-Si comme nous vous êtes un peu perdus avec tous ces noms d'oiseaux, voici un petit résumé des informations qu'on a trouvé sur les différentes enzymes :
+Si comme nous vous êtes un peu perdus avec tous ces noms d'enzymes, voici un petit résumé des informations qu'on a trouvé, et des liens vers les fiches des produits :
 
 [Alphamyl](https://www.aeb-group.com/media/catalogo-unico/endozym_alphamyl_pf-3308/docs/fr/ENDOZYM_ALPHAMYL_PF_NaCl_TDS_FR_0280116_FOOD_France.pdf)
 
@@ -133,7 +130,7 @@ Si comme nous vous êtes un peu perdus avec tous ces noms d'oiseaux, voici un pe
 
 De plus, une endoprotéase neutre et une α-amylase thermostable complètent cette formulation complexe et permettent d’assurer les autres fonctions de l’Endozym® Brewmix Plus.
 
-- 500 à 900 g/T (sur céréales non maltés ou malt spéciaux)
+- Dosage : 500 à 900 g/T (sur céréales non maltés ou malt spéciaux)
 - ajouté en cuve d’empâtage, après acidification du moût.
 
 [Glucacel](https://www.aeb-group.com/media/catalogo-unico/endozym_glucacel_uht-2427/docs/en/ENDOZYM_GLUCACEL_UHT_TDS_EN_0220916_BEER_Italy.pdf)
@@ -144,7 +141,7 @@ betaglucanase thermostable. Pentosanasic, cellulasic, xylanasic and arabanasic a
 
 - t° 50-75°C
 - pH 4,7-7,0
-- 200-300 g/tons of malt.
+- Dosage : 200-300 g /T de malt.
 
 
 [AGP 120](https://www.aeb-group.com/media/catalogo-unico/endozym_agp_120-2425/docs/za/ENDOZYM_AGP_120_TDS_EN_0240316_BEER_South_Africa.pdf)
@@ -153,7 +150,7 @@ betaglucanase thermostable. Pentosanasic, cellulasic, xylanasic and arabanasic a
 
 Amylo-glucosidase, alpha-amylase and pollulanase.
 
-- 3-10 g/hL at the beginning of the fermentation.
+- Dosage : 3-10 g/hL (at the beginning of the fermentation)
 
 
 [Protease GF](https://www.aeb-group.com/media/catalogo-unico/endozym_protease_gf-2430/docs/fr/ENDOZYM%20PROTEASE%20GF_TDS_FR_0070317_BEER_France.pdf)
@@ -168,4 +165,4 @@ Bon courage pour le brassin :-)
 
 - Merci à l'équipe des Brasseurs Cueilleurs pour les discussions et expérimentations autour de la fabrication de bière sans gluten, et pour la fabrication de cette bière chez eux !
 - Merci à Maxime Paisant pour ses conseils et retours d'expériences sur la fabrication de bière sans gluten
-- Le graphique de conversion des sucres est extrait de [Braukaiser](http://braukaiser.com/wiki/index.php?title=Starch_Conversion)
+- Le graphique de conversion des sucres est extrait de [Braukaiser](http://braukaiser.com/wiki/index.php?title=Starch_Conversion), merci pour cette ressource incroyable :-)
