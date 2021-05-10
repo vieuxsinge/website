@@ -5,7 +5,7 @@ image: /images/2021-05-sans-gluten/sorgho.jpg
 Accroche: Retours sur le process de fabrication de bières sans gluten.
 Status: Draft
 
-On a récemment sorti une bière sans gluten, brassée en collab avec [Les Brasseurs Cueilleurs](https://brasseurscueilleurs.fr/) à partir de millet de sorgho. Le process est un peu différent de ce qu'on à l'habitude de faire traditionellement, on saisit donc l'occasion pour publier un petit article de retours. 
+On a récemment sorti une bière sans gluten, brassée en collab avec [les Brasseurs Cueilleurs](https://brasseurscueilleurs.fr/) à partir de millet et de sorgho. Le process est un peu différent de ce qu'on à l'habitude de faire traditionellement, on saisit donc l'occasion pour publier un petit article de retours. 
 
 Pour bien comprendre, il faut saisir qu'il se passe trois choses durant l'empâtage : 
 
@@ -32,7 +32,7 @@ Mais pour le millet, le sorgho et le sarrasin, les choses se corsent : la tempé
 
 Il est donc nécessaire d'en rajouter dans le process après l'étape de gelatinisation, ce qui est fait grace à l'utilisation d'enzymes exogènes.
 
-La théorie reste donc assez similaire a celle d'un empâtage classique. La température de gelatinisation est plus haute, et les enzymes sont rajoutées manuellement. On peut également noter que les enzymes qui s'occupent de la saccharification ici ne sont plus des **beta-amylases** mais des **amylo-glucosidases** exogènes, pour une seule et bonne raison : nous n'avons pas trouvé de beta-amylases exogènes !
+La théorie reste donc assez similaire a celle d'un empâtage classique, mis à part que la température de gelatinisation est plus haute, et les enzymes sont rajoutées manuellement. On peut également noter que les enzymes qui s'occupent de la saccharification ici ne sont plus des **beta-amylases** mais des **amylo-glucosidases** exogènes, pour une seule et bonne raison : nous n'avons pas trouvé de beta-amylases exogènes !
 
 Une des autres problématiques lors des brassins sans gluten, c'est le taux elevé de beta-glucans qui augmente la viscosité du moût et peut amener à des filtrations compliquées. Pour réduire la viscosité du moût, on va donc utiliser des enzymes une fois de plus : des beta-glucanases, qui dégradent ces beta-glucans.
 
