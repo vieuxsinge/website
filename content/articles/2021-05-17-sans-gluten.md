@@ -5,7 +5,7 @@ image: /images/2021-05-sans-gluten/sorgho.jpg
 Accroche: Retours sur le process de fabrication de bières sans gluten.
 Status: Draft
 
-On a récemment sorti une bière sans gluten, brassée à partir de millet de sorgho. Le process est un peu différent de ce qu'on à l'habitude de faire traditionellement, on saisit donc l'occasion pour publier un petit article de retours. 
+On a récemment sorti une bière sans gluten, brassée en collab avec [Les Brasseurs Cueilleurs](https://brasseurscueilleurs.fr/) à partir de millet de sorgho. Le process est un peu différent de ce qu'on à l'habitude de faire traditionellement, on saisit donc l'occasion pour publier un petit article de retours. 
 
 Pour bien comprendre, il faut saisir qu'il se passe trois choses durant l'empâtage : 
 
