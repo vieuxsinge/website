@@ -5,7 +5,7 @@ image: /images/2021-05-sans-gluten/sorgho.jpg
 Accroche: Retours sur le process de fabrication de bières sans gluten.
 Status: Draft
 
-On a récemment sorti une bière sans gluten, brassée en collab avec [les Brasseurs Cueilleurs](https://brasseurscueilleurs.fr/) à partir de millet et de sorgho. Le process est un peu différent de ce qu'on à l'habitude de faire traditionellement, on saisit donc l'occasion pour publier un petit article de retours. 
+On a récemment sorti une bière sans gluten, brasséée en collab avec [les Brasseurs Cueilleurs](https://brasseurscueilleurs.fr/) à partir de millet et de sorgho. Le process étant un peu différent de ce qu'on à l'habitude de faire traditionellement, on saisit l'occasion pour publier un petit article de retours.
 
 Pour bien comprendre, il faut saisir qu'il se passe trois choses durant l'empâtage : 
 
@@ -68,6 +68,8 @@ On vous laisse admirer la tête du gateau, hyper compact !
 ![Le gâteau de drèches, très dense](/images/2021-05-sans-gluten/dreches.jpg){: .image .miniature }
 
 Et hop, en fermenteurs. La suite du process est similaire à une bière traditionelle. Une fois la fermentation terminée, la bière à été houblonnée à cru puis passée en garde… avant d'être mise en bouteilles.
+
+Petit détail quand même : il n'est pas impossible qu'il y ait des traces de gluten dans votre bière tout de même. Les équipements qu'on utilise (trémie, moulin, etc) peuvent en contenir. Pour éviter toute déconvenue, il peut être interessant de rajouter des enzymes « déglutenisantes », des protéases qu'il faut ajouter directement dans le fermenteur.
 
 ## Et plus si affinités
 
