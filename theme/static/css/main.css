@@ -3525,6 +3525,7 @@
 
         .wrapper.style1 {
             background-color: #ffffff;
+            padding-top: 1em;
         }
 
         .wrapper.style1 h2.major {
@@ -3553,7 +3554,7 @@
         }
 
         .wrapper.style7 {
-            background-color: #000;
+            background-color: #00000082;
             color: #fff;
         }
         .wrapper.style7 form {
