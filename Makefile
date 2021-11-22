@@ -7,7 +7,7 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 VENV := $(shell echo $${VIRTUAL_ENV-$(shell pwd)/.venv})
-VIRTUALENV = virtualenv -p /home/dan/.pyenv/versions/3.7.1/bin/python
+VIRTUALENV = python -m venv .venv
 INSTALL_STAMP = $(VENV)/.install.stamp
 
 PYTHON=$(VENV)/bin/python
@@ -36,14 +36,7 @@ clean:
 	rm -rf $(VENV)
 
 serve: install
-ifdef PORT
-	cd $(OUTPUTDIR) && $(PYTHON) -m pelican.server $(PORT)
-else
-	cd $(OUTPUTDIR) && $(PYTHON) -m pelican.server 8000
-endif
-
-regenerate:
-	$(PELICAN) -l -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 publish: install
 	curl -X POST -F data=@content/assets/dataviz/points-de-vente/places.csv https://api-adresse.data.gouv.fr/search/csv/ -F columns=Adresse -o content/assets/dataviz/points-de-vente/geocoded.csv
