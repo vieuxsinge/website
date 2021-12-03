@@ -4,6 +4,52 @@ save_as: experimentations.html
 
 *On aime bien expérimenter, parfois avec des copains⋅ines, et parfois juste entre nous ! Le résultat  : quelques brassins uniques qui sont dispo jusqu'à épuisement des stocks*.
 
+## Tarte ! / Décembre 2021
+
+Une bière de type *sour*, bien chargée en rhubarbe, et pas du tout rentable, hihi.
+
+![Étiquette de Tarte](images/recettes/tarte.png)
+
+## Ragnarok / Novembre 2021
+
+Un *baltic porter* à 7,7°alc, qu'on a laissé vieillir quasiment un an en bouteilles pour qu'il s'affine. Brassé avec du blé torréfié. Des notes puissantes de torréfaction.
+
+![Étiquette de Ragnarok](images/recettes/ragnarok.png)
+
+## Dupond & Dupont / Septembre 2021
+
+Ce sont deux Gose, brassées en collab avec les voisins Nantais d'[AERoFAB](https://www.aerofab.fr). C'est toujours un plaisir d'aller découvrir de nouvelles brasseries et d'échanger sur nos pratiques, ici on s'est vraiment régalé !
+
+- Dupond, 33cl : Gose Poire Williams et Fève de Tonka
+- Dupont, 44cl : Gose Citron Vert et Poivre Timut
+
+![Étiquette de Dupond](images/recettes/dupond.png)
+
+## Aller Simple / Mars 2021
+
+Une reviste de notre *West Coast IPA*, pour l'intégrer à notre gamme.
+
+![Étiquette de Aller Simple](images/recettes/aller-simple.png)
+
+## 12 Vilain⋅es / Septembre 2020
+
+*American Pale Ale Idaho7. Étiquettes par [le collectif « La Vilaine »](https://www.facebook.com/lavilaineasso/).*
+
+Une bière de type American Pale Ale, houblonnée à cru avec du IDAHO7. Le projet
+est né de l'envie de faire quelque chose ensemble avec les illustrateur⋅ices de la revue La Vilaine, d'où les 12 étiquettes différentes !
+
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines2.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines3.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines4.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines5.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines6.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines7.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines8.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines9.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines10.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines11.png)
+![Étiquette d'une des 12 vilaines](images/experimentations/12vilaines/12vilaines12.png)
 
 ## Le remède / Juin 2020
 
@@ -56,7 +102,7 @@ Notre première *Sour* à proprement parler, une bière avec une légère acidit
 
 *Kiwi-Sour Pale Ale — 4,6°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
 
-![Étiquette de la bière " Chaînon Manquant "](images/experimentations/chainon-manquant.png)
+![Étiquette de la bière « Chaînon Manquant »](images/experimentations/chainon-manquant.png)
 
 Quand on veut faire une bière avec des fruits de saison en plein hiver, on se dit qu'utiliser quelques Kiwis ne pourrait pas faire de mal ! Une bière avec une acidité légère, grâce aux kiwis, parfait pour le début de saison et le grand retour du soleil sur les terrasses ! Brassé en collaboration avec [les Brasseurs Cueilleurs](https://www.facebook.com/BrasseursCueilleurs/).
 
@@ -67,6 +113,10 @@ Quand on veut faire une bière avec des fruits de saison en plein hiver, on se d
 ![Étiquette de la bière « Monstrueuse Normalité »](images/experimentations/monstrueuse-normalite.png)
 
 Une bière inspirée du style *New England IPA*: un boulot sur la texture, qu'on essaye de rapprocher d'un petit jus d'orange, grâce à l’utilisation des flocons d'avoine et du blé. Et puis on s'est lâché sur les quantités de houblon, faut le dire.
+
+- v1 : Janvier 2019.
+- v2 : Juin 2020 : Centennial, Citra et Jaryllo
+- v3 : Avril 2021 : Centennial, Citra, Idaho7
 
 ## Sobacha / Novembre 2018
 *Lager au sarrasin — 5,5°alc. Étiquette [Clément Droff](https://www.clementdroff.fr/).*
