@@ -1,0 +1,55 @@
+title: Ragnarok
+save_as : recettes/ragnarok.html
+date: "2021-12-01"
+label:
+  url: ragnarok.png
+  description: Une proue de bateau viking dans un brouillard à couper au couteau…
+description: Un baltic porter bien complexe, avec un bon vieillissement en bouteilles avant d'être prêt :-) 
+description_longue:  
+style: Baltic Porter 
+tip: A faire vieillir en bouteilles avant de la boire, ça permet à l'amertume de baisser tranquilou et de rajouter de la complexité au tout !
+basics:
+  Alcool: 7,7°
+  Densité Initiale: 1,068
+  Densité Finale: 1,013
+  Couleur (EBC): 73
+  Amertume (IBU): 39
+  pH cible : 5,4
+
+water:
+  Sulfates: 50ppm
+  Chlorures: 150ppm
+
+cereals:
+  - Malt Pils: 50%
+  - Vienna : 34%
+  - Caramunich : 4%
+  - Special B : 4%
+  - Chocolate Rye (cold steep) : 4%
+  - Malt de blé torréfié : 4%
+
+mash:
+  Température: 68°C
+  Durée: 1h
+  Ratio eau-grain: 3L/kg
+
+hops:
+  - hop: Bullion 
+    alpha: 8%
+    poids: 2,5 g/L
+    moment: Ébullition
+    temps: 80mn
+
+yeasts:
+  - Nom: W34/70
+    Atténuation: 80%
+
+fermentation:
+  - Ensemencement à 12°C
+  - Consigne à 12°C jusqu'à attendre 50% d'atténuation
+  - Consigne à 20°C
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

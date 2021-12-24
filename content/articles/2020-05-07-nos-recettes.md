@@ -18,11 +18,18 @@ Nous ne sommes pas seuls et pensons que la coopération et le partage sont plus 
 [![Nouveau Monde / American Pale Ale](/images/recettes/nouveau-monde.png)](/recettes/nouveau-monde.html){: .image .miniature }
 [![Souffle Tropical / American Wheat](/images/recettes/souffle-tropical.png)](/recettes/souffle-tropical.html){: .image .miniature }
 [![En Pleine Tempête / London Bitter](/images/recettes/en-pleine-tempete.png)](/recettes/en-pleine-tempête.html){: .image .miniature }
-
 [![L'Eau Qui Dort / Stout à la vanille](/images/recettes/leau-qui-dort.png)](/recettes/leau-qui-dort.html){: .image .miniature }
 
 
 ## Brassins uniques
+
+### 2021
+
+[![Dupond](/images/recettes/dupond.png)](/recettes/dupond.html){: .image .miniature }
+[![Tarte !](/images/recettes/tarte.png)](/recettes/tarte.html){: .image .miniature }
+[![Ragnarok](/images/recettes/ragnarok.png)](/recettes/ragnarok.html){: .image .miniature }
+
+### 2020
 
 [![12 Vilain⋅e⋅s](/images/recettes/12vilain⋅e⋅s.png)](/recettes/12-vilain⋅e⋅s.html){: .image .miniature }
 [![Brassin de soutien](/images/recettes/soutien.jpg)](/recettes/covid19-soutien.html){: .image .miniature }

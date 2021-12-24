@@ -1,0 +1,66 @@
+title: Tarte !
+save_as : recettes/tarte.html
+date: "2021-12-01"
+label:
+  url: tarte.png
+  description: Une étiquette colorée avec une foret de rhubarbe et des personnages évoluants dedans.
+description: Sour à la rhubarbe des familles.
+description_longue: La rhubabre, c'est cool c'est local ! Et c'est bon ! On a pas lésiné sur la quantité cette fois ci, il faut que ça goute !
+style: Sour à la rhubarbe
+tip: Attention à ne pas laisser trop déscendre en acidité, il faut bien surveiller le pH et ne pas dépasser les 3,4 !
+basics:
+  Alcool: 4%
+  Densité Initiale: 1,047
+  Densité Finale: 1,009
+  Couleur (EBC): 9
+  Amertume (IBU): 9
+  pH cible : 3,5
+
+water:
+  Sulfates: 100ppm
+  Chlorures: 100ppm
+
+cereals:
+  - Malt Pils: 55%
+  - Malt de blé : 45%
+
+adjuncts:
+   - Helveticus pitch: 10g/hL
+   - Purée de rhubarbe : 45g/hL 
+
+
+mash:
+  Température: 66°C
+  Durée: 1h
+  Ratio eau-grain: 3L/kg
+
+hops:
+  - hop: Goldings
+    alpha: 6%
+    poids: 600 mg/L
+    moment: Ébullition
+    temps: 80mn
+
+yeasts:
+  - Nom: Us-O5
+    Atténuation: 83%
+
+fermentation:
+  - Empatage et rinçage habituels
+  - Ébullition 15mn, ne pas rajouter de houblon à ce stade
+  - Baisser le pH à 4,2
+  - Envoi en fermenteur pour l’acidification
+  - Refroidissement à 44°C
+  - Attendre pH de 3,5 (2j)
+  - Ébullition durant 1h
+  - Ajout du houblon
+  - Refroidissement classique
+  - Ensemencement à 16°C, consigne à 16°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - Une fois la primaire passée, ajouter la purée de rhubarbe
+  - Une fois la densité stable, passer en cold crash
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol
