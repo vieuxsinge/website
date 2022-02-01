@@ -63,12 +63,12 @@ hops:
     alpha: 13%
     poids: 2 g/L
     moment: A froid
-    temps: 15mn
+    temps: 2j
   - hop: Amarillo
     alpha: 10%
     poids: 3 g/L
     moment: A froid
-    temps: 15mn
+    temps: 2j
 
 
 yeasts:
