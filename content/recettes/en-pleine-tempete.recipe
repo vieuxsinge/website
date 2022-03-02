@@ -7,7 +7,7 @@ label:
 description: ""
 description_longue: Une bitter à l'anglaise, assez sèche mais réconfortante !
 style: Bitter à l'Anglaise
-tip: 
+tip:
 basics:
   Alcool: 5,5%
   Densité Initiale: 1,051
@@ -37,7 +37,7 @@ hops:
     temps: 60mn
 
 yeasts:
-  - Nom: Essais encore en cours !
+  - Nom: S-04 (Fermentis)
     Atténuation: 75%
 
 fermentation:

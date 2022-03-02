@@ -7,7 +7,7 @@ Status: Draft
 
 On a récemment sorti une bière sans gluten, brasséée en collab avec [les Brasseurs Cueilleurs](https://brasseurscueilleurs.fr/) à partir de millet et de sorgho. Le process étant un peu différent de ce qu'on à l'habitude de faire traditionellement, on saisit l'occasion pour publier un petit article de retours.
 
-Pour bien comprendre, il faut saisir qu'il se passe trois choses durant l'empâtage : 
+Pour bien comprendre, il faut saisir qu'il se passe trois choses durant l'empâtage :
 
 1. la gélatinisation les céréales (pour dissoudre l'amidon dans l'eau)
 2. la conversion de l'amidon en dextrines (liquéfaction, grace aux enzymes alpha-amylases)
@@ -30,13 +30,13 @@ Mais pour le millet, le sorgho et le sarrasin, les choses se corsent : la tempé
 | Sorgho   | 68-72 °C       | Attention à la caramélisation en cas de chauffe directe |
 | Sarrasin | 80°C           | [https://zerotolerance.mywikis.net/wiki/Buckwheat](https://zerotolerance.mywikis.net/wiki/Buckwheat)        |
 
-Il est donc nécessaire d'en rajouter dans le process après l'étape de gelatinisation, ce qui est fait grace à l'utilisation d'enzymes exogènes.
+Il est donc nécessaire d'en rajouter dans le process après l'étape de gélatinisation, ce qui est fait grâce à l'utilisation d'enzymes exogènes.
 
 La théorie reste donc assez similaire a celle d'un empâtage classique, mis à part que la température de gelatinisation est plus haute, et les enzymes sont rajoutées manuellement. On peut également noter que les enzymes qui s'occupent de la saccharification ici ne sont plus des **beta-amylases** mais des **amylo-glucosidases** exogènes, pour une seule et bonne raison : nous n'avons pas trouvé de beta-amylases exogènes !
 
-Une des autres problématiques lors des brassins sans gluten, c'est le taux elevé de beta-glucans qui augmente la viscosité du moût et peut amener à des filtrations compliquées. Pour réduire la viscosité du moût, on va donc utiliser des enzymes une fois de plus : des beta-glucanases, qui dégradent ces beta-glucans.
+Une des autres problématiques lors des brassins sans gluten, c'est le taux élevé de beta-glucans qui augmente la viscosité du moût et peut amener à des filtrations compliquées. Pour réduire la viscosité du moût, on va donc utiliser des enzymes une fois de plus : des beta-glucanases, qui dégradent ces bêta-glucans.
 
-Donc, si on résume… 
+Donc, si on résume…
 
 | Étapes                                                       | Température | Notes                                      |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------ |
@@ -48,7 +48,7 @@ Donc, si on résume…
 Pour vous donner un ordre d'idée, pour 500kg de grain nous avons fait :
 
 - Un palier avec un ratio de 2,5L/kg, soit 1250L d'eau à environ 88°C.
-- Un second palier, en diluant avec ~800L d'eau à 15°, pour obtenir une maische à ~63° et un ratio de 4L/kg. 
+- Un second palier, en diluant avec ~800L d'eau à 15°, pour obtenir une maische à ~63° et un ratio de 4L/kg.
 
 ### Ingrédients
 
@@ -67,7 +67,7 @@ On vous laisse admirer la tête du gateau, hyper compact !
 
 ![Le gâteau de drèches, très dense](/images/2021-05-sans-gluten/dreches.jpg){: .image .miniature }
 
-Et hop, en fermenteurs. La suite du process est similaire à une bière traditionelle. Une fois la fermentation terminée, la bière à été houblonnée à cru puis passée en garde… avant d'être mise en bouteilles.
+Et hop, en fermenteurs. La suite du process est similaire à une bière traditionnelle. Une fois la fermentation terminée, la bière à été houblonnée à cru puis passée en garde… avant d'être mise en bouteilles.
 
 Petit détail quand même : il n'est pas impossible qu'il y ait des traces de gluten dans votre bière tout de même. Les équipements qu'on utilise (trémie, moulin, etc) peuvent en contenir. Pour éviter toute déconvenue, il peut être interessant de rajouter des enzymes « déglutenisantes », des protéases qu'il faut ajouter directement dans le fermenteur.
 
