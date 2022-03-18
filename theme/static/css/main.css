@@ -4125,3 +4125,9 @@
   margin-bottom: 1.5em !important;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 1000px) {
+  .gallery {
+    max-width: 80% !important;
+  }
+}
