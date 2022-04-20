@@ -1,0 +1,51 @@
+title: Le Bon Jaja
+save_as : recettes/jaja.html
+date: "2022-03-18"
+label:
+  url: jaja.png
+  description: Un personnage avec une trompette dans un bras et un verre dans l'autre, et un bandeau de pirate. Au doigts, il a une bague de type chevalière.
+description: ""
+description_longue: "Près de 700kg de raisin, cépage cabernet franc, bichonnés et éraflés chez Hervé et Marie de « La Grange de Noue Méa », puis macérés quelques jours à la brasserie avant des les ajouter en fermenteurs, en rajoutant un moût de céréales bien sur ! Confectionné avec les copains de chez Skumenn"
+style: ""
+tip:
+basics:
+  Alcool: 6,5%
+  Densité Initiale: 1,050
+  Densité Finale: 1,005
+  Couleur (EBC): 5
+  Amertume (IBU): 10
+  pH cible : 5,45
+
+water:
+  Sulfates: 200ppm
+
+cereals:
+  - Malt Pilsen: 70%
+  - Malt de Blé: 30%
+
+mash:
+  Température: 66°C
+  Durée: 1h
+  Ratio eau-grain: 3L/kg
+
+hops:
+  - hop: Cascade local
+    alpha: 4.4%
+    poids: 800 mg/L
+    moment: Ébullition
+    temps: 60mn
+
+adjuncts:
+   - Moût de raisin : 700L
+
+yeasts:
+  - Nom: Les levures sauvages du cabernet franc !
+    Atténuation: 83%
+
+fermentation:
+  - Ensemencement à 24°C
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol

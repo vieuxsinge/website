@@ -23,6 +23,10 @@ Nous ne sommes pas seuls et pensons que la coopération et le partage sont plus 
 
 ## Brassins uniques
 
+### 2022
+
+[![Le bon Jaja](/images/recettes/jaja.png)](/recettes/jaja.html){: .image .miniature }
+
 ### 2021
 
 [![Dupond](/images/recettes/dupond.png)](/recettes/dupond.html){: .image .miniature }
