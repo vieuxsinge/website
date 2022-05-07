@@ -1,5 +1,6 @@
 Title: Transformation en SCOP
 Date: 2022-01-31
+Slug: scop
 Accroche: Retour sur notre transformation et sa signification pour nous.
 image: /images/2022-02-scop.jpg
 
