@@ -49,18 +49,18 @@
 		background: none !important;
 	}
 
-	.wrapper.spotlight .inner {
+	.wrapper.epigraph .inner {
 		text-align: left !important;
 	}
 
-	.wrapper.spotlight .image {
+	.wrapper.epigraph .image {
 		display: inline-block;
 		margin: 0 3em 2em 0 !important;
 		vertical-align: middle;
 		width: 24%;
 	}
 
-	.wrapper.spotlight .content {
+	.wrapper.epigraph .content {
 		display: inline-block;
 		vertical-align: middle;
 		width: 70%;
