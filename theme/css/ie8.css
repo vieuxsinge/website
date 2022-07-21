@@ -132,11 +132,11 @@
 			display: none;
 		}
 
-		.wrapper.spotlight .image {
+		.wrapper.epigraph .image {
 			-ms-behavior: url("assets/js/ie/PIE.htc");
 		}
 
-			.wrapper.spotlight .image img {
+			.wrapper.epigraph .image img {
 				position: relative;
 				-ms-behavior: url("assets/js/ie/PIE.htc");
 			}

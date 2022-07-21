@@ -2176,13 +2176,13 @@
         }
 
 /* Image */
-.spotlight img {
+.epigraph img {
     max-width: 600px;
 }
 
 @media screen and (max-width: 640px) {
 
-    .spotlight img {
+    .epigraph img {
       max-width: 100%;
       height: auto;
     }
@@ -3561,7 +3561,7 @@
             color: #fff;
         }
 
-        .wrapper.spotlight:before, .separated:before {
+        .wrapper.epigraph:before, .separated:before {
             background-repeat: no-repeat;
             background-size: 100% 100%;
             content: '';
@@ -3572,17 +3572,17 @@
             top: -8.8em;
         }
 
-    .wrapper:not(.spotlight) + .wrapper.spotlight {
+    .wrapper:not(.epigraph) + .wrapper.epigraph {
       margin-top: 8.7em;
     }
 
-        .wrapper.spotlight {
+        .wrapper.epigraph {
             margin: 0 0 -9em 0;
             color: black;
             padding-bottom: 10em;
         }
 
-        .wrapper.spotlight h2 {
+        .wrapper.epigraph h2 {
             margin-bottom: 0;
             padding-bottom: 0;
             border-bottom: none;
@@ -3591,21 +3591,21 @@
             text-align: center;
         }
 
-        .wrapper.spotlight h4 {
+        .wrapper.epigraph h4 {
             margin-bottom: 0;
             line-height: 1em;
         }
 
-        .wrapper.spotlight .row {
+        .wrapper.epigraph .row {
             margin-bottom: 1em;
         }
 
-        .wrapper.spotlight .style {
+        .wrapper.epigraph .style {
             font-weight: bold;
                 text-align: center;
         }
 
-            .wrapper.spotlight .inner {
+            .wrapper.epigraph .inner {
                 display: -moz-flex;
                 display: -webkit-flex;
                 display: -ms-flex;
@@ -3622,16 +3622,16 @@
                 padding-bottom: 7em;
             }
 
-            .wrapper.spotlight .header {
+            .wrapper.epigraph .header {
                 text-align: center;
             }
 
-            .wrapper.spotlight .footer {
+            .wrapper.epigraph .footer {
                 height: 5em;
                 text-align: center;
             }
 
-            .wrapper.spotlight .image {
+            .wrapper.epigraph .image {
                 margin: 0 3em 2em 0;
                 width: 15em;
                 overflow: hidden;
@@ -3639,75 +3639,75 @@
                 z-index: 1;
             }
 
-                .wrapper.spotlight .image img {
+                .wrapper.epigraph .image img {
                     width: 100%;
                 }
 
-            .wrapper.spotlight .content {
+            .wrapper.epigraph .content {
                 z-index: 1;
                 width: 100%;
                 -ms-flex: 2;
             }
 
-            .wrapper.spotlight.style1 {
+            .wrapper.epigraph.style1 {
             background-color: #fbd150;
             }
 
-            .wrapper.spotlight.style1 h2,
-            .wrapper.spotlight.style1 h4,
-            .wrapper.spotlight.style1 .style {
+            .wrapper.epigraph.style1 h2,
+            .wrapper.epigraph.style1 h4,
+            .wrapper.epigraph.style1 .style {
                 color: #655f49;
             }
 
-            .wrapper.spotlight.style1:before {
+            .wrapper.epigraph.style1:before {
               background-image: url("/theme/images/separator1.png");
                 background-color: #ffffff;
             }
 
-            .wrapper.spotlight.style2 {
+            .wrapper.epigraph.style2 {
                 background-color: #faf9ad;
             }
 
-            .wrapper.spotlight.style2 h2,
-            .wrapper.spotlight.style2 h4,
-            .wrapper.spotlight.style2 .style {
+            .wrapper.epigraph.style2 h2,
+            .wrapper.epigraph.style2 h4,
+            .wrapper.epigraph.style2 .style {
                 color: #69c993;
             }
 
-                .wrapper.spotlight.style2:before {
+                .wrapper.epigraph.style2:before {
             background-image: url("/theme/images/separator2.png");
                 }
 
-            .wrapper.spotlight.style3 {
+            .wrapper.epigraph.style3 {
                 background-color: #799a97;
             }
 
-            .wrapper.spotlight.style3 h2,
-            .wrapper.spotlight.style3 h4,
-            .wrapper.spotlight.style3 .style {
+            .wrapper.epigraph.style3 h2,
+            .wrapper.epigraph.style3 h4,
+            .wrapper.epigraph.style3 .style {
                 color: #e7e3a4;
             }
 
-            .wrapper.spotlight.style3:before {
+            .wrapper.epigraph.style3:before {
             background-image: url("/theme/images/separator3.png");
                 }
 
-            .wrapper.spotlight.style4 {
+            .wrapper.epigraph.style4 {
                 background-color: #39477c;
             }
 
 
-            .wrapper.spotlight.style5:before {
+            .wrapper.epigraph.style5:before {
                 background-image: url("/theme/images/separator5.png");
             }
 
-            .wrapper.spotlight.style5 {
+            .wrapper.epigraph.style5 {
                 background-color: #f3685c;
             }
 
-            .wrapper.spotlight.style5 h2,
-            .wrapper.spotlight.style5 h4,
-            .wrapper.spotlight.style5 .style {
+            .wrapper.epigraph.style5 h2,
+            .wrapper.epigraph.style5 h4,
+            .wrapper.epigraph.style5 .style {
                 color: #fff;
             }
 
@@ -3719,7 +3719,7 @@
               margin-top: 7em;
               background-color: #fff;
             }
-            .wrapper.spotlight.style3 .inner {
+            .wrapper.epigraph.style3 .inner {
               padding-bottom: 0px !important;
             }
 
@@ -3750,12 +3750,12 @@
                     padding-bottom: 5em !important;
                 }
 
-                .wrapper.spotlight .image {
+                .wrapper.epigraph .image {
                     margin: 0 2em 2em 0;
                     width: 32em;
                 }
 
-                .wrapper.spotlight:nth-child(2n - 1) .image {
+                .wrapper.epigraph:nth-child(2n - 1) .image {
                     margin: 0 0 2em 2em;
                 }
 
@@ -3788,19 +3788,19 @@
                     padding-bottom: 5em !important;
                 }
 
-                .wrapper.spotlight .inner {
+                .wrapper.epigraph .inner {
                     -moz-align-items: -moz-flex-start;
                     -webkit-align-items: -webkit-flex-start;
                     -ms-align-items: -ms-flex-start;
                     align-items: flex-start;
                 }
 
-                .wrapper.spotlight .image {
+                .wrapper.epigraph .image {
                     width: 19em;
                     margin: 0 1.75em 2em 0;
                 }
 
-                .wrapper.spotlight:nth-child(2n - 1) .image {
+                .wrapper.epigraph:nth-child(2n - 1) .image {
                     margin: 0 0 2em 1.75em;
                 }
 
@@ -3808,11 +3808,11 @@
 
         @media screen and (max-width: 640px) {
 
-            .wrapper.spotlight .inner {
+            .wrapper.epigraph .inner {
                 display: block;
             }
 
-            .wrapper.spotlight .image {
+            .wrapper.epigraph .image {
                 margin: 0 0 1em 0 !important;
                 max-width: 85%;
                 width: 12em;
