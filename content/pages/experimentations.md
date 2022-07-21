@@ -4,7 +4,25 @@ save_as: experimentations.html
 
 *On aime bien expérimenter, parfois avec des copains⋅ines, et parfois juste entre nous ! Le résultat  : quelques brassins uniques qui sont dispo jusqu'à épuisement des stocks*.
 
+## Bara / Juin 2022
+
+*Saison au pain et aux houblons locaux, 6°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
+
+Le pain, c’est 13% du gaspillage alimentaire en France, alors…
+qu’on peut en faire de la bière !! Bara — pain en breton —
+est une saison rustique brassée avec des invendus de pain
+(Seigle, Khorasan, Meule et Épeautre) de l’Atelier Boulanger (35)
+et du houblon local de Allaire Houblonnée (56).
+
+C'est une bière assez légère et facilement buvable,
+les levures de type saison amènent un côté légèrement poivré
+et les houblons locaux un côté floral et un peu fruité.
+
+![Étiquette](/images/2022-06-bara/etiquette.png)
+
 ## Tarte ! / Décembre 2021
+
+*Sour à la rhubarbe, 6°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
 
 Une bière de type *sour*, bien chargée en rhubarbe, et pas du tout rentable, hihi.
 
