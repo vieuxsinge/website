@@ -3,11 +3,11 @@ Date: 2022-09-21
 Accroche: Session IPA en collaboration avec la revue La Vilaine
 image: /images/2022-09-baignade-interdite/etiquette-1.png
 
-On vous connait : on vous dit « Baignade Interdite » et deux secondes plus tard vous êtes à taper sur votre téléphone « Qu'est-ce que je risque si je le fais quand même ? ». C'est plus fort que vous.
+On vous connaît : on vous dit « Baignade Interdite » et deux secondes plus tard vous êtes à taper sur votre téléphone « Qu'est-ce que je risque si je le fais quand même ? ». C'est plus fort que vous.
 
 Figurez vous que l'équipe de La Vilaine sort leur numéro 4. Des histoires dessinées en bande, qui se déroulent à Rennes. On a pas encore lu mais on a MÉGA hâte.
 
-Cette année encore on a brassé une bière pour l'occasion. Elle s'appelle « Baignade Interdite » donc, et c'est une Session IPA avec des houblons qui rapellent la noix de coco (le Sabro) et l'ananas (l'Idaho7). Parce que même si on sent bien que l'été touche à sa fin, on a envie d'en garder encore un peu avec nous.
+Cette année encore on a brassé une bière pour l'occasion. Elle s'appelle « Baignade Interdite » donc, et c'est une Session IPA avec des houblons qui rappellent la noix de coco (le Sabro) et l'ananas (l'Idaho7). Parce que même si on sent bien que l'été touche à sa fin, on a envie d'en garder encore un peu avec nous.
 
 Une seule bière, 18 étiquettes différentes, chacune par un⋅e illustrateur⋅ice différente. Une sorte d'été liquide, version piña colada quoi.
 
