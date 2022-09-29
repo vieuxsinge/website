@@ -4,6 +4,47 @@ save_as: experimentations.html
 
 *On aime bien expérimenter, parfois avec des copains⋅ines, et parfois juste entre nous ! Le résultat  : quelques brassins uniques qui sont dispo jusqu'à épuisement des stocks*.
 
+
+
+## Souffle Tropical / Scop Édition / Octobre 2022
+
+*American Wheat DDH, 4,5°alc*
+
+Pour fêter notre transformation en SCOP (coopérative de salarié⋅es), on a fait une Souffle Tropical « DDH »,
+un Double Dry Hopping, avec une étiquette bien funky ! (Le jaune est en fait de la dorure !)
+
+![Étiquette de Souffle Topical DDH](/images/2022-10-souffle-tropical-scop/etiquette.png){: .gallery}
+
+## Baignade Interdite / Septembre 2022
+
+*Session IPA - 4,5°alc*
+
+Les houblons Sabro et Idaho7 apportent des notes de coco et d'ananas,
+sur une bière bien buvable et légèrement amère. Parce que même si on sent
+bien que l'été touche à sa fin, on a envie d'en garder encore un peu avec nous.
+Une bière brassée en collab' avec la revue dessinée rennaise La Vilaine !
+Du coup, on a 18 étiquettes différentes réalisées par les dessinateur·ices
+de La Vilaine, histoire de faire une jolie collec'.
+
+![Étiquette par Jop](/images/2022-09-baignade-interdite/etiquette-1.png){: .gallery}
+![Étiquette par Loïc Gosset](/images/2022-09-baignade-interdite/etiquette-2.png){: .gallery}
+![Étiquette par Noé Morin](/images/2022-09-baignade-interdite/etiquette-3.png){: .gallery}
+![Étiquette par Julie_wo](/images/2022-09-baignade-interdite/etiquette-4.png){: .gallery}
+![Étiquette Ismaël Hadour](/images/2022-09-baignade-interdite/etiquette-5.png){: .gallery}
+![Étiquette par Maryse Berthelot](/images/2022-09-baignade-interdite/etiquette-6.png){: .gallery}
+![Étiquette par Leyho](/images/2022-09-baignade-interdite/etiquette-7.png){: .gallery}
+![Étiquette par Lomig](/images/2022-09-baignade-interdite/etiquette-8.png){: .gallery}
+![Étiquette par Renan Coquin](/images/2022-09-baignade-interdite/etiquette-9.png){: .gallery}
+![Étiquette par Sebba](/images/2022-09-baignade-interdite/etiquette-10.png){: .gallery}
+![Étiquette par Thomas Brochard Castex](/images/2022-09-baignade-interdite/etiquette-11.png){: .gallery}
+![Étiquette par Thierry Bedouet](/images/2022-09-baignade-interdite/etiquette-12.png){: .gallery}
+![Étiquette par Claire Malary](/images/2022-09-baignade-interdite/etiquette-13.png){: .gallery}
+![Étiquette par Maxime Roy](/images/2022-09-baignade-interdite/etiquette-14.png){: .gallery}
+![Étiquette par Mme Patate](/images/2022-09-baignade-interdite/etiquette-15.png){: .gallery}
+![Étiquette par Matt Dunhill](/images/2022-09-baignade-interdite/etiquette-16.png){: .gallery}
+![Étiquette par Bunk](/images/2022-09-baignade-interdite/etiquette-17.png){: .gallery}
+![Étiquette par Laurent Houssin](/images/2022-09-baignade-interdite/etiquette-18.png){: .gallery}
+
 ## Bara / Juin 2022
 
 *Saison au pain et aux houblons locaux, 6°alc. Étiquette [Loïc Gosset](http://loic-gosset.com/).*
