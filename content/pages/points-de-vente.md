@@ -1,8 +1,14 @@
 Title: Où nous trouver ?
-Slug: ou-nous-trouver
-save_as: ou-nous-trouver.html
-template_type: map
-javascripts: https://unpkg.com/leaflet@1.3.1/dist/leaflet.js, https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js, dataviz/points-de-vente/main.js
-stylesheets: https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css, https://unpkg.com/leaflet@1.3.1/dist/leaflet.css, /dataviz/points-de-vente/main.css
+Slug: points-de-vente
+save_as: points-de-vente.html
 
-<div id="map"></div>
+# Où trouver nos bières ?
+
+Nous sommes une petite brasserie indépendante et souhaitons distribuer nos bières aux alentours de Rennes et en Bretagne. Nous faisons une grande partie des livraisons nous même, et pour le reste travaillons uniquement avec des distributeurs indépendants.
+
+<iframe id="points-de-vente"
+    title="Nos points de vente"
+    width="100%"
+    height="500"
+    src="https://files.vieuxsinge.com/carte/">
+</iframe>

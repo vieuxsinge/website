@@ -4385,3 +4385,18 @@ body.is-mobile.index #footer {
     border: 3px white solid;
     margin: auto;
 }
+
+.carousel-cell {
+    margin-right: 10px;
+}
+
+#bieres ul {
+    position: relative;
+    list-style: none;
+}
+
+#bieres li::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+}
