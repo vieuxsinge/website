@@ -32,13 +32,25 @@
           <a href="/">Brasserie du Vieux Singe</a>
         </h1>
         <nav class="menu-wide">
-          {% for title, link, _ in MENUITEMS %}
-          <a href="{{ link }}" {% if link=='/' + output_file %} class="menu-{{ type }} active" {% endif %}>{{ title
-            }}</a>
-          {% endfor %}
+          <ul>
+            {% for title, link, _, slug in MENUITEMS %}
+            <li><a href="{{ link }}" {% if link=='/' + output_file %}
+                class="menu-{{ type }} {% if page and page.slug == slug %}active{%endif %}" {% endif %}>{{
+                title
+                }}</a></li>
+            {% endfor %}
+            <li class="dropdown menu-wide">
+              <p class="dropbtn">Services</p>
+              <div class="dropdown-content">
+                <a href="#">Tireuses</a>
+                <a href="#">Magasin</a>
+                <a href="#">Commandes groupées</a>
+                <a href="#">Drive</a>
+            </li>
+          </ul>
         </nav>
         <nav class="menu-mobile">
-          {% for title, link, type in MENUITEMS %}
+          {% for title, link, type, slug in MENUITEMS %}
           {% if type == "mobile" %}
           <a href="{{ link }}" {% if link=='/' + output_file %} class="menu-{{ type }} active" {% endif %}>{{ title
             }}</a>
