@@ -5,7 +5,8 @@
   <title>Brasserie du Vieux Singe — Bières artisanales — Rennes</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:url" content="http://www.vieuxsinge.com/" /><meta property="og:type" content="website" /><meta property="og:title" content="Brasserie du Vieux Singe — Bières artisanales — Rennes" />  <link rel="stylesheet" href="https://www.vieuxsinge.com/theme/css/main.css" />
+<meta property="og:url" content="http://www.vieuxsinge.com/" /><meta property="og:type" content="website" /><meta property="og:title" content="Brasserie du Vieux Singe — Bières artisanales — Rennes" />    			<link rel="stylesheet" href="https://www.vieuxsinge.com/assets//carroussel/flickity.css" type="text/css" />
+  <link rel="stylesheet" href="https://www.vieuxsinge.com/theme/css/main.css" />
   <!--[if lte IE 8]><script src="https://www.vieuxsinge.com/theme/js/ie/html5shiv.js"></script><![endif]-->
   <!--[if lte IE 8]><link rel="stylesheet" href="https://www.vieuxsinge.com/theme/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="https://www.vieuxsinge.com/theme/css/ie9.css" /><![endif]-->
@@ -25,17 +26,25 @@
           <a href="/">Brasserie du Vieux Singe</a>
         </h1>
         <nav class="menu-wide">
-          <a href="/index.html"  class="menu- active" >Accueil</a>
-          <a href="/index.html#bieres" >Bières</a>
-          <a href="/manifeste.html" >Manifeste</a>
-          <a href="/blog.html" >Actus</a>
-          <a href="https://vieuxsinge.auneor-conseil.fr" >Drive</a>
-          <a href="/index.html#infospratiques" >Infos pratiques</a>
+          <ul>
+            <li><a href="/index.html#bieres" >Bières</a></li>
+            <li><a href="/manifeste.html" >Manifeste</a></li>
+            <li><a href="/blog.html" >Actus</a></li>
+            <li><a href="/index.html#infospratiques" >Infos pratiques</a></li>
+            <li class="dropdown menu-wide">
+              <p class="dropbtn">Services</p>
+              <div class="dropdown-content">
+                <a href="/tireuses.html">Tireuses</a>
+                <a href="/magasin.html">Magasin</a>
+                <a href="/commandes-groupees.html">Commandes groupées</a>
+                <a href="https://vieuxsinge.auneor-conseil.fr">Drive</a>
+                <a href="https://files.vieuxsinge.com/carte/">Points de vente</a>
+            </li>
+          </ul>
         </nav>
         <nav class="menu-mobile">
           <a href="/manifeste.html" >Manifeste</a>
           <a href="/blog.html" >Actus</a>
-          <a href="https://vieuxsinge.auneor-conseil.fr" >Drive</a>
         </nav>
       </header>
 
@@ -52,7 +61,7 @@
     </section>
     <section class="wrapper style7">
       <div class="inner align-center">
-        <strong><a href="souffle-tropical-edition-speciale-scop.html">Souffle Tropical - Édition spéciale SCOP</a> — <em>Plus de houblons pour fêter notre transformation en SCOP !</em></strong>
+        <strong><a href="mauvaise-graine.html">Mauvaise Graine</a> — <em>Sortie d'une Breizh IPA brassée avec Drao</em></strong>
       </div>
     </section>
     
@@ -69,6 +78,10 @@
             court.</p>
           <p>Nous pensons que la collaboration est meilleure que la compétition. <a href="manifeste.html">Lisez notre
               manifeste</a>, ou <a href="recettes/">accedez à nos recettes.</a></p>
+          <ul>
+            <li>Possibilité de location de <a href="/tireuses.html">tirages pression</a></li>
+            <li>Tarifs avantageux pour les <a href="/commandes-groupees.html">commandes groupées</a></li>
+          </ul>
           <p>Nous proposons une gamme fixe de quatre bières (<em>American Pale Ale</em>, <em>American Wheat</em>,
             <em>London Bitter</em> et <em>Stout à la vanille</em>), ainsi que des brassins uniques tout au court de
             l'année. <a href="experimentations.html">Voir les brassins uniques</a>.
@@ -80,7 +93,11 @@
       <section class="wrapper epigraph style1">
         <div class="inner">
           <div class="content">
-            <div class="header"><img src="images/about/personnage-nouveau-monde.jpg" alt="Un singe sur un radeau, une longue vue à la main."></div>
+            <div id="nouveau-monde" class="header">
+              <a class="no-decoration" href="#nouveau-monde">
+                <img src="images/about/personnage-nouveau-monde.jpg" alt="Un singe sur un radeau, une longue vue à la main." />
+              </a>
+            </div>
             <h2 class="major">Nouveau Monde</h2>
             <p class="style">American Pale Ale — 5 %alc.</p>
             <p>Des saveurs d’agrumes, une robe dorée, une amertume juste assez marquée... Voici une bière qui met en
@@ -122,7 +139,11 @@
       <section class="wrapper epigraph style5">
         <div class="inner">
           <div class="content">
-            <div class="header"><img src="images/about/personnage-en-pleine-tempete.jpg"></div>
+            <div id="en-pleine-tempete" class="header">
+              <a class="no-decoration" href="#en-pleine-tempete">
+                <img src="images/about/personnage-en-pleine-tempete.jpg">
+              </a>
+            </div>
             <h2 class="major">En Pleine Tempête</h2>
             <p class="style">London Bitter — 5,5 %alc.</p>
             <p>Des notes légères de caramel, quelques effluves de pain toasté… Un peu de réconfort quoi ! En Pleine
@@ -166,7 +187,11 @@
       <section class="wrapper alt epigraph style2">
         <div class="inner">
           <div class="content">
-            <div class="header"><img src="images/about/personnage-souffle-tropical.jpg" alt="Un toucan très coloré, avec des lunettes de soleil.">
+            <div id="souffle-tropical" class="header">
+              <a class="no-decoration" href="#souffle-tropical">
+                <img src="images/about/personnage-souffle-tropical.jpg" alt="Un toucan très coloré, avec des lunettes de soleil.">
+
+              </a>
             </div>
             <h2 class="major">Souffle Tropical</h2>
             <p class="style">American Wheat — 4,5 %alc.</p>
@@ -212,7 +237,10 @@
       <section class="wrapper epigraph style3">
         <div class="inner">
           <div class="content">
-            <div class="header"><img src="images/about/personnage-eau-qui-dort.jpg" alt="Une grenouille posée sur un nénufar, en train de jouer du yukulélé">
+            <div id="eau-qui-dort" class="header">
+              <a href="#eau-qui-dort" class="no-decoration">
+                <img src="images/about/personnage-eau-qui-dort.jpg" alt="Une grenouille posée sur un nénufar, en train de jouer du yukulélé">
+              </a>
             </div>
             <h2 class="major">L'Eau Qui Dort</h2>
             <p class="style">Vanilla Stout — 6 %alc.</p>
@@ -265,16 +293,40 @@
       </section>
     </section>
 
-
+    <section id="brassins-uniques" class="wrapper separated style1">
+      <div class="inner">
+        <a href="#brassins-uniques">
+          <h2 class="major">Nos Brassins uniques</h2>
+        </a>
+        <div class="main-carousel" data-flickity='{ "freeScroll": true, "lazyLoad": true }'>
+          <div class="carousel-cell"><img src="images/2022-12-mauvaise-graine/etiquette.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/baignade-interdite.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/bara.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/tarte.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/ragnarok.png" /></div>
+          <div class="carousel-cell"><img src="images/goodies/tshirts.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/lebonjaja.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/dupond.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/aller-simple.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/12vilaines.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/monstrueuse-normalite.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/panier-de-crabes.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/brassin-de-soutien.jpg" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/le-remede.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/saison-houblon-frais.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/triple-barrique.png" /></div>
+          <div class="carousel-cell"><img src="images/etiquettes/chainon-manquant.png" /></div>
+        </div>
+    </section>
 
     <!-- Brasserie -->
-    <section id="brasserie" class="wrapper separated style1">
+    <section id="brasserie" class="wrapper style1">
       <div class="inner">
         <h2 class="major">La Brasserie</h2>
         <div class="punctuated">
           <p>La brasserie du Vieux Singe, c'est notre projet de monter une brasserie et d'en vivre. Après 6 ans à
-            brasser différentes recettes en amateur, nous avons monté la brasserie en 2018, et nous sommes transformés
-            en SCOP en 2022. Notre objectif reste le même : <strong>faire des bières de qualité <a href="manifeste.html">en défendant nos valeurs</a></strong>.</p>
+            brasser différentes recettes en amateur, nous avons monté la brasserie en 2018, et nous sommes <a href="/scop.html">transformés
+              en SCOP en 2022</a>. Notre objectif reste le même : <strong>faire des bières de qualité <a href="manifeste.html">en défendant nos valeurs</a></strong>.</p>
           <p>Nous défendons des bières avec des goûts marqués en essayant d'innover et de nous amuser, parce que la
             bière fait partie de la gastronomie !</p>
 
@@ -329,8 +381,16 @@
               <a href="tel:0674785489">06 74 78 54 89</a><br />
             </li>
             <li class="fa-clock-o">
-              <strong>Le magasin est ouvert le vendredi de 10h à 17h en continu. <br />Possibilité de <a
-                  href="https://boutique.vieuxsinge.com">commander en ligne</a> (avant jeudi midi)</strong>
+              <strong>Le <a href="/magasin.html">magasin</a> est ouvert le vendredi de 10h à 17h en continu.
+                <br />Possibilité de <a href="https://boutique.vieuxsinge.com">commander en ligne</a> (avant jeudi
+                midi)</strong>
+            </li>
+            <li class="fa-group">Réductions pour les <a href="/commandes-groupees.html">commandes groupées</a>, prêt de
+              <a href="/tireuses.html">tireuses et fûts</a> pour vos évènements
+            </li>
+            <li class="fa-globe">Accédez à la liste de nos <a href="https://files.vieuxsinge.com/carte/">points de
+                vente</a></li>
+
             </li>
           </ul>
           <ul class="contact">
@@ -344,15 +404,15 @@
               </a>
             </li>
             <li class="fa-facebook"><a href="http://facebook.com/vieuxsinge.beer">Nous suivre sur Facebook</a></li>
-            <li class="fa-twitter"><a href="http://twitter.com/vxsinge">Nous suivre sur Twitter</a></li>
             <li class="fa-instagram"><a href="http://instagram.com/vieuxsinge.beer">Instagram</a></li>
+            <li class="fa-twitter"><a href="https://toot.aquilenet.fr/web/@vieuxsinge">Nous suivre sur Mastodon</a></li>
           </ul>
 
           <ul class="copyright">
             <li><i class="fa fa-copyright fa-flip-horizontal"></i> Brasserie du Vieux Singe</li>
             <li>Design basé sur un travail de <a href="http://html5up.net">HTML5 UP</a></li>
             <li>Illustrations et étiquettes : <a href="http://loic-gosset.com/">Loïc Gosset</a></li>
-            <li class="small">SARL au capital social de 20 000 €</li>
+            <li class="small">SARL SCOP au capital social de 20 000 €</li>
             <li class="small">SIRET: 83326256100016</li>
             <li class="small">TVA intracommunautaire: FR16833262561</li>
 
@@ -371,6 +431,7 @@
   <script src="https://www.vieuxsinge.com/theme/js/main.js"></script>
   <script src="https://www.vieuxsinge.com/theme/js/main.js"></script>
 
+		<script src="https://www.vieuxsinge.com/assets//carroussel/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

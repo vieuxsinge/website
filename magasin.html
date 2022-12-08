@@ -2,12 +2,9 @@
 <html lang="fr" prefix="og: http://ogp.me/ns#">
 
 <head>
-  <title>Brasserie du Vieux Singe — Où nous trouver ?</title>
+  <title>Brasserie du Vieux Singe — Magasin</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-    			<link rel="stylesheet" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" type="text/css" />
-    			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" type="text/css" />
-    			<link rel="stylesheet" href="https://www.vieuxsinge.com/assets//dataviz/points-de-vente/main.css" type="text/css" />
   <link rel="stylesheet" href="https://www.vieuxsinge.com/theme/css/main.css" />
   <!--[if lte IE 8]><script src="https://www.vieuxsinge.com/theme/js/ie/html5shiv.js"></script><![endif]-->
   <!--[if lte IE 8]><link rel="stylesheet" href="https://www.vieuxsinge.com/theme/css/ie8.css" /><![endif]-->
@@ -28,26 +25,56 @@
           <a href="/">Brasserie du Vieux Singe</a>
         </h1>
         <nav class="menu-wide">
-          <a href="/index.html" >Accueil</a>
-          <a href="/index.html#bieres" >Bières</a>
-          <a href="/manifeste.html" >Manifeste</a>
-          <a href="/blog.html" >Actus</a>
-          <a href="https://vieuxsinge.auneor-conseil.fr" >Drive</a>
-          <a href="/index.html#infospratiques" >Infos pratiques</a>
+          <ul>
+            <li><a href="/index.html#bieres" >Bières</a></li>
+            <li><a href="/manifeste.html" >Manifeste</a></li>
+            <li><a href="/blog.html" >Actus</a></li>
+            <li><a href="/index.html#infospratiques" >Infos pratiques</a></li>
+            <li class="dropdown menu-wide">
+              <p class="dropbtn">Services</p>
+              <div class="dropdown-content">
+                <a href="/tireuses.html">Tireuses</a>
+                <a href="/magasin.html">Magasin</a>
+                <a href="/commandes-groupees.html">Commandes groupées</a>
+                <a href="https://vieuxsinge.auneor-conseil.fr">Drive</a>
+                <a href="https://files.vieuxsinge.com/carte/">Points de vente</a>
+            </li>
+          </ul>
         </nav>
         <nav class="menu-mobile">
           <a href="/manifeste.html" >Manifeste</a>
           <a href="/blog.html" >Actus</a>
-          <a href="https://vieuxsinge.auneor-conseil.fr" >Drive</a>
         </nav>
       </header>
 
     
 
+    <!-- Wrapper -->
       <section id="wrapper">
+
+        <!-- Content -->
           <div class="wrapper style1">
-              <div id="map"></div>
+
+            <header class="article">
+              <div class="image"><img src="/images/magasin.jpg" alt="" /></div>
+              <div class="inner">
+                <h2 class="major">
+                  Magasin
+                  <span></span>
+                </h2>
+              </div>
+            </header>
+
+            <div class="inner">
+              <p>Notre boutique est ouverte <strong>tous les vendredis de 10h à 17h</strong> pour de la vente à emporter. Il est aussi possible de <a href="https://vieuxsinge.auneor-conseil.fr">commander en ligne</a> et de passer les récupérer sur ces mêmes horaires si vous ne passez pas en personne.</p>
+<ul>
+<li>Visites de la brasserie possibles durant les horaires d'ouverture, n'hésitez pas à nous demander !</li>
+<li>Les <a href="commandes-groupees.html">commandes groupées</a> permettent d'avoir des tarifs avantageux.</li>
+<li>La boutique est fermée les week-ends et jours fériés.</li>
+</ul>
+            </div>
           </div>
+
       </section>
 
       <!-- Contact -->
@@ -64,8 +91,16 @@
               <a href="tel:0674785489">06 74 78 54 89</a><br />
             </li>
             <li class="fa-clock-o">
-              <strong>Le magasin est ouvert le vendredi de 10h à 17h en continu. <br />Possibilité de <a
-                  href="https://boutique.vieuxsinge.com">commander en ligne</a> (avant jeudi midi)</strong>
+              <strong>Le <a href="/magasin.html">magasin</a> est ouvert le vendredi de 10h à 17h en continu.
+                <br />Possibilité de <a href="https://boutique.vieuxsinge.com">commander en ligne</a> (avant jeudi
+                midi)</strong>
+            </li>
+            <li class="fa-group">Réductions pour les <a href="/commandes-groupees.html">commandes groupées</a>, prêt de
+              <a href="/tireuses.html">tireuses et fûts</a> pour vos évènements
+            </li>
+            <li class="fa-globe">Accédez à la liste de nos <a href="https://files.vieuxsinge.com/carte/">points de
+                vente</a></li>
+
             </li>
           </ul>
           <ul class="contact">
@@ -79,15 +114,15 @@
               </a>
             </li>
             <li class="fa-facebook"><a href="http://facebook.com/vieuxsinge.beer">Nous suivre sur Facebook</a></li>
-            <li class="fa-twitter"><a href="http://twitter.com/vxsinge">Nous suivre sur Twitter</a></li>
             <li class="fa-instagram"><a href="http://instagram.com/vieuxsinge.beer">Instagram</a></li>
+            <li class="fa-twitter"><a href="https://toot.aquilenet.fr/web/@vieuxsinge">Nous suivre sur Mastodon</a></li>
           </ul>
 
           <ul class="copyright">
             <li><i class="fa fa-copyright fa-flip-horizontal"></i> Brasserie du Vieux Singe</li>
             <li>Design basé sur un travail de <a href="http://html5up.net">HTML5 UP</a></li>
             <li>Illustrations et étiquettes : <a href="http://loic-gosset.com/">Loïc Gosset</a></li>
-            <li class="small">SARL au capital social de 20 000 €</li>
+            <li class="small">SARL SCOP au capital social de 20 000 €</li>
             <li class="small">SIRET: 83326256100016</li>
             <li class="small">TVA intracommunautaire: FR16833262561</li>
 
@@ -106,9 +141,6 @@
   <script src="https://www.vieuxsinge.com/theme/js/main.js"></script>
   <script src="https://www.vieuxsinge.com/theme/js/main.js"></script>
 
-		<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
-		<script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js"></script>
-		<script src="https://www.vieuxsinge.com/assets/dataviz/points-de-vente/main.js"></script>
 </body>
 
 </html>

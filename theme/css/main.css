@@ -3186,12 +3186,19 @@ header.article .description {
     top: 0.7em;
 }
 
-#header nav a {
+#header nav ul li {
+    list-style-type: none;
+    float: left;
+}
+
+#header nav a,
+.dropbtn {
     border: 0 solid transparent;
     display: inline-block;
     padding: 0 0.25em;
     margin: 0.75em 0.75em;
     transition: border-color 0.5s ease;
+    cursor: pointer;
 }
 
 #header nav a:hover {
@@ -3202,6 +3209,60 @@ header.article .description {
 #header nav a:before {
     float: right;
     margin-left: 0.75em;
+}
+
+
+#header nav li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropbtn :hover {
+    text-decoration: none !important;
+}
+
+#header nav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: 180px;
+    max-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding-bottom: 0.5em;
+    transition: display 0.3s;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: 500 !important;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    text-transform: capitalize !important;
+    border-left: 2px rgba(0, 0, 0, 0) solid !important;
+    width: 100%;
+
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.025);
+    border-bottom: 0px solid #fff !important;
+    border-left: 2px solid #fff !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 #header.alt {
@@ -3754,7 +3815,7 @@ body.is-loading #banner p {
 }
 
 .wrapper .inner {
-    padding: 1em 0;
+    padding: 2em 0;
     margin: 0 auto;
     width: 55em;
 }
@@ -4384,4 +4445,23 @@ body.is-mobile.index #footer {
 .etiquette img {
     border: 3px white solid;
     margin: auto;
+}
+
+.carousel-cell {
+    margin-right: 10px;
+}
+
+#bieres ul {
+    position: relative;
+    list-style: none;
+}
+
+#bieres li::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+}
+
+.no-decoration {
+    border-bottom: 0px;
 }
