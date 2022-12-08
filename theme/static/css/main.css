@@ -3251,6 +3251,7 @@ header.article .description {
     line-height: 1.5em;
     text-transform: capitalize !important;
     border-left: 2px rgba(0, 0, 0, 0) solid !important;
+    width: 100%;
 
 }
 
@@ -3814,7 +3815,7 @@ body.is-loading #banner p {
 }
 
 .wrapper .inner {
-    padding: 1em 0;
+    padding: 2em 0;
     margin: 0 auto;
     width: 55em;
 }
@@ -4459,4 +4460,8 @@ body.is-mobile.index #footer {
     content: '★';
     position: absolute;
     left: 0;
+}
+
+.no-decoration {
+    border-bottom: 0px;
 }

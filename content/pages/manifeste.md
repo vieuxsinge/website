@@ -4,7 +4,7 @@ save_as: manifeste.html
 image: /images/manifeste/manifeste.jpg
 
 
-*La brasserie du Vieux Singe est née de l'envie de faire vivre une entreprise qui défend et fait progresser nos valeurs de coopération, de créativité, de dynamisme, de goût et ... de bonne humeur !*
+*La brasserie du Vieux Singe est née de l'envie de faire vivre une entreprise qui défend et fait progresser nos valeurs de coopération, de créativité, de dynamisme, de goût et… de bonne humeur !*
 
 *Voici les principes qui guident nos actions :*
 
@@ -37,6 +37,7 @@ Nous souhaitons nous allier à nos collègues brasseurs indépendants pour mettr
 - Nos recettes sont [publiées en ligne](/recettes/), pour être facilement reproduites par qui le souhaite. Nous en parlons d'ailleurs avec plaisir !
 - Nous publions [aussi souvent](/fabrication-laveuse-de-futs-open-source.html) [que](/un-an.html) [possible](/du-larochelle.html) les résultats de nos expérimentations.
 - [Les plans de nos projets sont mis à disposition](/fabrication-laveuse-de-futs-open-source.html) pour un partage, une diffusion et une réutilisation, selon le principe des logiciels libres.
+- Nous sommes [organisés en coopérative (SCOP)](scop.html)
 - Nous sommes investis dans des projets collectifs qui ont pour but le développement de la brasserie artisanale et de sa filière.
 - Nous continuons notre parcours de brasseurs amateurs, au vu de la richesse des discussions avec cette communauté.
 - Nous sommes adhérents au Syndicat National des Brasseurs Indépendants.
@@ -81,7 +82,7 @@ Autant que possible, nous souhaitons vendre en direct ou via le moins de distrib
 
 ### En pratique ?
 
-- Nous sommes ouverts le jeudi et le vendredi en fin d'après-midi pour de la vente directe à la Brasserie.
-- Des rabais sont pratiqués sur la vente en direct, et les prix sont avantageux pour les groupements d'achats.
+- Nous sommes ouverts les vendredi de 10h à 17h pour de la vente directe à la Brasserie.
+- Des rabais sont pratiqués sur la vente en direct, et [les prix sont avantageux pour les groupements d'achats](cmmandes-groupees.html).
 - Nous travaillons de préférence avec des acteurs locaux.
 - Nous proposons la vente de fûts aux particuliers ou aux associations en prêtant des tireuses sur réservation.

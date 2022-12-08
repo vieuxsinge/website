@@ -21,7 +21,7 @@ DEFAULT_PAGINATION = False
 THEME = "theme"
 
 MENUITEMS = (
-    (u'Accueil', '/index.html', 'wide', 'index'),
+    # (u'Accueil', '/index.html', 'wide', 'index'),
     (u'Bières', '/index.html#bieres', 'wide', ''),
     (u'Manifeste', '/manifeste.html', 'mobile', 'manifeste'),
     (u'Actus', '/blog.html', 'mobile', 'blog'),
