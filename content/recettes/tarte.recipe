@@ -14,7 +14,7 @@ basics:
   Densité Finale: 1,009
   Couleur (EBC): 9
   Amertume (IBU): 9
-  pH cible : 3,5
+  pH cible : 3,7
 
 water:
   Sulfates: 100ppm
@@ -26,7 +26,7 @@ cereals:
 
 adjuncts:
    - Helveticus pitch: 10g/hL
-   - Purée de rhubarbe : 45g/hL 
+   - Purée de rhubarbe : 30g/hL 
 
 
 mash:
