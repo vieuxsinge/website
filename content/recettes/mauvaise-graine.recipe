@@ -1,0 +1,73 @@
+title: Mauvaise Graine
+save_as : recettes/mauvaise-graine.html
+date: "2022-12-8"
+label:
+  url: mauvaise-graine.png
+  description: Un personnage sur un tracteur qui crie « ouhouh hahahaha »
+description: ""
+description_longue: "Brassée avec l'orge de chez — et avec — DRAO, et du houblon local de chez Allaire Houblonnée (56)."
+style: Breizh IPA
+tip: 
+basics:
+  Alcool: 5%
+  Densité Initiale: 1,042
+  Densité Finale: 1,007
+  Couleur (EBC): 12
+  Amertume (IBU): 50
+  pH cible : 5,4
+
+water:
+  Sulfates: 150ppm
+  Chlorures: 50ppm
+
+cereals:
+  - Pils: 86%
+  - Munich: 14%
+
+mash:
+  Température: 67°C
+  Durée: 1h30
+  Ratio eau-grain: 3L/kg
+
+hops:
+  - hop: Nugget
+    alpha: 10,5%
+    poids: 0,8 g/L
+    moment: Ébullition
+    temps: 90mn
+  - hop: Chinook
+    alpha: 10,2%
+    poids: 0,63 g/L
+    moment: Hopstand
+    temps: 30mn
+  - hop: Galena
+    alpha: 12,2%
+    poids: 0,63g/L
+    moment: Hopstand
+    temps: 30mn
+  - hop: Chinook
+    alpha: 10,2%
+    poids: 2,5 g/L
+    moment: A froid
+    temps: 2 jours
+  - hop: Galena
+    alpha: 12,2%
+    poids: 2,5 g/L
+    moment: A froid
+    temps: 2 jours
+
+yeasts:
+  - Nom: New E (AEB)
+    Atténuation: 80%
+
+fermentation:
+  - Ensemencement à 16°C puis consigne à 17°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de <em>diacetyl rest</em> à 21°C
+  - Houblonnage à cru
+  - Maintien du houblon en suspension (2j)
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol
