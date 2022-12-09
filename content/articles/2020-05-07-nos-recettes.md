@@ -25,6 +25,8 @@ Nous ne sommes pas seuls et pensons que la coopération et le partage sont plus 
 
 ### 2022
 
+[![Mauvaise Graine](/images/recettes/mauvaise-graine.png)](/recettes/mauvaise-graine.html){: .image .miniature }
+[![Souffle Tropical DDH](/images/recettes/souffle-tropical-ddh.png)](/recettes/souffle-tropical-ddh.html){: .image .miniature }
 [![Le bon Jaja](/images/recettes/jaja.png)](/recettes/jaja.html){: .image .miniature }
 
 ### 2021

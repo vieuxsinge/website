@@ -1,0 +1,68 @@
+title: Souffle Tropical DDH
+save_as : recettes/souffle-tropical-ddh.html
+date: "2022-10-01"
+label:
+  url: souffle-tropical-ddh.png
+  description: Une version modifiée de notre étiquette de Souffle Tropical!
+description: ""
+description_longue: La même recette, avec plus de houblons !
+style: American Wheat
+tip: Bien que ça puisse paraître surprenant, on ne met aucun houblon avant le hop-stand, question de limiter l'amertume au minimum !
+basics:
+  Alcool: 4,5%
+  Densité Initiale: 1,038
+  Densité Finale: 1,006
+  Couleur (EBC): 5
+  Amertume (IBU): 9
+  pH cible : 5,4
+
+water:
+  Sulfates: 150ppm
+  Chlorures: 50ppm
+
+cereals:
+  - Malt de blé: 46%
+  - Malt Pils: 54%
+
+mash:
+  Température: 66°C
+  Durée: 1h
+  Ratio eau-grain: 3L/kg
+
+hops:
+  - hop: Citra
+    alpha: 14,2%
+    poids: 300 mg/L
+    moment: Hop Stand (70°C)
+    temps: 15mn
+  - hop: Mosaic
+    alpha: 10,8%
+    poids: 500 mg/L
+    moment: Hop Stand (70°C)
+    temps: 15mn
+  - hop: Citra
+    alpha: 14,2%
+    poids: 6 g/L
+    moment: A froid
+    temps: 2j
+  - hop: Mosaic
+    alpha: 10,8%
+    poids: 2 g/L
+    moment: A froid
+    temps: 2j
+
+yeasts:
+  - Nom: US-05
+    Atténuation: 83%
+
+fermentation:
+  - Ensemencement à 16°C puis consigne à 17°C
+  - Augmentation de 1°C par jour jusqu'à arriver à 21°C
+  - 2 jours de <em>diacetyl rest</em> à 21°C
+  - Houblonnage à cru
+  - Maintien du houblon en suspension (2j)
+  - Cold crash durant 10 jours
+
+conditioning:
+  - Bouteilles: 7g de sucre par L
+  - Fûts: 2,5 vol de C02 / vol
