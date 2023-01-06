@@ -21,14 +21,11 @@ DEFAULT_PAGINATION = False
 THEME = "theme"
 
 MENUITEMS = (
-    # (u'Accueil', '/index.html', 'wide', 'index'),
     (u'Bières', '/index.html#bieres', 'wide', ''),
     (u'Manifeste', '/manifeste.html', 'mobile', 'manifeste'),
     (u'Actus', '/blog.html', 'mobile', 'blog'),
     (u'Infos pratiques', '/index.html#infospratiques', 'wide', ''),
-    #(u'Services', (), 'wide')
 )
-    #(u'Drive', 'https://vieuxsinge.auneor-conseil.fr', 'mobile'),
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DIRECT_TEMPLATES = ['index', 'blog']
