@@ -43,7 +43,7 @@ publish: install
 	echo "www.vieuxsinge.com" > $(OUTPUTDIR)/CNAME
 
 github: publish
-	ghp-import -n $(OUTPUTDIR)
+	.venv/bin/ghp-import -n $(OUTPUTDIR)
 	git push -f origin gh-pages
 
 .PHONY: html clean serve devserver publish
