@@ -11,11 +11,9 @@ Voici un bref résumé de ce que ça signifie pour nous (parce qu'on sait que l'
 💡 Nous parlons souvent de *salarié⋅es-sociétaires* : ce sont les salarié⋅es qui sont devenus sociétaires. Au bout d'un an, on demande à chacun⋅e de devenir sociétaire.
 
 1. Ce sont les *salarié⋅es-sociétaires* qui gouvernent l'entreprise. Il est impossible de la revendre ;
-2. Nous voulons une structure démocratique — dans laquelle chacun⋅e a autant sa place que les autres : les salarié⋅es-sociétaires prennent part aux décisions stratégiques et les responsabilités sont partagées ;
-3. Nous souhaitons travailler pour nous, en mettant les personnes au cœur de nos problématiques, en prenant soin de notre santé physique et mentale ;
-4. Nous rémunérons le travail plutôt que la propriété. Nous n'avons pas d'actionnaires extérieurs et les salarié⋅es-sociétaires ne perçoivent pas de dividendes ;
-5. Parfois, nos intérêts divergent, nous cherchons donc à rendre les discussions possibles et souhaitables, en regardant en face nos désaccords ;
-6. La SCOP est un moyen d'asseoir l'indépendance de la brasserie et de ne plus être garants à titre personnel des emprunts de l'entreprise.
+2. Les salarié⋅es-sociétaires prennent part aux décisions stratégiques et les responsabilités sont partagées ;
+3. Nous rémunérons le travail plutôt que la propriété. Nous n'avons pas d'actionnaires extérieurs et les salarié⋅es-sociétaires ne perçoivent pas de dividendes ;
+4. La SCOP est un moyen d'asseoir l'indépendance de la brasserie et de ne plus être garants à titre personnel des emprunts de l'entreprise.
 
 ——
 
@@ -25,9 +23,7 @@ Cette transformation arrive à un moment clé pour nous : nous sommes passés de
 
 Sortir de la vision « patrons vs salarié⋅es » pour avoir **une structure dans laquelle chacun⋅e a autant sa place que les autres** nous semble pertinent et la SCOP nous semble un moyen d'aller dans le bon sens.
 
-La SCOP est un outil qui nous permet de choisir ensemble l'organisation du travail qui nous convient le mieux, et de décider collectivement de l'avenir de l'entreprise, ainsi qu'à quoi servent nos bénéfices.
-
-Travailler en SCOP, c'est donc **travailler pour nous** (les salarié⋅es), en ayant notre mot à dire sur nos conditions de travail, et sur la place que ce travail prend dans nos vies. C'est un cadre alternatif à celui proposé par le modèle capitaliste, car il **met les humain⋅es au cœur de nos préoccupations** : nous souhaitons travailler en prenant soin de notre santé physique et mentale, via des semaines de congés payés en plus, des outils de travail ergonomiques, des temps de réflexion sur nos relations inter-individuelles, etc.
+La SCOP est un outil qui nous permet de décider à quoi servent nos bénéfices.
 
 Mais… bien sûr, le statut ne fait pas tout ! Il existe des SCOP très pyramidales et des « non-SCOP » vraiment collectives. Notre fonctionnement était déjà bien porté sur la coopération, et nous voyons ce changement de statut comme un prolongement logique de notre engagement.
 
@@ -47,21 +43,9 @@ D'ailleurs, plutôt que de compter sur une valorisation de l'entreprise au momen
 
 C'est important pour nous de redéfinir ce rapport à la propriété : une entreprise ne devrait pas décider sans ses salariés, surtout si c'est pour l'enrichissement personnel de ceux et celles qui en sont propriétaires.
 
-# 2. Apprendre à faire ensemble
+Nous demandons aux personnes qui travaillent avec nous de s'engager dans la vie de la coopérative, afin d'éviter de reproduire une structure dans laquelle les salariés ne sont pas décisionnaires.
 
-Nous constatons que la démocratie ne s'applique pas toujours dans nos milieux d'entreprises, nous poussant parfois à **accepter dans nos milieux pros ce qui ne l'est pas dans nos vies privées**. Pour inverser cette tendance, nous cherchons à créer un cadre dans lequel **les discussions deviennent possibles et souhaitables**, et où le pouvoir est réellement partagé.
-
-Tous⋅tes **les salarié⋅es-sociétaires prennent donc part aux décisions stratégiques**, plutôt que d'avoir un simple avis consultatif.
-
-Les **responsabilités sont partagées** pour que la réussite de l'entreprise repose sur l'ensemble des personnes, et non plus sur quelques un⋅es.
-
-De temps en temps — bien sûr — nos intérêts divergent, et cela nous pousse à **regarder en face nos désaccords** puis à les discuter pour mieux les comprendre. C'est une culture d'entreprise qui nous plaît — et qui dénote avec les structures plus classiques qui mettent les décideurs⋅euses au sommet et les travailleurs⋅euses à la base.
-
-C'est aussi un moyen de **pérenniser notre projet en le dépersonnalisant**. L'entreprise qui avant était incarnée par deux personnes est maintenant la propriété de l'ensemble des salariés (Fred, Colin et Alexis).
-
-Nous demandons aux personnes qui travaillent avec nous de s'engager dans la vie de la coopérative, au bout d'un an maximum, afin d'éviter de reproduire une structure dans laquelle les salariés ne sont pas décisionnaires.
-
-# 3. Cultiver notre indépendance
+# 2. Cultiver notre indépendance
 
 Nous apprécions notre indépendance et mettons en place des outils pour faire en sorte de la conserver sur le long terme.
 
