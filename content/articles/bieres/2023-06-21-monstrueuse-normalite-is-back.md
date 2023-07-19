@@ -9,6 +9,8 @@ Toujours amère, toujours bien aromatique, toujours un peu trouble.
 
 Cette année, on a utilisé des houblons Citra, Centennial et Ekuanot et des flocons d'avoine pour brasser ce p'tit jus fruité à 6,5°.
 
+Dispo en 33cl et 75cl.
+
 
 
 
