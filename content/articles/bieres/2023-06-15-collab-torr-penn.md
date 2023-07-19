@@ -1,4 +1,4 @@
-Title: Collab' Orange Sanguine avec Torr Penn
+Title: Collab' Orange Sanguine avec la brasserie Torr Penn
 Date: 2023-06-15
 image: /images/2023-07-19-collab-torr-penn-carton-plongee.jpg
 Accroche: Pulpe Fission (Gose orange sanguine) & Orange Électrique (NEIPA orange sanguine)
