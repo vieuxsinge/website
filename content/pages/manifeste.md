@@ -82,7 +82,7 @@ Autant que possible, nous souhaitons vendre en direct ou via le moins de distrib
 
 ### En pratique ?
 
-- Nous sommes ouverts les vendredi de 10h à 17h pour de la vente directe à la Brasserie.
+- Nous sommes ouverts pour de la vente directe à la Brasserie (jeudi de 14h à 19h et vendredi de 10h à 17h en continu).
 - Des rabais sont pratiqués sur la vente en direct, et [les prix sont avantageux pour les groupements d'achats](cmmandes-groupees.html).
 - Nous travaillons de préférence avec des acteurs locaux.
 - Nous proposons la vente de fûts aux particuliers ou aux associations en prêtant des tireuses sur réservation.
