@@ -5,8 +5,8 @@ image: /images/magasin.jpg
 
 Notre boutique est ouverte pour de la vente à emporter :
 
-- **le jeudi de 14h à 19h**
-- **le vendredi de 10h à 17h (en continu)**
+- **le jeudi de 14h à 17h**
+- **le vendredi de 10h à 19h (en continu)**
 
 Il est aussi possible de [commander en ligne](https://vieuxsinge.odoo.com) et de passer les récupérer sur ces mêmes horaires si vous ne passez pas en personne.
 
