@@ -9,7 +9,6 @@ Il est possible de réserver nos tireuses pour vos évènements de toutes taille
 - Nous reprenons les fûts si ils n'ont pas été entammés
 - Départs les jeudi ou vendredi, retours lundi ou mardi
 - Prêt possible de gobelets (à nous rendre propres et secs)
-- Prêt possible d'un petit barnum (3m x 3m)
 - Le règlement s’effectuera au retour du matériel.
 
 *Pour être sur⋅es d'avoir de la dispo, n'hésitez pas à nous contacter en amont, surtout sur les périodes chaudes.*
