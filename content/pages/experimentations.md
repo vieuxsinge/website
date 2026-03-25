@@ -182,4 +182,4 @@ Une bière inspirée du style *New England IPA*: un boulot sur la texture, qu'on
 
 ![Étiquette de la bière « Sobacha »](images/experimentations/sobacha.png)
 
-Une *lager* infusée avec du sarrasin torréfié et houblonnée à cru avec du *Hallertau Blanc*, fabriquée pour [le calendrier des bières bretonnes de Penn ar Box](http://www.pennarbox.bzh/fr/produits-bretons/le-calendrier-de-l-avent-de-bieres-bretonnes-2018).
+Une *lager* infusée avec du sarrasin torréfié et houblonnée à cru avec du *Hallertau Blanc*, fabriquée pour le calendrier de l'Avent des bières bretonnes de [BièresBretonnes.fr](https://avent.bieresbretonnes.fr/) x Penn ar Box.
